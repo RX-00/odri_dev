@@ -1,0 +1,3 @@
+[submodule "treep_machines_in_motion"]
+	path = treep_machines_in_motion
+	url = https://github.com/machines-in-motion/treep_machines_in_motion
