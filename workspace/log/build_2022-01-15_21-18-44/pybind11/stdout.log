@@ -1,0 +1,28 @@
+-- Building tests with Eigen v3.3.7
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.56")  
+-- Catch not detected. Interpreter tests will be skipped. Install Catch headers manually or use `cmake -DDOWNLOAD_CATCH=1` to fetch them automatically.
+-- pybind11 v2.5.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/roy/odri_dev/workspace/build/pybind11
+[35m[1mScanning dependencies of target pybind11_cross_module_tests[0m
+[35m[1mScanning dependencies of target cross_module_gil_utils[0m
+[  2%] [32mBuilding CXX object tests/CMakeFiles/cross_module_gil_utils.dir/cross_module_gil_utils.cpp.o[0m
+[35m[1mScanning dependencies of target pybind11_tests[0m
+[  4%] [32mBuilding CXX object tests/CMakeFiles/pybind11_cross_module_tests.dir/pybind11_cross_module_tests.cpp.o[0m
+[  9%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_async.cpp.o[0m
+[  9%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/pybind11_tests.cpp.o[0m
+[ 11%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_buffers.cpp.o[0m
+[ 14%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_callbacks.cpp.o[0m
+[ 16%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_builtin_casters.cpp.o[0m
+[ 19%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_call_policies.cpp.o[0m
+[ 21%] [32m[1mLinking CXX shared module /home/roy/odri_dev/workspace/src/pybind11/tests/cross_module_gil_utils.cpython-38-x86_64-linux-gnu.so[0m
+[ 23%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_chrono.cpp.o[0m
+[ 26%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_class.cpp.o[0m
+[ 28%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_constants_and_functions.cpp.o[0m
+[ 30%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_copy_move.cpp.o[0m
+[ 33%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_docstring_options.cpp.o[0m
+[ 33%] Built target cross_module_gil_utils
+[ 35%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_eigen.cpp.o[0m
+[ 38%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_enum.cpp.o[0m
+[ 40%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_eval.cpp.o[0m

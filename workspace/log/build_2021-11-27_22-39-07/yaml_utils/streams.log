@@ -1,0 +1,3 @@
+[0.005s] Invoking command in '/home/roy/odri_dev/workspace/build/yaml_utils': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/googletest-distribution:/opt/openrobots:/opt/openrobots:/opt/openrobots:/opt/openrobots:/opt/openrobots /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/yaml_utils -- -j8 -l8
+[0.102s] [100%] Built target test_yaml_utils
+[0.117s] Invoked command in '/home/roy/odri_dev/workspace/build/yaml_utils' returned '0': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/googletest-distribution:/opt/openrobots:/opt/openrobots:/opt/openrobots:/opt/openrobots:/opt/openrobots /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/yaml_utils -- -j8 -l8

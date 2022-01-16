@@ -1,0 +1,40 @@
+[2.139s] Invoking command in '/home/roy/odri_dev/workspace/src/robot_properties_bolt': PYTHONPATH=/home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_properties_bolt build --build-base /home/roy/odri_dev/workspace/build/robot_properties_bolt/build install --prefix /home/roy/odri_dev/workspace/install/robot_properties_bolt --record /home/roy/odri_dev/workspace/build/robot_properties_bolt/install.log --single-version-externally-managed
+[2.566s] resources =  ['resources/impedance_ctrl.yaml', 'resources/dynamic_graph_manager/dgm_parameters_bolt.yaml', 'resources/odri_control_interface/bolt_driver.yaml', 'resources/xacro/bolt_passive_ankle.urdf.xacro', 'resources/xacro/bolt.urdf.xacro', 'resources/xacro/plane_with_restitution.urdf.xacro', 'resources/xacro/bolt.xacro', 'resources/xacro/leg.xacro', 'resources/meshes/checker_blue.png', 'resources/meshes/plane.obj', 'resources/meshes/plane.mtl', 'resources/meshes/obj/bolt_upper_leg_right_side.obj', 'resources/meshes/obj/bolt_hip_fe_left_side.obj', 'resources/meshes/obj/bolt_upper_leg_left_side.obj', 'resources/meshes/obj/bolt_lower_leg_right_side.obj', 'resources/meshes/obj/bolt_hip_fe_right_side.obj', 'resources/meshes/obj/bolt_body.obj', 'resources/meshes/obj/bolt_foot.obj', 'resources/meshes/obj/bolt_lower_leg_left_side.obj', 'resources/meshes/stl/lower_leg_200mm_right_side.stl', 'resources/meshes/stl/bolt_upper_leg_left_side.stl', 'resources/meshes/stl/upper_leg_200mm_right_side.stl', 'resources/meshes/stl/upper_leg_200mm_left_side.stl', 'resources/meshes/stl/bolt_hip_fe_right_side.stl', 'resources/meshes/stl/bolt_lower_leg_left_side.stl', 'resources/meshes/stl/bolt_foot.stl', 'resources/meshes/stl/lower_leg_200mm_left_side.stl', 'resources/meshes/stl/bolt_hip_fe_left_side.stl', 'resources/meshes/stl/bolt_lower_leg_right_side.stl', 'resources/meshes/stl/bolt_upper_leg_right_side.stl', 'resources/meshes/stl/bolt_body.stl']
+[2.603s] running egg_info
+[2.611s] creating ../../build/robot_properties_bolt/robot_properties_bolt.egg-info
+[2.612s] writing ../../build/robot_properties_bolt/robot_properties_bolt.egg-info/PKG-INFO
+[2.613s] writing dependency_links to ../../build/robot_properties_bolt/robot_properties_bolt.egg-info/dependency_links.txt
+[2.614s] writing entry points to ../../build/robot_properties_bolt/robot_properties_bolt.egg-info/entry_points.txt
+[2.615s] writing requirements to ../../build/robot_properties_bolt/robot_properties_bolt.egg-info/requires.txt
+[2.616s] writing top-level names to ../../build/robot_properties_bolt/robot_properties_bolt.egg-info/top_level.txt
+[2.617s] writing manifest file '../../build/robot_properties_bolt/robot_properties_bolt.egg-info/SOURCES.txt'
+[2.633s] reading manifest file '../../build/robot_properties_bolt/robot_properties_bolt.egg-info/SOURCES.txt'
+[2.635s] writing manifest file '../../build/robot_properties_bolt/robot_properties_bolt.egg-info/SOURCES.txt'
+[2.636s] running build
+[2.637s] running build_py
+[2.638s] 
+[2.826s] Traceback (most recent call last):
+[2.826s]   File "setup.py", line 159, in <module>
+[2.827s]     setup(
+[2.827s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 144, in setup
+[2.827s]     return distutils.core.setup(**attrs)
+[2.827s]   File "/usr/lib/python3.8/distutils/core.py", line 148, in setup
+[2.828s]     dist.run_commands()
+[2.828s]   File "/usr/lib/python3.8/distutils/dist.py", line 966, in run_commands
+[2.828s]     self.run_command(cmd)
+[2.828s]   File "/usr/lib/python3.8/distutils/dist.py", line 985, in run_command
+[2.829s]     cmd_obj.run()
+[2.829s]   File "/usr/lib/python3.8/distutils/command/build.py", line 135, in run
+[2.829s]     self.run_command(cmd_name)
+[2.829s]   File "/usr/lib/python3.8/distutils/cmd.py", line 313, in run_command
+[2.830s]     self.distribution.run_command(command)
+[2.830s]   File "/usr/lib/python3.8/distutils/dist.py", line 985, in run_command
+[2.830s]     cmd_obj.run()
+[2.830s]   File "setup.py", line 153, in run
+[2.830s]     self._build_xacro()
+[2.830s]   File "setup.py", line 117, in _build_xacro
+[2.830s]     self._build_single_xacro_file(xacro_file, generated_urdf_path)
+[2.831s]   File "setup.py", line 120, in _build_single_xacro_file
+[2.831s]     from xacro import process_file, open_output
+[2.831s] ModuleNotFoundError: No module named 'xacro'
+[2.945s] Invoked command in '/home/roy/odri_dev/workspace/src/robot_properties_bolt' returned '1': PYTHONPATH=/home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_properties_bolt build --build-base /home/roy/odri_dev/workspace/build/robot_properties_bolt/build install --prefix /home/roy/odri_dev/workspace/install/robot_properties_bolt --record /home/roy/odri_dev/workspace/build/robot_properties_bolt/install.log --single-version-externally-managed

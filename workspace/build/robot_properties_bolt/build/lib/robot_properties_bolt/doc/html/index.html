@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to robot_properties_bolt’s documentation! &mdash; robot_properties_bolt 1.0.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+    <link rel="canonical" href="https://machines-in-motion.github.io/code_documentation/robot_properties_bolt/index.html" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="src" href="modules.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="#" class="icon icon-home"> robot_properties_bolt
+          </a>
+              <div class="version">
+                1.0.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="modules.html">src</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">robot_properties_bolt</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+      <li>Welcome to robot_properties_bolt’s documentation!</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="welcome-to-robot-properties-bolt-s-documentation">
+<h1>Welcome to robot_properties_bolt’s documentation!<a class="headerlink" href="#welcome-to-robot-properties-bolt-s-documentation" title="Permalink to this headline">¶</a></h1>
+<section id="robot-properties-bolt">
+<h2>Robot Properties Bolt<a class="headerlink" href="#robot-properties-bolt" title="Permalink to this headline">¶</a></h2>
+<p>URDF and Pinocchio integration of the Bolt robot.</p>
+<section id="installation">
+<h3>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h3>
+<section id="standard-dependencies">
+<h4>Standard dependencies<a class="headerlink" href="#standard-dependencies" title="Permalink to this headline">¶</a></h4>
+<p>This package is based on <a class="reference external" href="https://docs.ros.org/">ROS2</a> based on dashing release and <a class="reference external" href="https://stack-of-tasks.github.io/pinocchio/">Pinocchio</a>.</p>
+<p>To install Pinocchio, the simplest way is using <a class="reference external" href="https://docs.conda.io/en/latest/">Conda</a>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>```
+conda install -c conda-forge pinocchio
+```
+</pre></div>
+</div>
+<p>Alternatively you can use any of the ways listed <a class="reference external" href="https://stack-of-tasks.github.io/pinocchio/download.html">here</a>.</p>
+</section>
+<section id="download-the-package">
+<h4>Download the package<a class="headerlink" href="#download-the-package" title="Permalink to this headline">¶</a></h4>
+<p>Use the <a class="reference external" href="https://github.com/machines-in-motion/treep_machines_in_motion">treep_machines_in_motion</a> configuration.</p>
+<p>Do not forget to <strong>register your ssh public key in your settings</strong>:</p>
+<p>In short:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mkdir</span> <span class="o">-</span><span class="n">p</span> <span class="o">~/</span><span class="n">devel</span>
+<span class="n">pip</span> <span class="n">install</span> <span class="n">treep</span>
+<span class="n">cd</span> <span class="o">~/</span><span class="n">devel</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="nd">@github</span><span class="o">.</span><span class="n">com</span><span class="p">:</span><span class="n">machines</span><span class="o">-</span><span class="ow">in</span><span class="o">-</span><span class="n">motion</span><span class="o">/</span><span class="n">treep_machines_in_motion</span><span class="o">.</span><span class="n">git</span>
+<span class="n">treep</span> <span class="o">--</span><span class="n">clone</span> <span class="n">ROBOT_PROPERTIES_BOLT</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="usage">
+<h3>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h3>
+<section id="demos-examples">
+<h4>Demos/Examples<a class="headerlink" href="#demos-examples" title="Permalink to this headline">¶</a></h4>
+<p>Below are some examples.</p>
+<p><strong>Loading Bolt in PyBullet</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pybullet</span> <span class="k">as</span> <span class="nn">p</span>
+<span class="kn">from</span> <span class="nn">bullet_utils.env</span> <span class="kn">import</span> <span class="n">BulletEnvWithGround</span>
+<span class="kn">from</span> <span class="nn">robot_properties_bolt.bolt_wrapper</span> <span class="kn">import</span> <span class="n">BoltRobot</span>
+
+<span class="n">env</span> <span class="o">=</span> <span class="n">BulletEnvWithGround</span><span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">GUI</span><span class="p">)</span>
+<span class="n">robot</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">add_robot</span><span class="p">(</span><span class="n">BoltRobot</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>Run simulation on Max-Planck Institute cluster</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">bolt</span> <span class="n">python</span><span class="o">=</span><span class="mf">3.7</span>
+<span class="n">source</span> <span class="n">activate</span> <span class="n">bolt</span>
+<span class="n">conda</span> <span class="n">install</span> <span class="o">-</span><span class="n">c</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span> <span class="n">pinocchio</span>
+
+<span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="nd">@github</span><span class="o">.</span><span class="n">com</span><span class="p">:</span><span class="n">machines</span><span class="o">-</span><span class="ow">in</span><span class="o">-</span><span class="n">motion</span><span class="o">/</span><span class="n">bullet_utils</span><span class="o">.</span><span class="n">git</span>
+<span class="n">cd</span> <span class="n">bullet_utils</span>
+<span class="n">pip3</span> <span class="n">install</span> <span class="o">.</span>
+
+<span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="nd">@github</span><span class="o">.</span><span class="n">com</span><span class="p">:</span><span class="nb">open</span><span class="o">-</span><span class="n">dynamic</span><span class="o">-</span><span class="n">robot</span><span class="o">-</span><span class="n">initiative</span><span class="o">/</span><span class="n">robot_properties_bolt</span><span class="o">.</span><span class="n">git</span>
+<span class="n">cd</span> <span class="n">robot_properties_bolt</span>
+<span class="n">pip3</span> <span class="n">install</span> <span class="o">.</span>
+</pre></div>
+</div>
+<p>You find demos of Bolt on <a class="reference external" href="https://github.com/Gepetto/gepetto-viewer">gepetto-viewer</a>, <a class="reference external" href="https://github.com/rdeits/meshcat-python">Meshcat</a> and <a class="reference external" href="https://pybullet.org/wordpress/">PyBullet</a> in the<code class="docutils literal notranslate"><span class="pre">demos/</span></code> folder.</p>
+</section>
+</section>
+<section id="license-and-copyrights">
+<h3>License and Copyrights<a class="headerlink" href="#license-and-copyrights" title="Permalink to this headline">¶</a></h3>
+<p>License BSD-3-Clause
+Copyright (c) 2019, New York University and Max Planck Gesellschaft.</p>
+</section>
+</section>
+<section id="python-api">
+<h2>Python API<a class="headerlink" href="#python-api" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+</ul>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="modules.html">src</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="robot_properties_bolt.html">robot_properties_bolt package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="robot_properties_bolt.html#subpackages">Subpackages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robot_properties_bolt.html#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robot_properties_bolt.html#robot-properties-bolt-bolt-wrapper-module">robot_properties_bolt.bolt_wrapper module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robot_properties_bolt.html#robot-properties-bolt-config-module">robot_properties_bolt.config module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robot_properties_bolt.html#robot-properties-bolt-gepetto-gui-loader-module">robot_properties_bolt.gepetto_gui_loader module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robot_properties_bolt.html#module-robot_properties_bolt.resources">robot_properties_bolt.resources module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robot_properties_bolt.html#module-robot_properties_bolt">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="indices-and-tables">
+<h2>Indices and Tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+<section id="id1">
+<h2>License and Copyrights<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p>BSD 3-Clause License</p>
+<p>Copyright (c) 2020, New York University and Max Planck Gesellshaft.
+All rights reserved.</p>
+<p>Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:</p>
+<ol class="arabic simple">
+<li><p>Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.</p></li>
+<li><p>Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.</p></li>
+<li><p>Neither the name of the copyright holder nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.</p></li>
+</ol>
+<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS”
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="modules.html" class="btn btn-neutral float-right" title="src" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright Copyright (c) 2021, See license.txt file or the license section..</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

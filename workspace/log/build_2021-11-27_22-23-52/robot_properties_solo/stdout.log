@@ -1,0 +1,270 @@
+running egg_info
+writing ../../build/robot_properties_solo/robot_properties_solo.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_properties_solo/robot_properties_solo.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_properties_solo/robot_properties_solo.egg-info/entry_points.txt
+writing requirements to ../../build/robot_properties_solo/robot_properties_solo.egg-info/requires.txt
+writing top-level names to ../../build/robot_properties_solo/robot_properties_solo.egg-info/top_level.txt
+reading manifest file '../../build/robot_properties_solo/robot_properties_solo.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_properties_solo/robot_properties_solo.egg-info/SOURCES.txt'
+running build
+running build_py
+copying src/robot_properties_solo/solo12wrapper.py -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo
+copying src/robot_properties_solo/config.py -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo
+copying src/robot_properties_solo/resources.py -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo
+copying src/robot_properties_solo/solo8wrapper.py -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo
+copying src/robot_properties_solo/gepetto_gui_loader.py -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo
+copying src/robot_properties_solo/__init__.py -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo
+copying src/robot_properties_solo/quadruped12wrapper.py -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo
+copying src/robot_properties_solo/resources/impedance_ctrl.yaml -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources
+creating /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/dynamic_graph_manager
+copying src/robot_properties_solo/resources/dynamic_graph_manager/dgm_parameters_solo12_wireless_mpi_is.yaml -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/dynamic_graph_manager
+copying src/robot_properties_solo/resources/dynamic_graph_manager/dgm_parameters_solo12_mpi_is.yaml -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/dynamic_graph_manager
+copying src/robot_properties_solo/resources/dynamic_graph_manager/dgm_parameters_solo8.yaml -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/dynamic_graph_manager
+copying src/robot_properties_solo/resources/dynamic_graph_manager/dgm_parameters_solo12_nyu.yaml -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/dynamic_graph_manager
+copying src/robot_properties_solo/resources/dynamic_graph_manager/dgm_parameters_solo12.yaml -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/dynamic_graph_manager
+copying src/robot_properties_solo/resources/dynamic_graph_manager/dgm_parameters_solo8ti.yaml -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/dynamic_graph_manager
+creating /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/odri_control_interface
+copying src/robot_properties_solo/resources/odri_control_interface/solo12_driver.yaml -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/odri_control_interface
+creating /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/launch
+copying src/robot_properties_solo/resources/launch/visual_rviz.launch -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/launch
+copying src/robot_properties_solo/resources/launch/dashboard.launch -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/launch
+copying src/robot_properties_solo/resources/launch/bringup.launch -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/launch
+copying src/robot_properties_solo/resources/launch/rviz.launch -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/launch
+creating /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/rviz
+copying src/robot_properties_solo/resources/rviz/display.rviz -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/rviz
+copying src/robot_properties_solo/resources/rviz/solo.rviz -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/rviz
+copying src/robot_properties_solo/resources/rviz/dgbullet_vs_pybullet.rviz -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/rviz
+creating /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/srdf
+copying src/robot_properties_solo/resources/srdf/solo.srdf -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/srdf
+creating /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/pre_generated_urdf
+copying src/robot_properties_solo/resources/pre_generated_urdf/readme.md -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/pre_generated_urdf
+creating /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/xacro
+copying src/robot_properties_solo/resources/xacro/solo8.urdf.xacro -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/xacro
+copying src/robot_properties_solo/resources/xacro/solo12.urdf.xacro -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/xacro
+copying src/robot_properties_solo/resources/xacro/plane_with_restitution.urdf.xacro -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/xacro
+copying src/robot_properties_solo/resources/xacro/leg.xacro -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/xacro
+creating /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/rqt
+copying src/robot_properties_solo/resources/rqt/solo.perspective.in -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/rqt
+creating /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes
+copying src/robot_properties_solo/resources/meshes/cylinder.obj -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes
+copying src/robot_properties_solo/resources/meshes/checker_blue.png -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes
+copying src/robot_properties_solo/resources/meshes/cube.obj -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes
+copying src/robot_properties_solo/resources/meshes/plane.obj -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes
+copying src/robot_properties_solo/resources/meshes/sphere.obj -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes
+copying src/robot_properties_solo/resources/meshes/plane.mtl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes
+creating /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj
+creating /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/without_foot
+copying src/robot_properties_solo/resources/meshes/obj/without_foot/solo_body.obj -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/without_foot
+copying src/robot_properties_solo/resources/meshes/obj/without_foot/solo_lower_leg_left_side.mtl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/without_foot
+copying src/robot_properties_solo/resources/meshes/obj/without_foot/solo_upper_leg_right_side.obj -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/without_foot
+copying src/robot_properties_solo/resources/meshes/obj/without_foot/solo_upper_leg_right_side.mtl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/without_foot
+copying src/robot_properties_solo/resources/meshes/obj/without_foot/solo_lower_leg_right_side.obj -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/without_foot
+copying src/robot_properties_solo/resources/meshes/obj/without_foot/solo_lower_leg_right_side.mtl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/without_foot
+copying src/robot_properties_solo/resources/meshes/obj/without_foot/solo_upper_leg_left_side.mtl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/without_foot
+copying src/robot_properties_solo/resources/meshes/obj/without_foot/solo_body.mtl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/without_foot
+copying src/robot_properties_solo/resources/meshes/obj/without_foot/solo_lower_leg_left_side.obj -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/without_foot
+copying src/robot_properties_solo/resources/meshes/obj/without_foot/solo_upper_leg_left_side.obj -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/without_foot
+creating /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot
+copying src/robot_properties_solo/resources/meshes/obj/with_foot/solo_body.obj -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot
+copying src/robot_properties_solo/resources/meshes/obj/with_foot/solo_lower_leg_left_side.mtl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot
+copying src/robot_properties_solo/resources/meshes/obj/with_foot/solo_upper_leg_right_side.obj -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot
+copying src/robot_properties_solo/resources/meshes/obj/with_foot/solo_foot.obj -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot
+copying src/robot_properties_solo/resources/meshes/obj/with_foot/solo_upper_leg_right_side.mtl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot
+copying src/robot_properties_solo/resources/meshes/obj/with_foot/solo_lower_leg_right_side.obj -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot
+copying src/robot_properties_solo/resources/meshes/obj/with_foot/solo_lower_leg_right_side.mtl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot
+copying src/robot_properties_solo/resources/meshes/obj/with_foot/solo_upper_leg_left_side.mtl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot
+copying src/robot_properties_solo/resources/meshes/obj/with_foot/solo_foot.mtl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot
+copying src/robot_properties_solo/resources/meshes/obj/with_foot/solo_body.mtl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot
+copying src/robot_properties_solo/resources/meshes/obj/with_foot/solo_lower_leg_left_side.obj -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot
+copying src/robot_properties_solo/resources/meshes/obj/with_foot/solo_upper_leg_left_side.obj -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot
+creating /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl
+creating /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/without_foot
+copying src/robot_properties_solo/resources/meshes/stl/without_foot/solo_body.stl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/without_foot
+copying src/robot_properties_solo/resources/meshes/stl/without_foot/solo_lower_leg_left_side.stl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/without_foot
+copying src/robot_properties_solo/resources/meshes/stl/without_foot/solo_upper_leg_left_side.stl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/without_foot
+copying src/robot_properties_solo/resources/meshes/stl/without_foot/solo_lower_leg_right_side.stl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/without_foot
+copying src/robot_properties_solo/resources/meshes/stl/without_foot/solo_upper_leg_right_side.stl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/without_foot
+creating /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12
+copying src/robot_properties_solo/resources/meshes/stl/solo12/solo12_lower_leg_left_side.stl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12
+copying src/robot_properties_solo/resources/meshes/stl/solo12/_solo12_visualisation_model.PDF -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12
+copying src/robot_properties_solo/resources/meshes/stl/solo12/solo_12_base.stl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12
+copying src/robot_properties_solo/resources/meshes/stl/solo12/solo12_hip_fe_hl.stl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12
+copying src/robot_properties_solo/resources/meshes/stl/solo12/solo12_hip_fe_fr.stl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12
+copying src/robot_properties_solo/resources/meshes/stl/solo12/solo12_upper_leg_left_side.stl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12
+copying src/robot_properties_solo/resources/meshes/stl/solo12/solo12_upper_leg_right_side.stl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12
+copying src/robot_properties_solo/resources/meshes/stl/solo12/solo12_hip_fe_fl.stl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12
+copying src/robot_properties_solo/resources/meshes/stl/solo12/solo12_hip_fe_hr.stl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12
+copying src/robot_properties_solo/resources/meshes/stl/solo12/solo12_coordinate_systems_4.png -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12
+copying src/robot_properties_solo/resources/meshes/stl/solo12/solo12_lower_leg_right_side.stl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12
+copying src/robot_properties_solo/resources/meshes/stl/solo12/solo12_coordinate_systems_2.png -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12
+copying src/robot_properties_solo/resources/meshes/stl/solo12/solo12_coordinate_systems.png -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12
+copying src/robot_properties_solo/resources/meshes/stl/solo12/solo12_coordinate_systems_3.png -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12
+creating /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/with_foot
+copying src/robot_properties_solo/resources/meshes/stl/with_foot/solo_body.stl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/with_foot
+copying src/robot_properties_solo/resources/meshes/stl/with_foot/solo_lower_leg_left_side.stl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/with_foot
+copying src/robot_properties_solo/resources/meshes/stl/with_foot/solo_upper_leg_left_side.stl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/with_foot
+copying src/robot_properties_solo/resources/meshes/stl/with_foot/solo_lower_leg_right_side.stl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/with_foot
+copying src/robot_properties_solo/resources/meshes/stl/with_foot/solo_foot.stl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/with_foot
+copying src/robot_properties_solo/resources/meshes/stl/with_foot/solo_upper_leg_right_side.stl -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/with_foot
+running build_scripts
+creating /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8
+copying and adjusting demos/demo_display_solo12.py -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8
+copying and adjusting demos/demo_simulate_solo8_fixed_base.py -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8
+copying and adjusting demos/demo_solo12_collision_detection.py -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8
+copying and adjusting demos/demo_display_solo8_meshcat.py -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8
+copying and adjusting demos/demo_simulate_solo12.py -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8
+copying and adjusting demos/demo_display_solo12_meshcat.py -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8
+copying and adjusting demos/demo_simulate_solo8.py -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8
+copying and adjusting demos/demo_display_solo8.py -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8
+copying and adjusting demos/demo_simulate_solo12_fixed_base.py -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8
+changing mode of /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8/demo_display_solo12.py from 664 to 775
+changing mode of /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8/demo_simulate_solo8_fixed_base.py from 664 to 775
+changing mode of /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8/demo_solo12_collision_detection.py from 664 to 775
+changing mode of /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8/demo_display_solo8_meshcat.py from 664 to 775
+changing mode of /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8/demo_simulate_solo12.py from 664 to 775
+changing mode of /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8/demo_display_solo12_meshcat.py from 664 to 775
+changing mode of /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8/demo_simulate_solo8.py from 664 to 775
+changing mode of /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8/demo_display_solo8.py from 664 to 775
+changing mode of /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8/demo_simulate_solo12_fixed_base.py from 664 to 775
+running install
+running install_lib
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/solo12wrapper.py -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/config.py -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources.py -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/solo8wrapper.py -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/gepetto_gui_loader.py -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/__init__.py -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/quadruped12wrapper.py -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/dynamic_graph_manager
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/dynamic_graph_manager/dgm_parameters_solo12_wireless_mpi_is.yaml -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/dynamic_graph_manager
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/dynamic_graph_manager/dgm_parameters_solo12_mpi_is.yaml -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/dynamic_graph_manager
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/dynamic_graph_manager/dgm_parameters_solo8.yaml -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/dynamic_graph_manager
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/dynamic_graph_manager/dgm_parameters_solo12_nyu.yaml -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/dynamic_graph_manager
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/dynamic_graph_manager/dgm_parameters_solo12.yaml -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/dynamic_graph_manager
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/dynamic_graph_manager/dgm_parameters_solo8ti.yaml -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/dynamic_graph_manager
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/odri_control_interface
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/odri_control_interface/solo12_driver.yaml -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/odri_control_interface
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/launch
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/launch/visual_rviz.launch -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/launch
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/launch/dashboard.launch -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/launch
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/launch/bringup.launch -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/launch
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/launch/rviz.launch -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/launch
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/urdf
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/solo8.urdf -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/urdf
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/solo12.urdf -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/urdf
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/plane_with_restitution.urdf -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/urdf
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/rviz
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/rviz/display.rviz -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/rviz
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/rviz/solo.rviz -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/rviz
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/rviz/dgbullet_vs_pybullet.rviz -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/rviz
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/impedance_ctrl.yaml -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/srdf
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/srdf/solo.srdf -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/srdf
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/pre_generated_urdf
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/pre_generated_urdf/readme.md -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/pre_generated_urdf
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/xacro
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/xacro/solo8.urdf.xacro -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/xacro
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/xacro/solo12.urdf.xacro -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/xacro
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/xacro/plane_with_restitution.urdf.xacro -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/xacro
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/xacro/leg.xacro -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/xacro
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/rqt
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/rqt/solo.perspective.in -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/rqt
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/cylinder.obj -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/without_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/without_foot/solo_body.obj -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/without_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/without_foot/solo_lower_leg_left_side.mtl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/without_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/without_foot/solo_upper_leg_right_side.obj -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/without_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/without_foot/solo_upper_leg_right_side.mtl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/without_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/without_foot/solo_lower_leg_right_side.obj -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/without_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/without_foot/solo_lower_leg_right_side.mtl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/without_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/without_foot/solo_upper_leg_left_side.mtl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/without_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/without_foot/solo_body.mtl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/without_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/without_foot/solo_lower_leg_left_side.obj -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/without_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/without_foot/solo_upper_leg_left_side.obj -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/without_foot
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/with_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot/solo_body.obj -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/with_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot/solo_lower_leg_left_side.mtl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/with_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot/solo_upper_leg_right_side.obj -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/with_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot/solo_foot.obj -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/with_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot/solo_upper_leg_right_side.mtl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/with_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot/solo_lower_leg_right_side.obj -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/with_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot/solo_lower_leg_right_side.mtl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/with_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot/solo_upper_leg_left_side.mtl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/with_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot/solo_foot.mtl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/with_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot/solo_body.mtl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/with_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot/solo_lower_leg_left_side.obj -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/with_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/obj/with_foot/solo_upper_leg_left_side.obj -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/obj/with_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/checker_blue.png -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/cube.obj -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/plane.obj -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/without_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/without_foot/solo_body.stl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/without_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/without_foot/solo_lower_leg_left_side.stl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/without_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/without_foot/solo_upper_leg_left_side.stl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/without_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/without_foot/solo_lower_leg_right_side.stl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/without_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/without_foot/solo_upper_leg_right_side.stl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/without_foot
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/solo12
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12/solo12_lower_leg_left_side.stl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/solo12
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12/_solo12_visualisation_model.PDF -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/solo12
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12/solo_12_base.stl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/solo12
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12/solo12_hip_fe_hl.stl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/solo12
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12/solo12_hip_fe_fr.stl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/solo12
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12/solo12_upper_leg_left_side.stl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/solo12
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12/solo12_upper_leg_right_side.stl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/solo12
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12/solo12_hip_fe_fl.stl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/solo12
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12/solo12_hip_fe_hr.stl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/solo12
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12/solo12_coordinate_systems_4.png -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/solo12
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12/solo12_lower_leg_right_side.stl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/solo12
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12/solo12_coordinate_systems_2.png -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/solo12
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12/solo12_coordinate_systems.png -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/solo12
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/solo12/solo12_coordinate_systems_3.png -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/solo12
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/with_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/with_foot/solo_body.stl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/with_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/with_foot/solo_lower_leg_left_side.stl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/with_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/with_foot/solo_upper_leg_left_side.stl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/with_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/with_foot/solo_lower_leg_right_side.stl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/with_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/with_foot/solo_foot.stl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/with_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/stl/with_foot/solo_upper_leg_right_side.stl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes/stl/with_foot
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/sphere.obj -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/meshes/plane.mtl -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/meshes
+byte-compiling /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/solo12wrapper.py to solo12wrapper.cpython-38.pyc
+byte-compiling /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/config.py to config.cpython-38.pyc
+byte-compiling /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources.py to resources.cpython-38.pyc
+byte-compiling /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/solo8wrapper.py to solo8wrapper.cpython-38.pyc
+byte-compiling /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/gepetto_gui_loader.py to gepetto_gui_loader.cpython-38.pyc
+byte-compiling /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/quadruped12wrapper.py to quadruped12wrapper.cpython-38.pyc
+running install_data
+copying package.xml -> /home/roy/odri_dev/workspace/install/robot_properties_solo/share/robot_properties_solo
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/share/ament_index
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/share/ament_index/resource_index
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/share/ament_index/resource_index/packages
+copying src/robot_properties_solo/resources/robot_properties_solo -> /home/roy/odri_dev/workspace/install/robot_properties_solo/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../build/robot_properties_solo/robot_properties_solo.egg-info to /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo-1.0.0-py3.8.egg-info
+running install_scripts
+creating /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8/demo_display_solo12.py -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8/demo_simulate_solo8_fixed_base.py -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8/demo_solo12_collision_detection.py -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8/demo_display_solo8_meshcat.py -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8/demo_simulate_solo12.py -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8/demo_display_solo12_meshcat.py -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8/demo_simulate_solo8.py -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8/demo_display_solo8.py -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo
+copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/scripts-3.8/demo_simulate_solo12_fixed_base.py -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo
+changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_display_solo12.py to 775
+changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_simulate_solo8_fixed_base.py to 775
+changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_solo12_collision_detection.py to 775
+changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_display_solo8_meshcat.py to 775
+changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_simulate_solo12.py to 775
+changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_display_solo12_meshcat.py to 775
+changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_simulate_solo8.py to 775
+changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_display_solo8.py to 775
+changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_simulate_solo12_fixed_base.py to 775
+writing list of installed files to '/home/roy/odri_dev/workspace/build/robot_properties_solo/install.log'

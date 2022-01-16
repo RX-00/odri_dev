@@ -1,0 +1,42 @@
+[0.022s] Invoking command in '/home/roy/odri_dev/workspace/build/real_time_tools': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/pybind11:/home/roy/odri_dev/workspace/install/mpi_cmake_modules:/home/roy/odri_dev/workspace/install/googletest-distribution:/opt/openrobots:/opt/openrobots PATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin:${PATH} PYTHONPATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages /usr/bin/cmake /home/roy/odri_dev/workspace/src/real_time_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/roy/odri_dev/workspace/install/real_time_tools
+[0.115s] -- The C compiler identification is GNU 9.3.0
+[0.188s] -- The CXX compiler identification is GNU 9.3.0
+[0.196s] -- Check for working C compiler: /usr/bin/cc
+[0.277s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.278s] -- Detecting C compiler ABI info
+[0.372s] -- Detecting C compiler ABI info - done
+[0.393s] -- Detecting C compile features
+[0.393s] -- Detecting C compile features - done
+[0.396s] -- Check for working CXX compiler: /usr/bin/c++
+[0.517s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.518s] -- Detecting CXX compiler ABI info
+[0.629s] -- Detecting CXX compiler ABI info - done
+[0.648s] -- Detecting CXX compile features
+[0.649s] -- Detecting CXX compile features - done
+[0.653s] -- The OS type is non-real-time
+[0.699s] -- Found PythonInterp: /usr/bin/python3.8 (found version "3.8.10") 
+[0.745s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.760s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+[0.762s] -- Looking for pthread.h
+[0.867s] -- Looking for pthread.h - found
+[0.867s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.986s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.987s] -- Looking for pthread_create in pthreads
+[1.081s] -- Looking for pthread_create in pthreads - not found
+[1.081s] -- Looking for pthread_create in pthread
+[1.203s] -- Looking for pthread_create in pthread - found
+[1.204s] -- Found Threads: TRUE  
+[1.204s] -- The OS type is non-real-time
+[1.386s] -- Found Python: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[1.444s] -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+[1.444s] CMake Error at /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/sphinx.cmake:21 (message):
+[1.445s]   Doxygen is needed to build the documentation.  Please install it correctly
+[1.445s] Call Stack (most recent call first):
+[1.445s]   /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/sphinx.cmake:229 (_build_doxygen)
+[1.445s]   /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/documentation.cmake:46 (add_sphinx_documentation)
+[1.445s]   CMakeLists.txt:154 (add_documentation)
+[1.446s] 
+[1.446s] 
+[1.446s] -- Configuring incomplete, errors occurred!
+[1.446s] See also "/home/roy/odri_dev/workspace/build/real_time_tools/CMakeFiles/CMakeOutput.log".
+[1.447s] See also "/home/roy/odri_dev/workspace/build/real_time_tools/CMakeFiles/CMakeError.log".

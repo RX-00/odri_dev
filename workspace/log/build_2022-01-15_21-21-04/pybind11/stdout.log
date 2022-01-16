@@ -1,0 +1,60 @@
+[  4%] Built target cross_module_gil_utils
+[  7%] [32mBuilding CXX object tests/CMakeFiles/pybind11_cross_module_tests.dir/pybind11_cross_module_tests.cpp.o[0m
+[ 11%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_factory_constructors.cpp.o[0m
+[ 11%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_eigen.cpp.o[0m
+[ 14%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_kwargs_and_defaults.cpp.o[0m
+[ 19%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_methods_and_attributes.cpp.o[0m
+[ 19%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_modules.cpp.o[0m
+[ 21%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_local_bindings.cpp.o[0m
+[ 23%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_multiple_inheritance.cpp.o[0m
+[ 26%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_numpy_array.cpp.o[0m
+[ 28%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_numpy_dtypes.cpp.o[0m
+[ 30%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_numpy_vectorize.cpp.o[0m
+[ 33%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_opaque_types.cpp.o[0m
+[ 35%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_operator_overloading.cpp.o[0m
+[ 38%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_pickling.cpp.o[0m
+[ 40%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_pytypes.cpp.o[0m
+[ 42%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_sequences_and_iterators.cpp.o[0m
+[ 45%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_smart_ptr.cpp.o[0m
+[ 47%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_stl.cpp.o[0m
+[ 50%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_stl_binders.cpp.o[0m
+[ 52%] [32m[1mLinking CXX shared module /home/roy/odri_dev/workspace/src/pybind11/tests/pybind11_cross_module_tests.cpython-38-x86_64-linux-gnu.so[0m
+[ 54%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_tagbased_polymorphic.cpp.o[0m
+[ 57%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_union.cpp.o[0m
+[ 59%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_virtual_functions.cpp.o[0m
+[ 59%] Built target pybind11_cross_module_tests
+[ 61%] [32m[1mLinking CXX shared module /home/roy/odri_dev/workspace/src/pybind11/tests/pybind11_tests.cpython-38-x86_64-linux-gnu.so[0m
+------ pybind11_tests.cpython-38-x86_64-linux-gnu.so file size: 3179136 (change of +270336 bytes = +9.29%)
+[100%] Built target pybind11_tests
+-- Install configuration: "Release"
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/eval.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/stl_bind.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/buffer_info.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/iostream.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/functional.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/options.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/stl.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/pybind11.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/eigen.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/numpy.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/complex.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/detail
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/detail/typeid.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/detail/internals.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/detail/descr.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/detail/class.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/detail/common.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/detail/init.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/attr.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/chrono.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/cast.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/embed.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/common.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/operators.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/include/pybind11/pytypes.h
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/share/cmake/pybind11/pybind11Config.cmake
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/share/cmake/pybind11/pybind11ConfigVersion.cmake
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/share/cmake/pybind11/FindPythonLibsNew.cmake
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/share/cmake/pybind11/pybind11Tools.cmake
+-- Up-to-date: /home/roy/odri_dev/workspace/install/pybind11/share/cmake/pybind11/pybind11Targets.cmake

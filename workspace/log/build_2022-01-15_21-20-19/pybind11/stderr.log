@@ -1,0 +1,13 @@
+make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:323: tests/CMakeFiles/pybind11_tests.dir/test_methods_and_attributes.cpp.o] Interrupt
+make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:310: tests/CMakeFiles/pybind11_tests.dir/test_local_bindings.cpp.o] Interrupt
+make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:349: tests/CMakeFiles/pybind11_tests.dir/test_multiple_inheritance.cpp.o] Interrupt
+make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:258: tests/CMakeFiles/pybind11_tests.dir/test_factory_constructors.cpp.o] Interrupt
+make[2]: *** wait: No child processes.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** wait: No child processes.  Stop.
+make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:297: tests/CMakeFiles/pybind11_tests.dir/test_kwargs_and_defaults.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:232: tests/CMakeFiles/pybind11_cross_module_tests.dir/all] Error 2
+make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:206: tests/CMakeFiles/pybind11_tests.dir/test_eigen.cpp.o] Interrupt
+make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:336: tests/CMakeFiles/pybind11_tests.dir/test_modules.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:259: tests/CMakeFiles/pybind11_tests.dir/all] Interrupt
+make: *** [Makefile:130: all] Interrupt

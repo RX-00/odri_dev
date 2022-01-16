@@ -1,0 +1,35 @@
+[1.815s] Invoking command in '/home/roy/odri_dev/workspace/src/robot_properties_solo': PYTHONPATH=/home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_properties_solo build --build-base /home/roy/odri_dev/workspace/build/robot_properties_solo/build install --prefix /home/roy/odri_dev/workspace/install/robot_properties_solo --record /home/roy/odri_dev/workspace/build/robot_properties_solo/install.log --single-version-externally-managed
+[2.480s] resources =  ['resources/impedance_ctrl.yaml', 'resources/dynamic_graph_manager/dgm_parameters_solo12_wireless_mpi_is.yaml', 'resources/dynamic_graph_manager/dgm_parameters_solo12_mpi_is.yaml', 'resources/dynamic_graph_manager/dgm_parameters_solo8.yaml', 'resources/dynamic_graph_manager/dgm_parameters_solo12_nyu.yaml', 'resources/dynamic_graph_manager/dgm_parameters_solo12.yaml', 'resources/dynamic_graph_manager/dgm_parameters_solo8ti.yaml', 'resources/odri_control_interface/solo12_driver.yaml', 'resources/launch/visual_rviz.launch', 'resources/launch/dashboard.launch', 'resources/launch/bringup.launch', 'resources/launch/rviz.launch', 'resources/rviz/display.rviz', 'resources/rviz/solo.rviz', 'resources/rviz/dgbullet_vs_pybullet.rviz', 'resources/srdf/solo.srdf', 'resources/pre_generated_urdf/readme.md', 'resources/xacro/solo8.urdf.xacro', 'resources/xacro/solo12.urdf.xacro', 'resources/xacro/plane_with_restitution.urdf.xacro', 'resources/xacro/leg.xacro', 'resources/rqt/solo.perspective.in', 'resources/meshes/cylinder.obj', 'resources/meshes/checker_blue.png', 'resources/meshes/cube.obj', 'resources/meshes/plane.obj', 'resources/meshes/sphere.obj', 'resources/meshes/plane.mtl', 'resources/meshes/obj/without_foot/solo_body.obj', 'resources/meshes/obj/without_foot/solo_lower_leg_left_side.mtl', 'resources/meshes/obj/without_foot/solo_upper_leg_right_side.obj', 'resources/meshes/obj/without_foot/solo_upper_leg_right_side.mtl', 'resources/meshes/obj/without_foot/solo_lower_leg_right_side.obj', 'resources/meshes/obj/without_foot/solo_lower_leg_right_side.mtl', 'resources/meshes/obj/without_foot/solo_upper_leg_left_side.mtl', 'resources/meshes/obj/without_foot/solo_body.mtl', 'resources/meshes/obj/without_foot/solo_lower_leg_left_side.obj', 'resources/meshes/obj/without_foot/solo_upper_leg_left_side.obj', 'resources/meshes/obj/with_foot/solo_body.obj', 'resources/meshes/obj/with_foot/solo_lower_leg_left_side.mtl', 'resources/meshes/obj/with_foot/solo_upper_leg_right_side.obj', 'resources/meshes/obj/with_foot/solo_foot.obj', 'resources/meshes/obj/with_foot/solo_upper_leg_right_side.mtl', 'resources/meshes/obj/with_foot/solo_lower_leg_right_side.obj', 'resources/meshes/obj/with_foot/solo_lower_leg_right_side.mtl', 'resources/meshes/obj/with_foot/solo_upper_leg_left_side.mtl', 'resources/meshes/obj/with_foot/solo_foot.mtl', 'resources/meshes/obj/with_foot/solo_body.mtl', 'resources/meshes/obj/with_foot/solo_lower_leg_left_side.obj', 'resources/meshes/obj/with_foot/solo_upper_leg_left_side.obj', 'resources/meshes/stl/without_foot/solo_body.stl', 'resources/meshes/stl/without_foot/solo_lower_leg_left_side.stl', 'resources/meshes/stl/without_foot/solo_upper_leg_left_side.stl', 'resources/meshes/stl/without_foot/solo_lower_leg_right_side.stl', 'resources/meshes/stl/without_foot/solo_upper_leg_right_side.stl', 'resources/meshes/stl/solo12/solo12_lower_leg_left_side.stl', 'resources/meshes/stl/solo12/_solo12_visualisation_model.PDF', 'resources/meshes/stl/solo12/solo_12_base.stl', 'resources/meshes/stl/solo12/solo12_hip_fe_hl.stl', 'resources/meshes/stl/solo12/solo12_hip_fe_fr.stl', 'resources/meshes/stl/solo12/solo12_upper_leg_left_side.stl', 'resources/meshes/stl/solo12/solo12_upper_leg_right_side.stl', 'resources/meshes/stl/solo12/solo12_hip_fe_fl.stl', 'resources/meshes/stl/solo12/solo12_hip_fe_hr.stl', 'resources/meshes/stl/solo12/solo12_coordinate_systems_4.png', 'resources/meshes/stl/solo12/solo12_lower_leg_right_side.stl', 'resources/meshes/stl/solo12/solo12_coordinate_systems_2.png', 'resources/meshes/stl/solo12/solo12_coordinate_systems.png', 'resources/meshes/stl/solo12/solo12_coordinate_systems_3.png', 'resources/meshes/stl/with_foot/solo_body.stl', 'resources/meshes/stl/with_foot/solo_lower_leg_left_side.stl', 'resources/meshes/stl/with_foot/solo_upper_leg_left_side.stl', 'resources/meshes/stl/with_foot/solo_lower_leg_right_side.stl', 'resources/meshes/stl/with_foot/solo_foot.stl', 'resources/meshes/stl/with_foot/solo_upper_leg_right_side.stl']
+[2.497s] Traceback (most recent call last):
+[2.497s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2859, in get_entry_map
+[2.498s]     ep_map = self._ep_map
+[2.498s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2817, in __getattr__
+[2.500s]     raise AttributeError(attr)
+[2.500s] AttributeError: _ep_map
+[2.501s] 
+[2.501s] During handling of the above exception, another exception occurred:
+[2.501s] 
+[2.501s] Traceback (most recent call last):
+[2.501s]   File "setup.py", line 159, in <module>
+[2.501s]     setup(
+[2.501s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 143, in setup
+[2.501s]     _install_setup_requires(attrs)
+[2.501s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 131, in _install_setup_requires
+[2.502s]     dist = distutils.core.Distribution(dict(
+[2.502s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 445, in __init__
+[2.502s]     for ep in pkg_resources.iter_entry_points('distutils.setup_keywords'):
+[2.502s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 657, in <genexpr>
+[2.502s]     for entry in dist.get_entry_map(group).values()
+[2.502s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2861, in get_entry_map
+[2.502s]     ep_map = self._ep_map = EntryPoint.parse_map(
+[2.503s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2529, in parse_map
+[2.503s]     for group, lines in data:
+[2.503s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3201, in split_sections
+[2.503s]     for line in yield_lines(s):
+[2.503s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2389, in yield_lines
+[2.503s]     for ss in strs:
+[2.503s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2768, in _get_metadata
+[2.508s]     if self.has_metadata(name):
+[2.508s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1414, in has_metadata
+[2.508s]     path = self._get_metadata_path(name)
+[2.508s] KeyboardInterrupt

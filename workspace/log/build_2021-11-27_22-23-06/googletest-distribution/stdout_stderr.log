@@ -1,0 +1,4 @@
+[ 12%] [32mBuilding CXX object googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+make[2]: *** [googletest/CMakeFiles/gtest.dir/build.make:63: googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:200: googletest/CMakeFiles/gtest.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

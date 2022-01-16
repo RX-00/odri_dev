@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bullet Utils &mdash; bullet_utils 1.0.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+    <link rel="canonical" href="https://machines-in-motion.github.io/code_documentation/bullet_utils/readme.html" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> bullet_utils
+          </a>
+              <div class="version">
+                1.0.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="modules.html">src</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">bullet_utils</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Bullet Utils</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/readme.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="bullet-utils">
+<h1>Bullet Utils<a class="headerlink" href="#bullet-utils" title="Permalink to this headline">¶</a></h1>
+<p>The code provided in this repo simplifies the interaction between pinocchio and pybullet.</p>
+<section id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<section id="standard-dependencies">
+<h3>Standard dependencies<a class="headerlink" href="#standard-dependencies" title="Permalink to this headline">¶</a></h3>
+<p>You need <a class="reference external" href="https://github.com/bulletphysics/bullet3">PyBullet</a> and
+<a class="reference external" href="https://github.com/stack-of-tasks/pinocchio">Pinocchio</a> to install this
+package.</p>
+<p>To run the demo, you need to install
+<a class="reference external" href="https://github.com/open-dynamic-robot-initiative/robot_properties_solo">robot_properties_solo</a>
+as well.</p>
+</section>
+<section id="download-the-package">
+<h3>Download the package<a class="headerlink" href="#download-the-package" title="Permalink to this headline">¶</a></h3>
+<p>To download this package, you can</p>
+<ol>
+<li><p>use <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span></code></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mkdir</span> <span class="o">-</span><span class="n">p</span> <span class="o">~/</span><span class="n">devel</span><span class="o">/</span><span class="n">workspace</span><span class="o">/</span><span class="n">src</span>
+<span class="n">cd</span> <span class="o">~/</span><span class="n">devel</span><span class="o">/</span><span class="n">workspace</span><span class="o">/</span><span class="n">src</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="nd">@github</span><span class="o">.</span><span class="n">com</span><span class="p">:</span><span class="n">machines</span><span class="o">-</span><span class="ow">in</span><span class="o">-</span><span class="n">motion</span><span class="o">/</span><span class="n">bullet_utils</span><span class="o">.</span><span class="n">git</span>
+</pre></div>
+</div>
+</li>
+<li><p>use <a class="reference external" href="https://gitlab.is.tue.mpg.de/amd-clmc/treep">treep</a> with the <a class="reference external" href="https://github.com/machines-in-motion/treep_machines_in_motion">treep_machines_in_motion</a> configuration.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mkdir</span> <span class="o">-</span><span class="n">p</span> <span class="o">~/</span><span class="n">devel</span>
+<span class="n">pip3</span> <span class="n">install</span> <span class="n">treep</span>
+<span class="n">cd</span> <span class="o">~/</span><span class="n">devel</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="nd">@github</span><span class="o">.</span><span class="n">com</span><span class="p">:</span><span class="n">machines</span><span class="o">-</span><span class="ow">in</span><span class="o">-</span><span class="n">motion</span><span class="o">/</span><span class="n">treep_machines_in_motion</span><span class="o">.</span><span class="n">git</span>
+<span class="n">treep</span> <span class="o">--</span><span class="n">clone</span> <span class="n">bullet_utils</span>
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="build-the-package">
+<h3>Build the package<a class="headerlink" href="#build-the-package" title="Permalink to this headline">¶</a></h3>
+<p>You can install this package with</p>
+<ul>
+<li><p>pure pip</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="n">mkdir</span> <span class="o">-</span><span class="n">p</span> <span class="o">~/</span><span class="n">devel</span><span class="o">/</span><span class="n">workspace</span><span class="o">/</span><span class="n">src</span><span class="o">/</span><span class="n">bullet_utils</span>
+<span class="n">pip3</span> <span class="n">install</span> <span class="o">.</span>
+</pre></div>
+</div>
+</li>
+<li><p>or <a class="reference external" href="https://github.com/machines-in-motion/machines-in-motion.github.io/wiki/use_colcon">colcon</a></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="n">mkdir</span> <span class="o">-</span><span class="n">p</span> <span class="o">~/</span><span class="n">devel</span><span class="o">/</span><span class="n">workspace</span>
+<span class="n">colcon</span> <span class="n">build</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+</section>
+<section id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
+<section id="demos">
+<h3>Demos<a class="headerlink" href="#demos" title="Permalink to this headline">¶</a></h3>
+<p>To run the demo</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="n">mkdir</span> <span class="o">-</span><span class="n">p</span> <span class="o">~/</span><span class="n">devel</span><span class="o">/</span><span class="n">workspace</span><span class="o">/</span><span class="n">src</span><span class="o">/</span><span class="n">bullet_utils</span><span class="o">/</span><span class="n">demos</span>
+<span class="n">python3</span> <span class="n">demo_simulate_a_robot</span><span class="o">.</span><span class="n">py</span>
+</pre></div>
+</div>
+</section>
+<section id="api-documentation">
+<h3>API documentation<a class="headerlink" href="#api-documentation" title="Permalink to this headline">¶</a></h3>
+<p>The API documentation is automatically generated using colcon.
+For the build to work one need to add the
+<a class="reference external" href="https://github.com/machines-in-motion/mpi_cmake_modules">mpi_cmake_modules</a>
+to their workspace using git or treep.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">~/</span><span class="n">devel</span><span class="o">/</span><span class="n">workspace</span><span class="o">/</span><span class="n">src</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="nd">@github</span><span class="o">.</span><span class="n">com</span><span class="p">:</span><span class="n">machines</span><span class="o">-</span><span class="ow">in</span><span class="o">-</span><span class="n">motion</span><span class="o">/</span><span class="n">mpi_cmake_modules</span><span class="o">.</span><span class="n">git</span>
+</pre></div>
+</div>
+<p>or</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">treep</span> <span class="o">--</span><span class="n">clone</span> <span class="n">mpi_cmake_modules</span>
+</pre></div>
+</div>
+<p>TODO: <em>Where to find the last built doc on the internet.</em></p>
+</section>
+</section>
+<section id="license-and-copyrights">
+<h2>License and Copyrights<a class="headerlink" href="#license-and-copyrights" title="Permalink to this headline">¶</a></h2>
+<p>License BSD-3-Clause
+Copyright (c) 2021, New York University and Max Planck Gesellschaft.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright Copyright (c) 2022, See license.txt file or the license section..</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

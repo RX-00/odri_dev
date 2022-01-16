@@ -1,0 +1,67 @@
+[0.072s] Invoking command in '/home/roy/odri_dev/workspace/build/mim_control': AMENT_PREFIX_PATH=/home/roy/odri_dev/workspace/install/robot_properties_solo:/home/roy/odri_dev/workspace/install/robot_properties_bolt CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/yaml_utils:/home/roy/odri_dev/workspace/install/pybind11:/home/roy/odri_dev/workspace/install/mpi_cmake_modules:/home/roy/odri_dev/workspace/install/googletest-distribution:${CMAKE_PREFIX_PATH} PATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin:${PATH} PYTHONPATH=/home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/mim_control -- -j8 -l8
+[0.146s] -- The OS type is non-real-time
+[0.160s] -- pinocchio FOUND. pinocchio at /opt/openrobots/lib/libpinocchio.so
+[0.173s] -- boost_filesystem FOUND. boost_filesystem at /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+[0.175s] -- boost_serialization FOUND. boost_serialization at /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+[0.177s] -- boost_system FOUND. boost_system at /usr/lib/x86_64-linux-gnu/libboost_system.so
+[0.245s] -- Found Boost: /usr/include (found version "1.71.0") found components: filesystem serialization system 
+[0.252s] -- hpp-fcl FOUND. hpp-fcl at /opt/openrobots/lib/libhpp-fcl.so
+[0.283s] -- Found Boost: /usr/include (found version "1.71.0") found components: chrono serialization 
+[1.451s] -- Default C++ standard: 201703
+[1.452s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.476s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[2.065s] -- Found Python: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.8.10") found components: Interpreter 
+[2.159s] -- Found Boost: /usr/include (found version "1.71.0") found components: python38 
+[2.159s] -- Boost_PYTHON_LIBRARY: /usr/lib/x86_64-linux-gnu/libboost_python38.so
+[2.481s] -- Found Python: /usr/bin/python3 (found version "3.8.10") found components: Interpreter 
+[2.622s] -- Found Doxygen: /usr/bin/doxygen (found version "1.8.17") found components: doxygen dot 
+[2.743s] -- Configuring done
+[2.787s] -- Generating done
+[2.792s] -- Build files have been written to: /home/roy/odri_dev/workspace/build/mim_control
+[2.868s] [35m[1mScanning dependencies of target mim_control[0m
+[2.954s] [  9%] [32mBuilding CXX object CMakeFiles/mim_control.dir/src/centroidal_pd_controller.cpp.o[0m
+[2.959s] [ 27%] [32mBuilding CXX object CMakeFiles/mim_control.dir/src/centroidal_force_qp_controller.cpp.o[0m
+[2.959s] [ 27%] [32mBuilding CXX object CMakeFiles/mim_control.dir/src/impedance_controller.cpp.o[0m
+[2.964s] [ 36%] [32mBuilding CXX object CMakeFiles/mim_control.dir/src/centroidal_impedance_controller.cpp.o[0m
+[94.562s] [ 45%] [32m[1mLinking CXX shared library libmim_control.so[0m
+[94.844s] [ 45%] Built target mim_control
+[94.923s] [35m[1mScanning dependencies of target mim_control_cpp[0m
+[95.035s] [ 54%] [32mBuilding CXX object CMakeFiles/mim_control_cpp.dir/srcpy/mim_control.cpp.o[0m
+[95.044s] [ 63%] [32mBuilding CXX object CMakeFiles/mim_control_cpp.dir/srcpy/centroidal_pd_controller.cpp.o[0m
+[95.048s] [ 72%] [32mBuilding CXX object CMakeFiles/mim_control_cpp.dir/srcpy/centroidal_force_qp_controller.cpp.o[0m
+[95.048s] [ 81%] [32mBuilding CXX object CMakeFiles/mim_control_cpp.dir/srcpy/impedance_controller.cpp.o[0m
+[95.053s] [ 90%] [32mBuilding CXX object CMakeFiles/mim_control_cpp.dir/srcpy/centroidal_impedance_controller.cpp.o[0m
+[123.344s] [100%] [32m[1mLinking CXX shared module mim_control_cpp.cpython-38-x86_64-linux-gnu.so[0m
+[131.959s] [100%] Built target mim_control_cpp
+[131.982s] Invoked command in '/home/roy/odri_dev/workspace/build/mim_control' returned '0': AMENT_PREFIX_PATH=/home/roy/odri_dev/workspace/install/robot_properties_solo:/home/roy/odri_dev/workspace/install/robot_properties_bolt CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/yaml_utils:/home/roy/odri_dev/workspace/install/pybind11:/home/roy/odri_dev/workspace/install/mpi_cmake_modules:/home/roy/odri_dev/workspace/install/googletest-distribution:${CMAKE_PREFIX_PATH} PATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin:${PATH} PYTHONPATH=/home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/mim_control -- -j8 -l8
+[132.055s] Invoking command in '/home/roy/odri_dev/workspace/build/mim_control': AMENT_PREFIX_PATH=/home/roy/odri_dev/workspace/install/robot_properties_solo:/home/roy/odri_dev/workspace/install/robot_properties_bolt CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/yaml_utils:/home/roy/odri_dev/workspace/install/pybind11:/home/roy/odri_dev/workspace/install/mpi_cmake_modules:/home/roy/odri_dev/workspace/install/googletest-distribution:${CMAKE_PREFIX_PATH} PATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin:${PATH} PYTHONPATH=/home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/mim_control
+[132.073s] -- Install configuration: "Release"
+[132.110s] -- Installing: /home/roy/odri_dev/workspace/install/mim_control/lib/libmim_control.so
+[132.112s] -- Set runtime path of "/home/roy/odri_dev/workspace/install/mim_control/lib/libmim_control.so" to "/home/roy/odri_dev/workspace/install/mim_control/lib:/home/roy/odri_dev/workspace/install/mim_control/lib/dynamic_graph_plugins:/opt/openrobots/lib"
+[132.112s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/include
+[132.113s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/include/mim_control
+[132.113s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/include/mim_control/dynamic_graph
+[132.113s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/include/mim_control/dynamic_graph/centroidal_force_qp_controller.hpp
+[132.113s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/include/mim_control/dynamic_graph/centroidal_pd_controller.hpp
+[132.114s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/include/mim_control/dynamic_graph/signal_utils.hpp
+[132.114s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/include/mim_control/dynamic_graph/impedance_controller.hpp
+[132.114s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/include/mim_control/centroidal_force_qp_controller.hpp
+[132.114s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/include/mim_control/centroidal_pd_controller.hpp
+[132.114s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/include/mim_control/impedance_controller.hpp
+[132.114s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/include/mim_control/centroidal_impedance_controller.hpp
+[132.115s] -- Installing: /home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control_cpp.cpython-38-x86_64-linux-gnu.so
+[132.117s] -- Set runtime path of "/home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control_cpp.cpython-38-x86_64-linux-gnu.so" to "/home/roy/odri_dev/workspace/install/mim_control/lib:/home/roy/odri_dev/workspace/install/mim_control/lib/dynamic_graph_plugins:/opt/openrobots/lib"
+[132.117s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control
+[132.117s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control/dynamic_graph
+[132.118s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control/dynamic_graph/go_to.py
+[132.118s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control/dynamic_graph/wbc_graph.py
+[132.118s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control/dynamic_graph/__init__.py
+[132.118s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control/robot_centroidal_controller.py
+[132.118s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control/impedance_controller.py
+[132.119s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control/robot_impedance_controller.py
+[132.119s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control/__init__.py
+[132.119s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control/qp_solver.py
+[132.119s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/share/mim_control/cmake/mim_controlConfig.cmake
+[132.121s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/share/mim_control/cmake/mim_controlTargets.cmake
+[132.121s] -- Installing: /home/roy/odri_dev/workspace/install/mim_control/share/mim_control/cmake/mim_controlTargets-release.cmake
+[132.130s] Invoked command in '/home/roy/odri_dev/workspace/build/mim_control' returned '0': AMENT_PREFIX_PATH=/home/roy/odri_dev/workspace/install/robot_properties_solo:/home/roy/odri_dev/workspace/install/robot_properties_bolt CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/yaml_utils:/home/roy/odri_dev/workspace/install/pybind11:/home/roy/odri_dev/workspace/install/mpi_cmake_modules:/home/roy/odri_dev/workspace/install/googletest-distribution:${CMAKE_PREFIX_PATH} PATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin:${PATH} PYTHONPATH=/home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/mim_control

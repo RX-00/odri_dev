@@ -1,0 +1,25 @@
+[0.037s] Invoking command in '/home/roy/odri_dev/workspace/build/pybind11': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/pybind11 -- -j8 -l8
+[0.104s] [  2%] [32mBuilding CXX object tests/CMakeFiles/pybind11_cross_module_tests.dir/pybind11_cross_module_tests.cpp.o[0m
+[0.106s] [  7%] Built target cross_module_gil_utils
+[0.133s] [  9%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_class.cpp.o[0m
+[0.133s] [ 12%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_factory_constructors.cpp.o[0m
+[0.135s] [ 14%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_numpy_array.cpp.o[0m
+[0.137s] [ 17%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_local_bindings.cpp.o[0m
+[0.138s] [ 19%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_numpy_vectorize.cpp.o[0m
+[0.170s] [ 21%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_methods_and_attributes.cpp.o[0m
+[0.170s] [ 24%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_multiple_inheritance.cpp.o[0m
+[10.640s] [ 26%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_opaque_types.cpp.o[0m
+[10.827s] make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:154: tests/CMakeFiles/pybind11_tests.dir/test_class.cpp.o] Interrupt
+[10.827s] make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:349: tests/CMakeFiles/pybind11_tests.dir/test_numpy_array.cpp.o] Interrupt
+[10.827s] make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:310: tests/CMakeFiles/pybind11_tests.dir/test_methods_and_attributes.cpp.o] Interrupt
+[10.828s] make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:336: tests/CMakeFiles/pybind11_tests.dir/test_multiple_inheritance.cpp.o] Interrupt
+[10.828s] make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:388: tests/CMakeFiles/pybind11_tests.dir/test_opaque_types.cpp.o] Interrupt
+[10.828s] make[2]: *** wait: No child processes.  Stop.
+[10.828s] make[2]: *** Waiting for unfinished jobs....
+[10.828s] make[2]: *** wait: No child processes.  Stop.
+[10.828s] make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:245: tests/CMakeFiles/pybind11_tests.dir/test_factory_constructors.cpp.o] Interrupt
+[10.828s] make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:297: tests/CMakeFiles/pybind11_tests.dir/test_local_bindings.cpp.o] Interrupt
+[10.828s] make[1]: *** [CMakeFiles/Makefile2:232: tests/CMakeFiles/pybind11_cross_module_tests.dir/all] Error 2
+[10.829s] make[1]: *** [CMakeFiles/Makefile2:259: tests/CMakeFiles/pybind11_tests.dir/all] Interrupt
+[10.829s] make: *** [Makefile:130: all] Interrupt
+[10.886s] Invoked command in '/home/roy/odri_dev/workspace/build/pybind11' returned '-2': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/pybind11 -- -j8 -l8

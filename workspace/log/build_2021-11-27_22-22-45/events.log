@@ -1,0 +1,145 @@
+[0.000000] (-) TimerEvent: {}
+[0.000436] (googletest-distribution) JobQueued: {'identifier': 'googletest-distribution', 'dependencies': OrderedDict()}
+[0.000902] (mpi_cmake_modules) JobQueued: {'identifier': 'mpi_cmake_modules', 'dependencies': OrderedDict()}
+[0.001123] (pybind11) JobQueued: {'identifier': 'pybind11', 'dependencies': OrderedDict()}
+[0.001910] (bullet_utils) JobQueued: {'identifier': 'bullet_utils', 'dependencies': OrderedDict([('mpi_cmake_modules', '/home/roy/odri_dev/workspace/install/mpi_cmake_modules')])}
+[0.002430] (real_time_tools) JobQueued: {'identifier': 'real_time_tools', 'dependencies': OrderedDict([('googletest-distribution', '/home/roy/odri_dev/workspace/install/googletest-distribution'), ('mpi_cmake_modules', '/home/roy/odri_dev/workspace/install/mpi_cmake_modules'), ('pybind11', '/home/roy/odri_dev/workspace/install/pybind11')])}
+[0.002568] (yaml_utils) JobQueued: {'identifier': 'yaml_utils', 'dependencies': OrderedDict([('googletest-distribution', '/home/roy/odri_dev/workspace/install/googletest-distribution')])}
+[0.006686] (reactive_planners) JobQueued: {'identifier': 'reactive_planners', 'dependencies': OrderedDict([('googletest-distribution', '/home/roy/odri_dev/workspace/install/googletest-distribution'), ('mpi_cmake_modules', '/home/roy/odri_dev/workspace/install/mpi_cmake_modules'), ('pybind11', '/home/roy/odri_dev/workspace/install/pybind11'), ('real_time_tools', '/home/roy/odri_dev/workspace/install/real_time_tools'), ('yaml_utils', '/home/roy/odri_dev/workspace/install/yaml_utils')])}
+[0.006860] (robot_properties_bolt) JobQueued: {'identifier': 'robot_properties_bolt', 'dependencies': OrderedDict([('bullet_utils', '/home/roy/odri_dev/workspace/install/bullet_utils')])}
+[0.006972] (robot_properties_solo) JobQueued: {'identifier': 'robot_properties_solo', 'dependencies': OrderedDict([('bullet_utils', '/home/roy/odri_dev/workspace/install/bullet_utils')])}
+[0.007091] (mim_control) JobQueued: {'identifier': 'mim_control', 'dependencies': OrderedDict([('googletest-distribution', '/home/roy/odri_dev/workspace/install/googletest-distribution'), ('mpi_cmake_modules', '/home/roy/odri_dev/workspace/install/mpi_cmake_modules'), ('pybind11', '/home/roy/odri_dev/workspace/install/pybind11'), ('bullet_utils', '/home/roy/odri_dev/workspace/install/bullet_utils'), ('yaml_utils', '/home/roy/odri_dev/workspace/install/yaml_utils'), ('robot_properties_bolt', '/home/roy/odri_dev/workspace/install/robot_properties_bolt'), ('robot_properties_solo', '/home/roy/odri_dev/workspace/install/robot_properties_solo')])}
+[0.007253] (googletest-distribution) JobStarted: {'identifier': 'googletest-distribution'}
+[0.033072] (mpi_cmake_modules) JobStarted: {'identifier': 'mpi_cmake_modules'}
+[0.049547] (pybind11) JobStarted: {'identifier': 'pybind11'}
+[0.068934] (googletest-distribution) JobProgress: {'identifier': 'googletest-distribution', 'progress': 'cmake'}
+[0.069797] (googletest-distribution) JobProgress: {'identifier': 'googletest-distribution', 'progress': 'build'}
+[0.070670] (googletest-distribution) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/roy/odri_dev/workspace/build/googletest-distribution', '--', '-j8', '-l8'], 'cwd': '/home/roy/odri_dev/workspace/build/googletest-distribution', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'roy'), ('SSH_AGENT_PID', '55796'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/roy'), ('OLDPWD', '/home/roy/odri_dev'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45705'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'roy'), ('JOURNAL_STREAM', '8:47799'), ('_', '/usr/local/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'roy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/r-M142:@/tmp/.ICE-unix/1966,unix/r-M142:/tmp/.ICE-unix/1966'), ('INVOCATION_ID', '6abecb7abf8848678135cd01a092e829'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-4q29NgTeTjdj/agent.55795'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b6fe8d36-4386-4e10-ab8b-09875c517524'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/roy/odri_dev/workspace/build/googletest-distribution'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.077591] (mpi_cmake_modules) JobProgress: {'identifier': 'mpi_cmake_modules', 'progress': 'cmake'}
+[0.078264] (mpi_cmake_modules) Command: {'cmd': ['/usr/bin/cmake', '/home/roy/odri_dev/workspace/src/mpi_cmake_modules', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/home/roy/odri_dev/workspace/install/mpi_cmake_modules'], 'cwd': '/home/roy/odri_dev/workspace/build/mpi_cmake_modules', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'roy'), ('SSH_AGENT_PID', '55796'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/roy'), ('OLDPWD', '/home/roy/odri_dev'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45705'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'roy'), ('JOURNAL_STREAM', '8:47799'), ('_', '/usr/local/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'roy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/r-M142:@/tmp/.ICE-unix/1966,unix/r-M142:/tmp/.ICE-unix/1966'), ('INVOCATION_ID', '6abecb7abf8848678135cd01a092e829'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-4q29NgTeTjdj/agent.55795'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b6fe8d36-4386-4e10-ab8b-09875c517524'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/roy/odri_dev/workspace/build/mpi_cmake_modules'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.086612] (pybind11) JobProgress: {'identifier': 'pybind11', 'progress': 'cmake'}
+[0.088003] (pybind11) JobProgress: {'identifier': 'pybind11', 'progress': 'build'}
+[0.088493] (pybind11) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/roy/odri_dev/workspace/build/pybind11', '--', '-j8', '-l8'], 'cwd': '/home/roy/odri_dev/workspace/build/pybind11', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'roy'), ('SSH_AGENT_PID', '55796'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/roy'), ('OLDPWD', '/home/roy/odri_dev'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45705'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'roy'), ('JOURNAL_STREAM', '8:47799'), ('_', '/usr/local/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'roy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/r-M142:@/tmp/.ICE-unix/1966,unix/r-M142:/tmp/.ICE-unix/1966'), ('INVOCATION_ID', '6abecb7abf8848678135cd01a092e829'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-4q29NgTeTjdj/agent.55795'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b6fe8d36-4386-4e10-ab8b-09875c517524'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/roy/odri_dev/workspace/build/pybind11'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.099261] (-) TimerEvent: {}
+[0.105774] (mpi_cmake_modules) StdoutLine: {'line': b'-- The OS type is non-real-time\n'}
+[0.122583] (googletest-distribution) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest\x1b[0m\n'}
+[0.141414] (pybind11) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cross_module_gil_utils\x1b[0m\n'}
+[0.143329] (pybind11) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pybind11_tests\x1b[0m\n'}
+[0.143852] (pybind11) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pybind11_cross_module_tests\x1b[0m\n'}
+[0.144412] (googletest-distribution) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[0.169551] (pybind11) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object tests/CMakeFiles/cross_module_gil_utils.dir/cross_module_gil_utils.cpp.o\x1b[0m\n'}
+[0.175804] (pybind11) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object tests/CMakeFiles/pybind11_cross_module_tests.dir/pybind11_cross_module_tests.cpp.o\x1b[0m\n'}
+[0.199740] (-) TimerEvent: {}
+[0.249156] (pybind11) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_async.cpp.o\x1b[0m\n'}
+[0.251063] (pybind11) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/pybind11_tests.cpp.o\x1b[0m\n'}
+[0.253626] (pybind11) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_buffers.cpp.o\x1b[0m\n'}
+[0.265081] (pybind11) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_builtin_casters.cpp.o\x1b[0m\n'}
+[0.276385] (pybind11) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_callbacks.cpp.o\x1b[0m\n'}
+[0.285249] (pybind11) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_call_policies.cpp.o\x1b[0m\n'}
+[0.299852] (-) TimerEvent: {}
+[0.375848] (mpi_cmake_modules) StderrLine: {'line': b'CMake Error at cmake/sphinx.cmake:84 (message):\n'}
+[0.376279] (mpi_cmake_modules) StderrLine: {'line': b'  sphinx-apidoc not found!Please install using: pip3 install sphinx\n'}
+[0.376448] (mpi_cmake_modules) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.376569] (mpi_cmake_modules) StderrLine: {'line': b'  cmake/sphinx.cmake:243 (_build_sphinx_api_doc)\n'}
+[0.376683] (mpi_cmake_modules) StderrLine: {'line': b'  cmake/documentation.cmake:46 (add_sphinx_documentation)\n'}
+[0.376801] (mpi_cmake_modules) StderrLine: {'line': b'  CMakeLists.txt:84 (add_documentation)\n'}
+[0.376909] (mpi_cmake_modules) StderrLine: {'line': b'\n'}
+[0.377020] (mpi_cmake_modules) StderrLine: {'line': b'\n'}
+[0.377242] (mpi_cmake_modules) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.377399] (mpi_cmake_modules) StdoutLine: {'line': b'See also "/home/roy/odri_dev/workspace/build/mpi_cmake_modules/CMakeFiles/CMakeOutput.log".\n'}
+[0.382248] (mpi_cmake_modules) CommandEnded: {'returncode': 1}
+[0.383819] (mpi_cmake_modules) JobEnded: {'identifier': 'mpi_cmake_modules', 'rc': 1}
+[0.399998] (-) TimerEvent: {}
+[0.500562] (-) TimerEvent: {}
+[0.601132] (-) TimerEvent: {}
+[0.702797] (-) TimerEvent: {}
+[0.803296] (-) TimerEvent: {}
+[0.903723] (-) TimerEvent: {}
+[1.004178] (-) TimerEvent: {}
+[1.104786] (-) TimerEvent: {}
+[1.205388] (-) TimerEvent: {}
+[1.306071] (-) TimerEvent: {}
+[1.406559] (-) TimerEvent: {}
+[1.507061] (-) TimerEvent: {}
+[1.607722] (-) TimerEvent: {}
+[1.708381] (-) TimerEvent: {}
+[1.809070] (-) TimerEvent: {}
+[1.909720] (-) TimerEvent: {}
+[2.010519] (-) TimerEvent: {}
+[2.111199] (-) TimerEvent: {}
+[2.211730] (-) TimerEvent: {}
+[2.312237] (-) TimerEvent: {}
+[2.412745] (-) TimerEvent: {}
+[2.513303] (-) TimerEvent: {}
+[2.613804] (-) TimerEvent: {}
+[2.714377] (-) TimerEvent: {}
+[2.814923] (-) TimerEvent: {}
+[2.919730] (-) TimerEvent: {}
+[3.028324] (-) TimerEvent: {}
+[3.129183] (-) TimerEvent: {}
+[3.229914] (-) TimerEvent: {}
+[3.330564] (-) TimerEvent: {}
+[3.431276] (-) TimerEvent: {}
+[3.531951] (-) TimerEvent: {}
+[3.632640] (-) TimerEvent: {}
+[3.733265] (-) TimerEvent: {}
+[3.833766] (-) TimerEvent: {}
+[3.934294] (-) TimerEvent: {}
+[4.034786] (-) TimerEvent: {}
+[4.135284] (-) TimerEvent: {}
+[4.235814] (-) TimerEvent: {}
+[4.336344] (-) TimerEvent: {}
+[4.436868] (-) TimerEvent: {}
+[4.537447] (-) TimerEvent: {}
+[4.638019] (-) TimerEvent: {}
+[4.738587] (-) TimerEvent: {}
+[4.839202] (-) TimerEvent: {}
+[4.939747] (-) TimerEvent: {}
+[5.042227] (-) TimerEvent: {}
+[5.049275] (pybind11) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking CXX shared module /home/roy/odri_dev/workspace/src/pybind11/tests/cross_module_gil_utils.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.142402] (-) TimerEvent: {}
+[5.243160] (-) TimerEvent: {}
+[5.343868] (-) TimerEvent: {}
+[5.444556] (-) TimerEvent: {}
+[5.545171] (-) TimerEvent: {}
+[5.645723] (-) TimerEvent: {}
+[5.746641] (-) TimerEvent: {}
+[5.847301] (-) TimerEvent: {}
+[5.947837] (-) TimerEvent: {}
+[6.048994] (-) TimerEvent: {}
+[6.149513] (-) TimerEvent: {}
+[6.225141] (pybind11) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_chrono.cpp.o\x1b[0m\n'}
+[6.249679] (-) TimerEvent: {}
+[6.350231] (-) TimerEvent: {}
+[6.450942] (-) TimerEvent: {}
+[6.551731] (-) TimerEvent: {}
+[6.652378] (-) TimerEvent: {}
+[6.752901] (-) TimerEvent: {}
+[6.853801] (-) TimerEvent: {}
+[6.954405] (-) TimerEvent: {}
+[6.984667] (pybind11) StderrLine: {'line': b"make[2]: *** Deleting file '/home/roy/odri_dev/workspace/src/pybind11/tests/cross_module_gil_utils.cpython-38-x86_64-linux-gnu.so'\n"}
+[6.985061] (pybind11) StderrLine: {'line': b'make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:128: tests/CMakeFiles/pybind11_tests.dir/test_callbacks.cpp.o] Interrupt\n'}
+[6.985263] (pybind11) StderrLine: {'line': b'make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:115: tests/CMakeFiles/pybind11_tests.dir/test_call_policies.cpp.o] Interrupt\n'}
+[6.985575] (pybind11) StderrLine: {'line': b'make[2]: *** [tests/CMakeFiles/pybind11_cross_module_tests.dir/build.make:63: tests/CMakeFiles/pybind11_cross_module_tests.dir/pybind11_cross_module_tests.cpp.o] Interrupt\n'}
+[6.985721] (pybind11) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:232: tests/CMakeFiles/pybind11_cross_module_tests.dir/all] Interrupt\n'}
+[6.987869] (googletest-distribution) StderrLine: {'line': b'make[2]: *** [googletest/CMakeFiles/gtest.dir/build.make:63: googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt\n'}
+[6.988186] (googletest-distribution) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:200: googletest/CMakeFiles/gtest.dir/all] Interrupt\n'}
+[6.988291] (googletest-distribution) StderrLine: {'line': b'make: *** [Makefile:141: all] Interrupt\n'}
+[6.990177] (pybind11) StderrLine: {'line': b'make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:63: tests/CMakeFiles/pybind11_tests.dir/pybind11_tests.cpp.o] Interrupt\n'}
+[6.990548] (pybind11) StderrLine: {'line': b'make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:89: tests/CMakeFiles/pybind11_tests.dir/test_buffers.cpp.o] Interrupt\n'}
+[6.990652] (pybind11) StderrLine: {'line': b'make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:102: tests/CMakeFiles/pybind11_tests.dir/test_builtin_casters.cpp.o] Interrupt\n'}
+[6.990746] (pybind11) StderrLine: {'line': b'make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:141: tests/CMakeFiles/pybind11_tests.dir/test_chrono.cpp.o] Interrupt\n'}
+[6.990834] (pybind11) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:259: tests/CMakeFiles/pybind11_tests.dir/all] Interrupt\n'}
+[6.995744] (pybind11) StderrLine: {'line': b'make[2]: *** [tests/CMakeFiles/cross_module_gil_utils.dir/build.make:84: /home/roy/odri_dev/workspace/src/pybind11/tests/cross_module_gil_utils.cpython-38-x86_64-linux-gnu.so] Interrupt\n'}
+[6.996212] (pybind11) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:205: tests/CMakeFiles/cross_module_gil_utils.dir/all] Interrupt\n'}
+[6.996386] (pybind11) StderrLine: {'line': b'make: *** [Makefile:130: all] Interrupt\n'}
+[7.021621] (googletest-distribution) JobEnded: {'identifier': 'googletest-distribution', 'rc': 'SIGINT'}
+[7.024413] (pybind11) JobEnded: {'identifier': 'pybind11', 'rc': 'SIGINT'}
+[7.035514] (bullet_utils) JobSkipped: {'identifier': 'bullet_utils'}
+[7.035685] (real_time_tools) JobSkipped: {'identifier': 'real_time_tools'}
+[7.035758] (yaml_utils) JobSkipped: {'identifier': 'yaml_utils'}
+[7.035784] (reactive_planners) JobSkipped: {'identifier': 'reactive_planners'}
+[7.035807] (robot_properties_bolt) JobSkipped: {'identifier': 'robot_properties_bolt'}
+[7.035828] (robot_properties_solo) JobSkipped: {'identifier': 'robot_properties_solo'}
+[7.035850] (mim_control) JobSkipped: {'identifier': 'mim_control'}
+[7.035873] (-) EventReactorShutdown: {}

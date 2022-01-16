@@ -1,0 +1,22 @@
+[0.033s] Invoking command in '/home/roy/odri_dev/workspace/build/pybind11': /usr/bin/cmake /home/roy/odri_dev/workspace/src/pybind11 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/roy/odri_dev/workspace/install/pybind11
+[0.139s] -- The CXX compiler identification is GNU 9.3.0
+[0.149s] -- Check for working CXX compiler: /usr/bin/c++
+[0.255s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.256s] -- Detecting CXX compiler ABI info
+[0.350s] -- Detecting CXX compiler ABI info - done
+[0.369s] -- Detecting CXX compile features
+[0.370s] -- Detecting CXX compile features - done
+[0.396s] -- Found PythonInterp: /usr/bin/python3.8 (found version "3.8.10") 
+[0.433s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.443s] -- Performing Test HAS_CPP14_FLAG
+[0.529s] -- Performing Test HAS_CPP14_FLAG - Success
+[0.543s] -- Building tests WITHOUT Eigen
+[0.567s] -- Could NOT find Boost (missing: Boost_INCLUDE_DIR) (Required is at least version "1.56")
+[0.574s] -- Performing Test HAS_FLTO
+[0.718s] -- Performing Test HAS_FLTO - Success
+[0.719s] -- LTO enabled
+[0.870s] -- Catch not detected. Interpreter tests will be skipped. Install Catch headers manually or use `cmake -DDOWNLOAD_CATCH=1` to fetch them automatically.
+[0.884s] -- pybind11 v2.5.0
+[0.888s] -- Configuring done
+[0.903s] -- Generating done
+[0.905s] -- Build files have been written to: /home/roy/odri_dev/workspace/build/pybind11

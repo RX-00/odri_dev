@@ -1,0 +1,27 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The OS type is non-real-time
+-- pinocchio FOUND. pinocchio at /opt/openrobots/lib/libpinocchio.so
+-- boost_filesystem FOUND. boost_filesystem at /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+-- boost_serialization FOUND. boost_serialization at /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+-- boost_system FOUND. boost_system at /usr/lib/x86_64-linux-gnu/libboost_system.so
+-- Found Boost: /usr/include (found version "1.71.0") found components: filesystem serialization system 
+-- hpp-fcl FOUND. hpp-fcl at /opt/openrobots/lib/libhpp-fcl.so
+-- Found Boost: /usr/include (found version "1.71.0") found components: chrono serialization 
+-- Default C++ standard: 201703
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- Configuring incomplete, errors occurred!
+See also "/home/roy/odri_dev/workspace/build/mim_control/CMakeFiles/CMakeOutput.log".

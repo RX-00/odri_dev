@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "setup.py", line 12, in <module>
+    from setuptools.command.build_py import build_py
+  File "/usr/lib/python3/dist-packages/setuptools/command/build_py.py", line 15, in <module>
+    from setuptools.lib2to3_ex import Mixin2to3
+  File "/usr/lib/python3/dist-packages/setuptools/lib2to3_ex.py", line 12, in <module>
+    from lib2to3.refactor import RefactoringTool, get_fixers_from_package
+  File "/usr/lib/python3.8/lib2to3/refactor.py", line 19, in <module>
+    import logging
+  File "/usr/lib/python3.8/logging/__init__.py", line 417, in <module>
+    class PercentStyle(object):
+  File "/usr/lib/python3.8/logging/__init__.py", line 422, in PercentStyle
+    validation_pattern = re.compile(r'%\(\w+\)[#0+ -]*(\*|\d+)?(\.(\*|\d+))?[diouxefgcrsa%]', re.I)
+  File "/usr/lib/python3.8/re.py", line 252, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.8/re.py", line 305, in _compile
+    if not (flags & DEBUG):
+  File "/usr/lib/python3.8/enum.py", line 939, in __and__
+    if not isinstance(other, (self.__class__, int)):
+KeyboardInterrupt

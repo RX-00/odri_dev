@@ -1,0 +1,4 @@
+make[2]: *** Deleting file '/home/roy/odri_dev/workspace/src/pybind11/tests/pybind11_tests.cpython-38-x86_64-linux-gnu.so'
+make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:609: /home/roy/odri_dev/workspace/src/pybind11/tests/pybind11_tests.cpython-38-x86_64-linux-gnu.so] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:259: tests/CMakeFiles/pybind11_tests.dir/all] Interrupt
+make: *** [Makefile:130: all] Interrupt

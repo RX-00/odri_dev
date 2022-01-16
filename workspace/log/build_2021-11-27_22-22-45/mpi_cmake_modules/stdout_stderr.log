@@ -1,0 +1,11 @@
+-- The OS type is non-real-time
+CMake Error at cmake/sphinx.cmake:84 (message):
+  sphinx-apidoc not found!Please install using: pip3 install sphinx
+Call Stack (most recent call first):
+  cmake/sphinx.cmake:243 (_build_sphinx_api_doc)
+  cmake/documentation.cmake:46 (add_sphinx_documentation)
+  CMakeLists.txt:84 (add_documentation)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/roy/odri_dev/workspace/build/mpi_cmake_modules/CMakeFiles/CMakeOutput.log".

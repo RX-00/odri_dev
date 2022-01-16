@@ -1,0 +1,41 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The OS type is non-real-time
+-- Found PythonInterp: /usr/bin/python3.8 (found version "3.8.10") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- The OS type is non-real-time
+-- Found Python: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+CMake Error at /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/sphinx.cmake:21 (message):
+  Doxygen is needed to build the documentation.  Please install it correctly
+Call Stack (most recent call first):
+  /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/sphinx.cmake:229 (_build_doxygen)
+  /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/documentation.cmake:46 (add_sphinx_documentation)
+  CMakeLists.txt:154 (add_documentation)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/roy/odri_dev/workspace/build/real_time_tools/CMakeFiles/CMakeOutput.log".
+See also "/home/roy/odri_dev/workspace/build/real_time_tools/CMakeFiles/CMakeError.log".

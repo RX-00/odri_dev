@@ -1,0 +1,21 @@
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonInterp: /usr/bin/python3.8 (found version "3.8.10") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Performing Test HAS_CPP14_FLAG
+-- Performing Test HAS_CPP14_FLAG - Success
+-- Building tests WITHOUT Eigen
+-- Could NOT find Boost (missing: Boost_INCLUDE_DIR) (Required is at least version "1.56")
+-- Performing Test HAS_FLTO
+-- Performing Test HAS_FLTO - Success
+-- LTO enabled
+-- Catch not detected. Interpreter tests will be skipped. Install Catch headers manually or use `cmake -DDOWNLOAD_CATCH=1` to fetch them automatically.
+-- pybind11 v2.5.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/roy/odri_dev/workspace/build/pybind11

@@ -1,0 +1,1 @@
+Invoking command in '/home/roy/odri_dev/workspace/build/googletest-distribution': /usr/bin/cmake /home/roy/odri_dev/workspace/src/googletest -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/roy/odri_dev/workspace/install/googletest-distribution

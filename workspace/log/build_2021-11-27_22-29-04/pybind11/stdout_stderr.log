@@ -1,0 +1,18 @@
+[  4%] Built target cross_module_gil_utils
+[  7%] [32mBuilding CXX object tests/CMakeFiles/pybind11_cross_module_tests.dir/pybind11_cross_module_tests.cpp.o[0m
+[  9%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_stl_binders.cpp.o[0m
+[ 12%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_sequences_and_iterators.cpp.o[0m
+[ 17%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_local_bindings.cpp.o[0m
+[ 17%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_smart_ptr.cpp.o[0m
+[ 19%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_tagbased_polymorphic.cpp.o[0m
+[ 21%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_stl.cpp.o[0m
+[ 24%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_pytypes.cpp.o[0m
+[ 26%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_union.cpp.o[0m
+[ 29%] [32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_virtual_functions.cpp.o[0m
+[ 31%] [32m[1mLinking CXX shared module /home/roy/odri_dev/workspace/src/pybind11/tests/pybind11_cross_module_tests.cpython-38-x86_64-linux-gnu.so[0m
+[ 34%] [32m[1mLinking CXX shared module /home/roy/odri_dev/workspace/src/pybind11/tests/pybind11_tests.cpython-38-x86_64-linux-gnu.so[0m
+[ 34%] Built target pybind11_cross_module_tests
+make[2]: *** Deleting file '/home/roy/odri_dev/workspace/src/pybind11/tests/pybind11_tests.cpython-38-x86_64-linux-gnu.so'
+make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:609: /home/roy/odri_dev/workspace/src/pybind11/tests/pybind11_tests.cpython-38-x86_64-linux-gnu.so] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:259: tests/CMakeFiles/pybind11_tests.dir/all] Interrupt
+make: *** [Makefile:130: all] Interrupt

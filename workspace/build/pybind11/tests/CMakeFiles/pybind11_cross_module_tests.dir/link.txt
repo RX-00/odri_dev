@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared  -o /home/roy/odri_dev/workspace/src/pybind11/tests/pybind11_cross_module_tests.cpython-38-x86_64-linux-gnu.so CMakeFiles/pybind11_cross_module_tests.dir/pybind11_cross_module_tests.cpp.o  -flto 

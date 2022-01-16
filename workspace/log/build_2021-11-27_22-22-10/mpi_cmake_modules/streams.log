@@ -1,0 +1,28 @@
+[0.031s] Invoking command in '/home/roy/odri_dev/workspace/build/mpi_cmake_modules': /usr/bin/cmake /home/roy/odri_dev/workspace/src/mpi_cmake_modules -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/roy/odri_dev/workspace/install/mpi_cmake_modules
+[0.114s] -- The C compiler identification is GNU 9.3.0
+[0.188s] -- The CXX compiler identification is GNU 9.3.0
+[0.195s] -- Check for working C compiler: /usr/bin/cc
+[0.282s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.283s] -- Detecting C compiler ABI info
+[0.375s] -- Detecting C compiler ABI info - done
+[0.389s] -- Detecting C compile features
+[0.389s] -- Detecting C compile features - done
+[0.392s] -- Check for working CXX compiler: /usr/bin/c++
+[0.492s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.495s] -- Detecting CXX compiler ABI info
+[0.593s] -- Detecting CXX compiler ABI info - done
+[0.606s] -- Detecting CXX compile features
+[0.606s] -- Detecting CXX compile features - done
+[0.610s] -- The OS type is non-real-time
+[0.745s] -- Found Python: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[0.783s] CMake Error at cmake/sphinx.cmake:84 (message):
+[0.783s]   sphinx-apidoc not found!Please install using: pip3 install sphinx
+[0.783s] Call Stack (most recent call first):
+[0.784s]   cmake/sphinx.cmake:243 (_build_sphinx_api_doc)
+[0.784s]   cmake/documentation.cmake:46 (add_sphinx_documentation)
+[0.784s]   CMakeLists.txt:84 (add_documentation)
+[0.784s] 
+[0.784s] 
+[0.784s] -- Configuring incomplete, errors occurred!
+[0.785s] See also "/home/roy/odri_dev/workspace/build/mpi_cmake_modules/CMakeFiles/CMakeOutput.log".
+[0.789s] Invoked command in '/home/roy/odri_dev/workspace/build/mpi_cmake_modules' returned '1': /usr/bin/cmake /home/roy/odri_dev/workspace/src/mpi_cmake_modules -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/roy/odri_dev/workspace/install/mpi_cmake_modules

@@ -1,0 +1,8 @@
+[0.035s] Invoking command in '/home/roy/odri_dev/workspace/build/pybind11': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/pybind11 -- -j8 -l8
+[0.113s] [  4%] Built target pybind11_cross_module_tests
+[0.115s] [  9%] Built target cross_module_gil_utils
+[0.138s] [ 12%] [32m[1mLinking CXX shared module /home/roy/odri_dev/workspace/src/pybind11/tests/pybind11_tests.cpython-38-x86_64-linux-gnu.so[0m
+[2.068s] make[2]: *** Deleting file '/home/roy/odri_dev/workspace/src/pybind11/tests/pybind11_tests.cpython-38-x86_64-linux-gnu.so'
+[2.071s] make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:609: /home/roy/odri_dev/workspace/src/pybind11/tests/pybind11_tests.cpython-38-x86_64-linux-gnu.so] Interrupt
+[2.071s] make[1]: *** [CMakeFiles/Makefile2:259: tests/CMakeFiles/pybind11_tests.dir/all] Interrupt
+[2.072s] make: *** [Makefile:130: all] Interrupt

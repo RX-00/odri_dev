@@ -1,0 +1,13 @@
+[0.042s] Invoking command in '/home/roy/odri_dev/workspace/build/mpi_cmake_modules': /usr/bin/cmake /home/roy/odri_dev/workspace/src/mpi_cmake_modules -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/roy/odri_dev/workspace/install/mpi_cmake_modules
+[0.068s] -- The OS type is non-real-time
+[0.338s] CMake Error at cmake/sphinx.cmake:84 (message):
+[0.338s]   sphinx-apidoc not found!Please install using: pip3 install sphinx
+[0.338s] Call Stack (most recent call first):
+[0.338s]   cmake/sphinx.cmake:243 (_build_sphinx_api_doc)
+[0.338s]   cmake/documentation.cmake:46 (add_sphinx_documentation)
+[0.339s]   CMakeLists.txt:84 (add_documentation)
+[0.339s] 
+[0.339s] 
+[0.339s] -- Configuring incomplete, errors occurred!
+[0.339s] See also "/home/roy/odri_dev/workspace/build/mpi_cmake_modules/CMakeFiles/CMakeOutput.log".
+[0.344s] Invoked command in '/home/roy/odri_dev/workspace/build/mpi_cmake_modules' returned '1': /usr/bin/cmake /home/roy/odri_dev/workspace/src/mpi_cmake_modules -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/roy/odri_dev/workspace/install/mpi_cmake_modules

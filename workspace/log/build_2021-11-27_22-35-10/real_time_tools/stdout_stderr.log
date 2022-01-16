@@ -1,0 +1,14 @@
+-- The OS type is non-real-time
+-- The OS type is non-real-time
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+CMake Error at /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/sphinx.cmake:21 (message):
+  Doxygen is needed to build the documentation.  Please install it correctly
+Call Stack (most recent call first):
+  /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/sphinx.cmake:229 (_build_doxygen)
+  /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/documentation.cmake:46 (add_sphinx_documentation)
+  CMakeLists.txt:154 (add_documentation)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/roy/odri_dev/workspace/build/real_time_tools/CMakeFiles/CMakeOutput.log".
+See also "/home/roy/odri_dev/workspace/build/real_time_tools/CMakeFiles/CMakeError.log".

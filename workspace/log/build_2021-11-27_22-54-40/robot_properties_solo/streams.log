@@ -1,0 +1,141 @@
+[0.665s] Invoking command in '/home/roy/odri_dev/workspace/src/robot_properties_solo': PYTHONPATH=/home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages:/home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/real_time_tools/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python3.8/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages:/home/roy/odri_dev/workspace/src/robot_properties_bolt:/home/roy/odri_dev/workspace/src/robot_properties_bolt:/home/roy/odri_dev/workspace/src/robot_properties_bolt:/home/roy/odri_dev/workspace/src/robot_properties_bolt /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_properties_solo build --build-base /home/roy/odri_dev/workspace/build/robot_properties_solo/build install --prefix /home/roy/odri_dev/workspace/install/robot_properties_solo --record /home/roy/odri_dev/workspace/build/robot_properties_solo/install.log --single-version-externally-managed
+[0.897s] resources =  ['resources/impedance_ctrl.yaml', 'resources/dynamic_graph_manager/dgm_parameters_solo12_wireless_mpi_is.yaml', 'resources/dynamic_graph_manager/dgm_parameters_solo12_mpi_is.yaml', 'resources/dynamic_graph_manager/dgm_parameters_solo8.yaml', 'resources/dynamic_graph_manager/dgm_parameters_solo12_nyu.yaml', 'resources/dynamic_graph_manager/dgm_parameters_solo12.yaml', 'resources/dynamic_graph_manager/dgm_parameters_solo8ti.yaml', 'resources/odri_control_interface/solo12_driver.yaml', 'resources/launch/visual_rviz.launch', 'resources/launch/dashboard.launch', 'resources/launch/bringup.launch', 'resources/launch/rviz.launch', 'resources/rviz/display.rviz', 'resources/rviz/solo.rviz', 'resources/rviz/dgbullet_vs_pybullet.rviz', 'resources/__pycache__/__init__.cpython-38.pyc', 'resources/srdf/solo.srdf', 'resources/pre_generated_urdf/readme.md', 'resources/xacro/solo8.urdf.xacro', 'resources/xacro/solo12.urdf.xacro', 'resources/xacro/plane_with_restitution.urdf.xacro', 'resources/xacro/leg.xacro', 'resources/rqt/solo.perspective.in', 'resources/meshes/cylinder.obj', 'resources/meshes/checker_blue.png', 'resources/meshes/cube.obj', 'resources/meshes/plane.obj', 'resources/meshes/sphere.obj', 'resources/meshes/plane.mtl', 'resources/meshes/obj/without_foot/solo_body.obj', 'resources/meshes/obj/without_foot/solo_lower_leg_left_side.mtl', 'resources/meshes/obj/without_foot/solo_upper_leg_right_side.obj', 'resources/meshes/obj/without_foot/solo_upper_leg_right_side.mtl', 'resources/meshes/obj/without_foot/solo_lower_leg_right_side.obj', 'resources/meshes/obj/without_foot/solo_lower_leg_right_side.mtl', 'resources/meshes/obj/without_foot/solo_upper_leg_left_side.mtl', 'resources/meshes/obj/without_foot/solo_body.mtl', 'resources/meshes/obj/without_foot/solo_lower_leg_left_side.obj', 'resources/meshes/obj/without_foot/solo_upper_leg_left_side.obj', 'resources/meshes/obj/with_foot/solo_body.obj', 'resources/meshes/obj/with_foot/solo_lower_leg_left_side.mtl', 'resources/meshes/obj/with_foot/solo_upper_leg_right_side.obj', 'resources/meshes/obj/with_foot/solo_foot.obj', 'resources/meshes/obj/with_foot/solo_upper_leg_right_side.mtl', 'resources/meshes/obj/with_foot/solo_lower_leg_right_side.obj', 'resources/meshes/obj/with_foot/solo_lower_leg_right_side.mtl', 'resources/meshes/obj/with_foot/solo_upper_leg_left_side.mtl', 'resources/meshes/obj/with_foot/solo_foot.mtl', 'resources/meshes/obj/with_foot/solo_body.mtl', 'resources/meshes/obj/with_foot/solo_lower_leg_left_side.obj', 'resources/meshes/obj/with_foot/solo_upper_leg_left_side.obj', 'resources/meshes/stl/without_foot/solo_body.stl', 'resources/meshes/stl/without_foot/solo_lower_leg_left_side.stl', 'resources/meshes/stl/without_foot/solo_upper_leg_left_side.stl', 'resources/meshes/stl/without_foot/solo_lower_leg_right_side.stl', 'resources/meshes/stl/without_foot/solo_upper_leg_right_side.stl', 'resources/meshes/stl/solo12/solo12_lower_leg_left_side.stl', 'resources/meshes/stl/solo12/_solo12_visualisation_model.PDF', 'resources/meshes/stl/solo12/solo_12_base.stl', 'resources/meshes/stl/solo12/solo12_hip_fe_hl.stl', 'resources/meshes/stl/solo12/solo12_hip_fe_fr.stl', 'resources/meshes/stl/solo12/solo12_upper_leg_left_side.stl', 'resources/meshes/stl/solo12/solo12_upper_leg_right_side.stl', 'resources/meshes/stl/solo12/solo12_hip_fe_fl.stl', 'resources/meshes/stl/solo12/solo12_hip_fe_hr.stl', 'resources/meshes/stl/solo12/solo12_coordinate_systems_4.png', 'resources/meshes/stl/solo12/solo12_lower_leg_right_side.stl', 'resources/meshes/stl/solo12/solo12_coordinate_systems_2.png', 'resources/meshes/stl/solo12/solo12_coordinate_systems.png', 'resources/meshes/stl/solo12/solo12_coordinate_systems_3.png', 'resources/meshes/stl/with_foot/solo_body.stl', 'resources/meshes/stl/with_foot/solo_lower_leg_left_side.stl', 'resources/meshes/stl/with_foot/solo_upper_leg_left_side.stl', 'resources/meshes/stl/with_foot/solo_lower_leg_right_side.stl', 'resources/meshes/stl/with_foot/solo_foot.stl', 'resources/meshes/stl/with_foot/solo_upper_leg_right_side.stl']
+[0.914s] running egg_info
+[0.915s] writing ../../build/robot_properties_solo/robot_properties_solo.egg-info/PKG-INFO
+[0.916s] writing dependency_links to ../../build/robot_properties_solo/robot_properties_solo.egg-info/dependency_links.txt
+[0.916s] writing entry points to ../../build/robot_properties_solo/robot_properties_solo.egg-info/entry_points.txt
+[0.916s] writing requirements to ../../build/robot_properties_solo/robot_properties_solo.egg-info/requires.txt
+[0.916s] writing top-level names to ../../build/robot_properties_solo/robot_properties_solo.egg-info/top_level.txt
+[0.920s] reading manifest file '../../build/robot_properties_solo/robot_properties_solo.egg-info/SOURCES.txt'
+[0.923s] writing manifest file '../../build/robot_properties_solo/robot_properties_solo.egg-info/SOURCES.txt'
+[0.923s] running build
+[0.923s] running build_py
+[1.342s] sphinx-apidoc output:
+[1.343s]  Creating file /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/robot_properties_solo.rst.
+[1.343s] Creating file /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/robot_properties_solo.resources.rst.
+[1.343s] Creating file /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/modules.rst.
+[1.343s] 
+[1.343s] sphinx-apidoc error:
+[1.343s]  None
+[1.343s] 
+[2.152s] /home/roy/.local/lib/python3.8/site-packages/recommonmark/parser.py:75: UserWarning: Container node skipped: type=document
+[2.153s]   warn("Container node skipped: type={0}".format(mdnode.t))
+[2.356s] pybullet build time: Oct 11 2021 20:59:39
+[2.429s] WARNING: autodoc: failed to import module 'config' from module 'robot_properties_solo'; the following exception was raised:
+[2.430s] cannot import name 'Resources' from 'robot_properties_solo.resources' (/home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/__init__.py)
+[2.430s] WARNING: autodoc: failed to import module 'gepetto_gui_loader' from module 'robot_properties_solo'; the following exception was raised:
+[2.430s] No module named 'config'
+[2.430s] WARNING: autodoc: failed to import module 'quadruped12wrapper' from module 'robot_properties_solo'; the following exception was raised:
+[2.430s] cannot import name 'Resources' from 'robot_properties_solo.resources' (/home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/__init__.py)
+[2.431s] WARNING: autodoc: failed to import module 'solo12wrapper' from module 'robot_properties_solo'; the following exception was raised:
+[2.431s] cannot import name 'Resources' from 'robot_properties_solo.resources' (/home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/__init__.py)
+[2.431s] WARNING: autodoc: failed to import module 'solo8wrapper' from module 'robot_properties_solo'; the following exception was raised:
+[2.431s] cannot import name 'Resources' from 'robot_properties_solo.resources' (/home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/__init__.py)
+[2.431s] /home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/__init__.py:docstring of robot_properties_solo.resources:1: WARNING: duplicate object description of robot_properties_solo.resources, other instance in robot_properties_solo, use :noindex: for one of them
+[2.443s] /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/readme.md: WARNING: document isn't included in any toctree
+[2.922s] sphinx-apidoc output:
+[2.922s]  Running Sphinx v4.3.1
+[2.922s] making output directory... done
+[2.922s] loading intersphinx inventory from https://docs.python.org/objects.inv...
+[2.923s] intersphinx inventory has moved: https://docs.python.org/objects.inv -> https://docs.python.org/3/objects.inv
+[2.923s] building [mo]: targets for 0 po files that are out of date
+[2.923s] building [html]: targets for 5 source files that are out of date
+[2.923s] updating environment: [new config] 5 added, 0 changed, 0 removed
+[2.923s] reading sources... [ 20%] index
+[2.923s] reading sources... [ 40%] modules
+[2.924s] reading sources... [ 60%] readme
+[2.924s] reading sources... [ 80%] robot_properties_solo
+[2.924s] reading sources... [100%] robot_properties_solo.resources
+[2.924s] 
+[2.924s] looking for now-outdated files... none found
+[2.924s] pickling environment... done
+[2.925s] checking consistency... done
+[2.925s] preparing documents... done
+[2.925s] writing output... [ 20%] index
+[2.925s] writing output... [ 40%] modules
+[2.925s] writing output... [ 60%] readme
+[2.925s] writing output... [ 80%] robot_properties_solo
+[2.926s] writing output... [100%] robot_properties_solo.resources
+[2.926s] 
+[2.926s] generating indices... genindex py-modindex done
+[2.926s] writing additional pages... search done
+[2.926s] copying static files... done
+[2.927s] copying extra files... done
+[2.927s] dumping search index in English (code: en)... done
+[2.927s] dumping object inventory... done
+[2.927s] build succeeded, 7 warnings.
+[2.927s] 
+[2.927s] The HTML pages are in html.
+[2.928s] 
+[2.928s] sphinx-apidoc error:
+[2.928s]  None
+[2.939s] building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/xacro/solo8.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/solo8.urdf )
+[2.988s] building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/xacro/solo12.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/solo12.urdf )
+[3.042s] building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/xacro/plane_with_restitution.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/plane_with_restitution.urdf )
+[3.043s] building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/xacro/solo8.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/solo8.urdf )
+[3.112s] building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/xacro/solo12.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/solo12.urdf )
+[3.166s] building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/xacro/plane_with_restitution.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/plane_with_restitution.urdf )
+[3.167s] building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/xacro/solo8.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/solo8.urdf )
+[3.213s] building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/xacro/solo12.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/solo12.urdf )
+[3.271s] building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/xacro/plane_with_restitution.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/plane_with_restitution.urdf )
+[3.271s] creating /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/__pycache__
+[3.271s] copying src/robot_properties_solo/resources/__pycache__/__init__.cpython-38.pyc -> /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/__pycache__
+[3.272s] running build_scripts
+[3.273s] running install
+[3.280s] running install_lib
+[3.281s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/modules.rst -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc
+[3.281s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/readme.md -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc
+[3.282s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/robot_properties_solo.rst -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc
+[3.282s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/robot_properties_solo.resources.rst -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc
+[3.283s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/index.rst -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc
+[3.290s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/conf.py -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc
+[3.290s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/doctrees/readme.doctree -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/doctrees
+[3.291s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/doctrees/modules.doctree -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/doctrees
+[3.291s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/doctrees/robot_properties_solo.doctree -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/doctrees
+[3.292s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/doctrees/index.doctree -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/doctrees
+[3.292s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/doctrees/environment.pickle -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/doctrees
+[3.293s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/doctrees/robot_properties_solo.resources.doctree -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/doctrees
+[3.293s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/html/genindex.html -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/html
+[3.293s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/html/robot_properties_solo.html -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/html
+[3.294s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/html/.buildinfo -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/html
+[3.294s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/html/.nojekyll -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/html
+[3.294s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/html/modules.html -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/html
+[3.295s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/html/objects.inv -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/html
+[3.295s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/html/readme.html -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/html
+[3.295s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/html/search.html -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/html
+[3.295s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/html/robot_properties_solo.resources.html -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/html
+[3.296s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/html/_sources/robot_properties_solo.rst.txt -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/html/_sources
+[3.296s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/html/_sources/robot_properties_solo.resources.rst.txt -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/html/_sources
+[3.296s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/html/_sources/modules.rst.txt -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/html/_sources
+[3.296s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/html/_sources/index.rst.txt -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/html/_sources
+[3.296s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/html/_sources/readme.md.txt -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/html/_sources
+[3.296s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/html/py-modindex.html -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/html
+[3.297s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/html/searchindex.js -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/html
+[3.297s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/html/index.html -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/html
+[3.297s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/html/_static/language_data.js -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/html/_static
+[3.297s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/html/_static/pygments.css -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/html/_static
+[3.297s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/html/_static/documentation_options.js -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/html/_static
+[3.297s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/html/_static/basic.css -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/html/_static
+[3.298s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/doc/license.txt -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc
+[3.298s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/solo8.urdf -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/urdf
+[3.298s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/solo12.urdf -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/urdf
+[3.298s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/plane_with_restitution.urdf -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/urdf
+[3.298s] creating /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/__pycache__
+[3.298s] copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/__pycache__/__init__.cpython-38.pyc -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/__pycache__
+[3.299s] byte-compiling /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/doc/conf.py to conf.cpython-38.pyc
+[3.299s] running install_data
+[3.299s] running install_egg_info
+[3.299s] removing '/home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo-1.0.0-py3.8.egg-info' (and everything under it)
+[3.299s] Copying ../../build/robot_properties_solo/robot_properties_solo.egg-info to /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo-1.0.0-py3.8.egg-info
+[3.299s] running install_scripts
+[3.312s] changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_display_solo12.py to 775
+[3.313s] changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_simulate_solo8_fixed_base.py to 775
+[3.313s] changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_solo12_collision_detection.py to 775
+[3.313s] changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_display_solo8_meshcat.py to 775
+[3.313s] changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_simulate_solo12.py to 775
+[3.313s] changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_display_solo12_meshcat.py to 775
+[3.313s] changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_simulate_solo8.py to 775
+[3.313s] changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_display_solo8.py to 775
+[3.314s] changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_simulate_solo12_fixed_base.py to 775
+[3.315s] writing list of installed files to '/home/roy/odri_dev/workspace/build/robot_properties_solo/install.log'
+[3.401s] Invoked command in '/home/roy/odri_dev/workspace/src/robot_properties_solo' returned '0': PYTHONPATH=/home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages:/home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/real_time_tools/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python3.8/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages:/home/roy/odri_dev/workspace/src/robot_properties_bolt:/home/roy/odri_dev/workspace/src/robot_properties_bolt:/home/roy/odri_dev/workspace/src/robot_properties_bolt:/home/roy/odri_dev/workspace/src/robot_properties_bolt /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_properties_solo build --build-base /home/roy/odri_dev/workspace/build/robot_properties_solo/build install --prefix /home/roy/odri_dev/workspace/install/robot_properties_solo --record /home/roy/odri_dev/workspace/build/robot_properties_solo/install.log --single-version-externally-managed

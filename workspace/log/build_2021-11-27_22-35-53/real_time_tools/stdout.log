@@ -1,0 +1,16 @@
+-- The OS type is non-real-time
+-- The OS type is non-real-time
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.17") found components: doxygen missing components: dot
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/roy/odri_dev/workspace/build/real_time_tools
+[35m[1mScanning dependencies of target real_time_tools[0m
+[  6%] [32mBuilding CXX object CMakeFiles/real_time_tools.dir/src/spinner.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/real_time_tools.dir/src/realtime_check.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/real_time_tools.dir/src/thread.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/real_time_tools.dir/src/timer.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/real_time_tools.dir/src/frequency_manager.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/real_time_tools.dir/src/iostream.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/real_time_tools.dir/src/process_manager.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/real_time_tools.dir/src/usb_stream.cpp.o[0m
+[ 31%] [32m[1mLinking CXX shared library libreal_time_tools.so[0m

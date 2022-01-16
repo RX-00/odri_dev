@@ -1,0 +1,37 @@
+resources =  ['resources/impedance_ctrl.yaml', 'resources/dynamic_graph_manager/dgm_parameters_bolt.yaml', 'resources/odri_control_interface/bolt_driver.yaml', 'resources/xacro/bolt_passive_ankle.urdf.xacro', 'resources/xacro/bolt.urdf.xacro', 'resources/xacro/plane_with_restitution.urdf.xacro', 'resources/xacro/bolt.xacro', 'resources/xacro/leg.xacro', 'resources/meshes/checker_blue.png', 'resources/meshes/plane.obj', 'resources/meshes/plane.mtl', 'resources/meshes/obj/bolt_upper_leg_right_side.obj', 'resources/meshes/obj/bolt_hip_fe_left_side.obj', 'resources/meshes/obj/bolt_upper_leg_left_side.obj', 'resources/meshes/obj/bolt_lower_leg_right_side.obj', 'resources/meshes/obj/bolt_hip_fe_right_side.obj', 'resources/meshes/obj/bolt_body.obj', 'resources/meshes/obj/bolt_foot.obj', 'resources/meshes/obj/bolt_lower_leg_left_side.obj', 'resources/meshes/stl/lower_leg_200mm_right_side.stl', 'resources/meshes/stl/bolt_upper_leg_left_side.stl', 'resources/meshes/stl/upper_leg_200mm_right_side.stl', 'resources/meshes/stl/upper_leg_200mm_left_side.stl', 'resources/meshes/stl/bolt_hip_fe_right_side.stl', 'resources/meshes/stl/bolt_lower_leg_left_side.stl', 'resources/meshes/stl/bolt_foot.stl', 'resources/meshes/stl/lower_leg_200mm_left_side.stl', 'resources/meshes/stl/bolt_hip_fe_left_side.stl', 'resources/meshes/stl/bolt_lower_leg_right_side.stl', 'resources/meshes/stl/bolt_upper_leg_right_side.stl', 'resources/meshes/stl/bolt_body.stl']
+Traceback (most recent call last):
+  File "setup.py", line 159, in <module>
+    setup(
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 144, in setup
+    return distutils.core.setup(**attrs)
+  File "/usr/lib/python3.8/distutils/core.py", line 108, in setup
+    _setup_distribution = dist = klass(attrs)
+  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 447, in __init__
+    _Distribution.__init__(self, {
+  File "/usr/lib/python3.8/distutils/dist.py", line 292, in __init__
+    self.finalize_options()
+  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 740, in finalize_options
+    ep.load()(self)
+  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 747, in _finalize_setup_keywords
+    ep.load()(self, ep.name, value)
+  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 277, in check_requirements
+    list(pkg_resources.parse_requirements(value))
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3096, in parse_requirements
+    yield Requirement(line)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3103, in __init__
+    super(Requirement, self).__init__(requirement_string)
+  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/requirements.py", line 90, in __init__
+    req = REQUIREMENT.parseString(requirement_string)
+  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1644, in parseString
+    loc, tokens = self._parse( instring, 0 )
+  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+    loc,tokens = self.parseImpl( instring, preloc, doActions )
+  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3417, in parseImpl
+    loc, exprtokens = e._parse( instring, loc, doActions )
+  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1408, in _parseNoCache
+    tokens = self.postParse( instring, loc, tokens )
+  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 4271, in postParse
+    retToks += ParseResults([ "".join(tokenlist._asStringList(self.joinString)) ], modal=self.modalResults)
+  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 663, in __iadd__
+    def __iadd__( self, other ):
+KeyboardInterrupt

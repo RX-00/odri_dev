@@ -1,0 +1,46 @@
+Welcome to reactive_planners's documentation!
+==============================================
+
+.. mdinclude:: readme.md
+
+General Documentation
+---------------------
+.. toctree::
+   :maxdepth: 2
+
+   general_documentation
+
+
+
+C++ API
+-------
+.. toctree::
+   :maxdepth: 2
+
+   doxygen_index
+
+
+
+Python API
+----------
+* :ref:`modindex`
+
+.. toctree::
+   :maxdepth: 3
+
+   modules
+
+
+
+
+
+Indices and Tables
+------------------
+
+* :ref:`genindex`
+* :ref:`search`
+
+License and Copyrights
+----------------------
+
+.. mdinclude:: license.txt

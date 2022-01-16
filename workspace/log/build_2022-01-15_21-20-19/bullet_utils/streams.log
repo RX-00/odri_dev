@@ -1,0 +1,124 @@
+[2.167s] Invoking command in '/home/roy/odri_dev/workspace/src/bullet_utils': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules:${CMAKE_PREFIX_PATH} PATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin:${PATH} PYTHONPATH=/home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bullet_utils build --build-base /home/roy/odri_dev/workspace/build/bullet_utils/build install --prefix /home/roy/odri_dev/workspace/install/bullet_utils --record /home/roy/odri_dev/workspace/build/bullet_utils/install.log --single-version-externally-managed
+[4.226s] running egg_info
+[4.230s] writing ../../build/bullet_utils/bullet_utils.egg-info/PKG-INFO
+[4.231s] writing dependency_links to ../../build/bullet_utils/bullet_utils.egg-info/dependency_links.txt
+[4.232s] writing entry points to ../../build/bullet_utils/bullet_utils.egg-info/entry_points.txt
+[4.233s] writing requirements to ../../build/bullet_utils/bullet_utils.egg-info/requires.txt
+[4.233s] writing top-level names to ../../build/bullet_utils/bullet_utils.egg-info/top_level.txt
+[4.244s] reading manifest file '../../build/bullet_utils/bullet_utils.egg-info/SOURCES.txt'
+[4.249s] writing manifest file '../../build/bullet_utils/bullet_utils.egg-info/SOURCES.txt'
+[4.250s] running build
+[4.250s] running build_py
+[7.218s] sphinx-apidoc output:
+[7.222s]  Creating file /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/bullet_utils.rst.
+[7.222s] Creating file /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/bullet_utils.resources.rst.
+[7.223s] Creating file /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/pinocchio_bullet.rst.
+[7.223s] Creating file /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/py_pinocchio_bullet.rst.
+[7.223s] Creating file /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/modules.rst.
+[7.223s] 
+[7.224s] sphinx-apidoc error:
+[7.224s]  None
+[7.224s] 
+[10.719s] pybullet build time: Oct 11 2021 20:59:39
+[11.995s] /home/roy/.local/lib/python3.8/site-packages/recommonmark/parser.py:75: UserWarning: Container node skipped: type=document
+[11.996s]   warn("Container node skipped: type={0}".format(mdnode.t))
+[12.109s] WARNING: autodoc: failed to import module 'wrapper' from module 'bullet_utils'; the following exception was raised:
+[12.110s] No module named 'pinocchio'
+[12.161s] /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/readme.md: WARNING: document isn't included in any toctree
+[14.683s] sphinx-apidoc output:
+[14.684s]  Running Sphinx v4.3.1
+[14.684s] making output directory... done
+[14.685s] loading intersphinx inventory from https://docs.python.org/objects.inv...
+[14.685s] intersphinx inventory has moved: https://docs.python.org/objects.inv -> https://docs.python.org/3/objects.inv
+[14.685s] building [mo]: targets for 0 po files that are out of date
+[14.686s] building [html]: targets for 7 source files that are out of date
+[14.686s] updating environment: [new config] 7 added, 0 changed, 0 removed
+[14.686s] reading sources... [ 14%] bullet_utils
+[14.687s] reading sources... [ 28%] bullet_utils.resources
+[14.687s] reading sources... [ 42%] index
+[14.687s] reading sources... [ 57%] modules
+[14.688s] reading sources... [ 71%] pinocchio_bullet
+[14.688s] reading sources... [ 85%] py_pinocchio_bullet
+[14.688s] reading sources... [100%] readme
+[14.688s] 
+[14.689s] looking for now-outdated files... none found
+[14.689s] pickling environment... done
+[14.690s] checking consistency... done
+[14.690s] preparing documents... done
+[14.690s] writing output... [ 14%] bullet_utils
+[14.691s] writing output... [ 28%] bullet_utils.resources
+[14.691s] writing output... [ 42%] index
+[14.691s] writing output... [ 57%] modules
+[14.691s] writing output... [ 71%] pinocchio_bullet
+[14.692s] writing output... [ 85%] py_pinocchio_bullet
+[14.692s] writing output... [100%] readme
+[14.692s] 
+[14.693s] generating indices... genindex py-modindex done
+[14.693s] highlighting module code... [100%] bullet_utils.env
+[14.694s] 
+[14.694s] writing additional pages... search done
+[14.695s] copying static files... done
+[14.695s] copying extra files... done
+[14.696s] dumping search index in English (code: en)... done
+[14.696s] dumping object inventory... done
+[14.696s] build succeeded, 2 warnings.
+[14.697s] 
+[14.697s] The HTML pages are in html.
+[14.718s] 
+[14.719s] sphinx-apidoc error:
+[14.719s]  None
+[14.719s] running build_scripts
+[14.720s] running install
+[14.720s] running install_lib
+[14.727s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/modules.rst -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc
+[14.728s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/readme.md -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc
+[14.728s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/index.rst -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc
+[14.735s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/py_pinocchio_bullet.rst -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc
+[14.736s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/conf.py -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc
+[14.737s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/pinocchio_bullet.rst -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc
+[14.740s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/doctrees/readme.doctree -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/doctrees
+[14.741s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/doctrees/pinocchio_bullet.doctree -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/doctrees
+[14.742s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/doctrees/modules.doctree -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/doctrees
+[14.742s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/doctrees/py_pinocchio_bullet.doctree -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/doctrees
+[14.743s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/doctrees/index.doctree -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/doctrees
+[14.743s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/doctrees/environment.pickle -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/doctrees
+[14.759s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/doctrees/bullet_utils.doctree -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/doctrees
+[14.759s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/doctrees/bullet_utils.resources.doctree -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/doctrees
+[14.761s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/genindex.html -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html
+[14.761s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/.buildinfo -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html
+[14.762s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/bullet_utils.resources.html -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html
+[14.763s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/_modules/bullet_utils/env.html -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html/_modules/bullet_utils
+[14.764s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/_modules/index.html -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html/_modules
+[14.765s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/.nojekyll -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html
+[14.766s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/modules.html -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html
+[14.766s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/pinocchio_bullet.html -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html
+[14.767s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/objects.inv -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html
+[14.767s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/bullet_utils.html -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html
+[14.768s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/readme.html -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html
+[14.768s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/search.html -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html
+[14.769s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/_sources/py_pinocchio_bullet.rst.txt -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html/_sources
+[14.770s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/_sources/modules.rst.txt -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html/_sources
+[14.770s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/_sources/bullet_utils.rst.txt -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html/_sources
+[14.771s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/_sources/index.rst.txt -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html/_sources
+[14.771s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/_sources/bullet_utils.resources.rst.txt -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html/_sources
+[14.772s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/_sources/readme.md.txt -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html/_sources
+[14.772s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/_sources/pinocchio_bullet.rst.txt -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html/_sources
+[14.778s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/py-modindex.html -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html
+[14.778s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/searchindex.js -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html
+[14.778s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/index.html -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html
+[14.779s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/_static/language_data.js -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html/_static
+[14.782s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/_static/pygments.css -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html/_static
+[14.783s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/_static/documentation_options.js -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html/_static
+[14.783s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/_static/basic.css -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html/_static
+[14.783s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/html/py_pinocchio_bullet.html -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/html
+[14.784s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/bullet_utils.resources.rst -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc
+[14.784s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/license.txt -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc
+[14.784s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/bullet_utils.rst -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc
+[14.787s] byte-compiling /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/conf.py to conf.cpython-38.pyc
+[14.795s] running install_egg_info
+[14.806s] removing '/home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils-1.0.0-py3.8.egg-info' (and everything under it)
+[14.807s] Copying ../../build/bullet_utils/bullet_utils.egg-info to /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils-1.0.0-py3.8.egg-info
+[14.811s] running install_scripts
+[14.879s] changing mode of /home/roy/odri_dev/workspace/install/bullet_utils/lib/bullet_utils/demo_simulate_a_robot.py to 775
+[14.888s] writing list of installed files to '/home/roy/odri_dev/workspace/build/bullet_utils/install.log'
+[15.005s] Invoked command in '/home/roy/odri_dev/workspace/src/bullet_utils' returned '0': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules:${CMAKE_PREFIX_PATH} PATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin:${PATH} PYTHONPATH=/home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bullet_utils build --build-base /home/roy/odri_dev/workspace/build/bullet_utils/build install --prefix /home/roy/odri_dev/workspace/install/bullet_utils --record /home/roy/odri_dev/workspace/build/bullet_utils/install.log --single-version-externally-managed

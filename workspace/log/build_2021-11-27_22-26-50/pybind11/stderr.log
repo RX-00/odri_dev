@@ -1,0 +1,11 @@
+make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:492: tests/CMakeFiles/pybind11_tests.dir/test_tagbased_polymorphic.cpp.o] Interrupt
+make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:297: tests/CMakeFiles/pybind11_tests.dir/test_local_bindings.cpp.o] Interrupt
+make[2]: *** [tests/CMakeFiles/pybind11_cross_module_tests.dir/build.make:63: tests/CMakeFiles/pybind11_cross_module_tests.dir/pybind11_cross_module_tests.cpp.o] Interrupt
+make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:427: tests/CMakeFiles/pybind11_tests.dir/test_pytypes.cpp.o] Interrupt
+make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:453: tests/CMakeFiles/pybind11_tests.dir/test_smart_ptr.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:232: tests/CMakeFiles/pybind11_cross_module_tests.dir/all] Interrupt
+make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:440: tests/CMakeFiles/pybind11_tests.dir/test_sequences_and_iterators.cpp.o] Interrupt
+make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:466: tests/CMakeFiles/pybind11_tests.dir/test_stl.cpp.o] Interrupt
+make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:479: tests/CMakeFiles/pybind11_tests.dir/test_stl_binders.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:259: tests/CMakeFiles/pybind11_tests.dir/all] Interrupt
+make: *** [Makefile:130: all] Interrupt

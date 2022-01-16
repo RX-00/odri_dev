@@ -1,0 +1,4 @@
+Invoking command in '/home/roy/odri_dev/workspace/build/pybind11': /usr/bin/cmake /home/roy/odri_dev/workspace/src/pybind11 -DCMAKE_INSTALL_PREFIX=/home/roy/odri_dev/workspace/install/pybind11
+Invoked command in '/home/roy/odri_dev/workspace/build/pybind11' returned '0': /usr/bin/cmake /home/roy/odri_dev/workspace/src/pybind11 -DCMAKE_INSTALL_PREFIX=/home/roy/odri_dev/workspace/install/pybind11
+Invoking command in '/home/roy/odri_dev/workspace/build/pybind11': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/pybind11 -- -j8 -l8
+Invoked command in '/home/roy/odri_dev/workspace/build/pybind11' returned '-2': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/pybind11 -- -j8 -l8

@@ -1,0 +1,6 @@
+-- The OS type is non-real-time
+-- The OS type is non-real-time
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Configuring incomplete, errors occurred!
+See also "/home/roy/odri_dev/workspace/build/real_time_tools/CMakeFiles/CMakeOutput.log".
+See also "/home/roy/odri_dev/workspace/build/real_time_tools/CMakeFiles/CMakeError.log".

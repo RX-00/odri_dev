@@ -1,0 +1,17 @@
+[0.007s] Invoking command in '/home/roy/odri_dev/workspace/build/yaml_utils': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/googletest-distribution:/opt/openrobots /usr/bin/cmake /home/roy/odri_dev/workspace/src/yaml_utils -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/roy/odri_dev/workspace/install/yaml_utils
+[0.034s] CMake Error at CMakeLists.txt:23 (find_package):
+[0.034s]   Could not find a package configuration file provided by "yaml-cpp" with any
+[0.034s]   of the following names:
+[0.035s] 
+[0.035s]     yaml-cppConfig.cmake
+[0.035s]     yaml-cpp-config.cmake
+[0.035s] 
+[0.035s]   Add the installation prefix of "yaml-cpp" to CMAKE_PREFIX_PATH or set
+[0.035s]   "yaml-cpp_DIR" to a directory containing one of the above files.  If
+[0.036s]   "yaml-cpp" provides a separate development package or SDK, be sure it has
+[0.036s]   been installed.
+[0.037s] 
+[0.037s] 
+[0.038s] -- Configuring incomplete, errors occurred!
+[0.038s] See also "/home/roy/odri_dev/workspace/build/yaml_utils/CMakeFiles/CMakeOutput.log".
+[0.038s] Invoked command in '/home/roy/odri_dev/workspace/build/yaml_utils' returned '1': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/googletest-distribution:/opt/openrobots /usr/bin/cmake /home/roy/odri_dev/workspace/src/yaml_utils -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/roy/odri_dev/workspace/install/yaml_utils

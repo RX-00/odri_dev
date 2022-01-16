@@ -1,0 +1,79 @@
+[0.058s] Invoking command in '/home/roy/odri_dev/workspace/build/googletest-distribution': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/googletest-distribution -- -j8 -l8
+[0.144s] [ 12%] [32mBuilding CXX object googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[20.188s] [ 25%] [32m[1mLinking CXX static library ../lib/libgtest.a[0m
+[20.236s] [ 25%] Built target gtest
+[20.249s] [35m[1mScanning dependencies of target gtest_main[0m
+[20.256s] [35m[1mScanning dependencies of target gmock[0m
+[20.267s] [ 37%] [32mBuilding CXX object googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[20.278s] [ 50%] [32mBuilding CXX object googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[21.427s] [ 62%] [32m[1mLinking CXX static library ../lib/libgtest_main.a[0m
+[21.467s] [ 62%] Built target gtest_main
+[24.408s] [ 75%] [32m[1mLinking CXX static library ../lib/libgmock.a[0m
+[24.479s] [ 75%] Built target gmock
+[24.498s] [35m[1mScanning dependencies of target gmock_main[0m
+[24.519s] [ 87%] [32mBuilding CXX object googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[25.924s] [100%] [32m[1mLinking CXX static library ../lib/libgmock_main.a[0m
+[25.973s] [100%] Built target gmock_main
+[25.988s] Invoked command in '/home/roy/odri_dev/workspace/build/googletest-distribution' returned '0': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/googletest-distribution -- -j8 -l8
+[26.021s] Invoking command in '/home/roy/odri_dev/workspace/build/googletest-distribution': /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/googletest-distribution
+[26.038s] -- Install configuration: "Release"
+[26.038s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include
+[26.038s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock
+[26.038s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/gmock-function-mocker.h
+[26.038s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/gmock-nice-strict.h
+[26.039s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/gmock-actions.h
+[26.039s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/gmock-more-matchers.h
+[26.039s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/gmock.h
+[26.039s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/gmock-more-actions.h
+[26.039s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/internal
+[26.040s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/internal/custom
+[26.040s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/internal/custom/README.md
+[26.040s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/internal/custom/gmock-port.h
+[26.040s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/internal/custom/gmock-matchers.h
+[26.040s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/internal/custom/gmock-generated-actions.h
+[26.040s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/internal/gmock-port.h
+[26.040s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/internal/gmock-internal-utils.h
+[26.041s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/internal/gmock-pp.h
+[26.041s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/gmock-cardinalities.h
+[26.041s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/gmock-matchers.h
+[26.041s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/gmock-spec-builders.h
+[26.041s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/libgmock.a
+[26.041s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/libgmock_main.a
+[26.042s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/pkgconfig/gmock.pc
+[26.042s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/pkgconfig/gmock_main.pc
+[26.042s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/cmake/GTest/GTestTargets.cmake
+[26.042s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/cmake/GTest/GTestTargets-release.cmake
+[26.042s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/cmake/GTest/GTestConfigVersion.cmake
+[26.042s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/cmake/GTest/GTestConfig.cmake
+[26.043s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include
+[26.043s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest
+[26.043s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/gtest-test-part.h
+[26.043s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/gtest_prod.h
+[26.043s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/gtest.h
+[26.043s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/gtest-param-test.h
+[26.044s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/gtest-death-test.h
+[26.044s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/gtest-typed-test.h
+[26.044s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/gtest-matchers.h
+[26.044s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal
+[26.044s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/gtest-type-util.h
+[26.045s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/gtest-param-util.h
+[26.045s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/gtest-string.h
+[26.045s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/gtest-port.h
+[26.045s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/custom
+[26.045s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/custom/gtest.h
+[26.045s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/custom/README.md
+[26.045s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/custom/gtest-port.h
+[26.046s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/custom/gtest-printers.h
+[26.046s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/gtest-death-test-internal.h
+[26.046s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/gtest-port-arch.h
+[26.046s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/gtest-internal.h
+[26.046s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/gtest-filepath.h
+[26.046s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/gtest-message.h
+[26.046s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/gtest-printers.h
+[26.046s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/gtest_pred_impl.h
+[26.047s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/gtest-spi.h
+[26.047s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/libgtest.a
+[26.047s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/libgtest_main.a
+[26.047s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/pkgconfig/gtest.pc
+[26.047s] -- Installing: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/pkgconfig/gtest_main.pc
+[26.061s] Invoked command in '/home/roy/odri_dev/workspace/build/googletest-distribution' returned '0': /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/googletest-distribution

@@ -1,0 +1,16 @@
+[0.023s] Invoking command in '/home/roy/odri_dev/workspace/build/real_time_tools': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/pybind11:/home/roy/odri_dev/workspace/install/mpi_cmake_modules:/home/roy/odri_dev/workspace/install/googletest-distribution:/opt/openrobots:/opt/openrobots PATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin:${PATH} PYTHONPATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages /usr/bin/cmake /home/roy/odri_dev/workspace/src/real_time_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/roy/odri_dev/workspace/install/real_time_tools
+[0.051s] -- The OS type is non-real-time
+[0.147s] -- The OS type is non-real-time
+[0.362s] -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+[0.362s] CMake Error at /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/sphinx.cmake:21 (message):
+[0.362s]   Doxygen is needed to build the documentation.  Please install it correctly
+[0.363s] Call Stack (most recent call first):
+[0.363s]   /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/sphinx.cmake:229 (_build_doxygen)
+[0.363s]   /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/documentation.cmake:46 (add_sphinx_documentation)
+[0.363s]   CMakeLists.txt:154 (add_documentation)
+[0.363s] 
+[0.364s] 
+[0.364s] -- Configuring incomplete, errors occurred!
+[0.364s] See also "/home/roy/odri_dev/workspace/build/real_time_tools/CMakeFiles/CMakeOutput.log".
+[0.364s] See also "/home/roy/odri_dev/workspace/build/real_time_tools/CMakeFiles/CMakeError.log".
+[0.368s] Invoked command in '/home/roy/odri_dev/workspace/build/real_time_tools' returned '1': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/pybind11:/home/roy/odri_dev/workspace/install/mpi_cmake_modules:/home/roy/odri_dev/workspace/install/googletest-distribution:/opt/openrobots:/opt/openrobots PATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin:${PATH} PYTHONPATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages /usr/bin/cmake /home/roy/odri_dev/workspace/src/real_time_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/roy/odri_dev/workspace/install/real_time_tools

@@ -1,0 +1,88 @@
+[0.099s] Invoking command in '/home/roy/odri_dev/workspace/build/mpi_cmake_modules': /usr/bin/cmake /home/roy/odri_dev/workspace/src/mpi_cmake_modules -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/roy/odri_dev/workspace/install/mpi_cmake_modules
+[0.134s] -- The OS type is non-real-time
+[0.603s] -- Configuring done
+[0.619s] -- Generating done
+[0.634s] -- Build files have been written to: /home/roy/odri_dev/workspace/build/mpi_cmake_modules
+[0.647s] Invoked command in '/home/roy/odri_dev/workspace/build/mpi_cmake_modules' returned '0': /usr/bin/cmake /home/roy/odri_dev/workspace/src/mpi_cmake_modules -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/roy/odri_dev/workspace/install/mpi_cmake_modules
+[0.650s] Invoking command in '/home/roy/odri_dev/workspace/build/mpi_cmake_modules': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/mpi_cmake_modules -- -j8 -l8
+[0.837s] Invoked command in '/home/roy/odri_dev/workspace/build/mpi_cmake_modules' returned '0': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/mpi_cmake_modules -- -j8 -l8
+[1.073s] Invoking command in '/home/roy/odri_dev/workspace/build/mpi_cmake_modules': /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/mpi_cmake_modules
+[1.114s] -- Install configuration: "Release"
+[1.115s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources
+[1.115s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/Doxyfile.in
+[1.117s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/py_filter
+[1.118s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/_clang-format
+[1.128s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx
+[1.128s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx
+[1.129s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx/doxygen_index.rst.in
+[1.129s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx/conf.py.in
+[1.129s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx/conf.py
+[1.130s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx/cmake_doc.rst.in
+[1.130s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx/general_documentation.rst.in
+[1.131s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx/doxygen_index_one_page.rst.in
+[1.131s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx/index.rst.in
+[1.131s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/doxygen
+[1.132s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/doxygen/Doxyfile.in
+[1.132s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/dg_python_module.cc.in
+[1.132s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/__init__.py.empty.in
+[1.133s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules
+[1.133s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/documentation_builder.py
+[1.134s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/cmake_format.py
+[1.134s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/cpp_format.py
+[1.135s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/__init__.py
+[1.135s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/python_format.py
+[1.135s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/utils.py
+[1.135s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/yaml2oneline.py
+[1.136s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake
+[1.136s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/dynamic_graph.cmake
+[1.136s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/xacro.cmake
+[1.137s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/xenomai.cmake
+[1.137s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/get_python_install_dir.cmake
+[1.137s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/install_scripts.cmake
+[1.138s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/generate_cmake_package.cmake
+[1.138s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/sphinx.cmake
+[1.138s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/global_calls.cmake
+[1.138s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules
+[1.139s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/python
+[1.139s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/python/FindPython.cmake.backup
+[1.139s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/python/Support.cmake.backup
+[1.140s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/python/FindPython.cmake
+[1.140s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/Findrt.cmake
+[1.140s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/FindZeroMQ.cmake
+[1.147s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/XenomaiConfig.cmake
+[1.148s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/Findcereal.cmake
+[1.159s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/FindZeroMQPP.cmake
+[1.162s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/FindPythonModules.cmake
+[1.163s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/get_python_interpreter.cmake
+[1.164s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/doxygen.cmake
+[1.165s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/print_target_properties.cmake
+[1.166s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/pybind11.cmake
+[1.166s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/boost_python.cmake
+[1.167s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/os_detection.cmake
+[1.168s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules.cmake
+[1.168s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/documentation.cmake
+[1.168s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin/mpi_cpp_format
+[1.169s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin/mpi_python_format
+[1.169s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin/mpi_cmake_format
+[1.169s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin/mpi_code_format
+[1.170s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin/mpi_doc_build
+[1.170s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources
+[1.170s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/Doxyfile.in
+[1.171s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/py_filter
+[1.171s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/_clang-format
+[1.171s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx
+[1.172s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx
+[1.172s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx/doxygen_index.rst.in
+[1.172s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx/conf.py.in
+[1.172s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx/conf.py
+[1.173s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx/cmake_doc.rst.in
+[1.173s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx/general_documentation.rst.in
+[1.173s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx/doxygen_index_one_page.rst.in
+[1.174s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx/index.rst.in
+[1.174s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/doxygen
+[1.174s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/doxygen/Doxyfile.in
+[1.174s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/dg_python_module.cc.in
+[1.175s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/__init__.py.empty.in
+[1.175s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/mpi_cmake_modulesConfig.cmake
+[1.175s] -- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/mpi_cmake_modulesConfigVersion.cmake
+[1.176s] Invoked command in '/home/roy/odri_dev/workspace/build/mpi_cmake_modules' returned '0': /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/mpi_cmake_modules

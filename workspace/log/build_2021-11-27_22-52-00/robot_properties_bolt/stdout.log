@@ -1,0 +1,144 @@
+running egg_info
+writing ../../build/robot_properties_bolt/robot_properties_bolt.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_properties_bolt/robot_properties_bolt.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_properties_bolt/robot_properties_bolt.egg-info/entry_points.txt
+writing requirements to ../../build/robot_properties_bolt/robot_properties_bolt.egg-info/requires.txt
+writing top-level names to ../../build/robot_properties_bolt/robot_properties_bolt.egg-info/top_level.txt
+reading manifest file '../../build/robot_properties_bolt/robot_properties_bolt.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_properties_bolt/robot_properties_bolt.egg-info/SOURCES.txt'
+running build
+running build_py
+sphinx-apidoc output:
+ Creating file /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/robot_properties_bolt.rst.
+Creating file /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/robot_properties_bolt.resources.rst.
+Creating file /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/modules.rst.
+
+sphinx-apidoc error:
+ None
+
+sphinx-apidoc output:
+ Running Sphinx v4.3.1
+making output directory... done
+loading intersphinx inventory from https://docs.python.org/objects.inv...
+intersphinx inventory has moved: https://docs.python.org/objects.inv -> https://docs.python.org/3/objects.inv
+building [mo]: targets for 0 po files that are out of date
+building [html]: targets for 5 source files that are out of date
+updating environment: [new config] 5 added, 0 changed, 0 removed
+reading sources... [ 20%] index
+reading sources... [ 40%] modules
+reading sources... [ 60%] readme
+reading sources... [ 80%] robot_properties_bolt
+reading sources... [100%] robot_properties_bolt.resources
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+writing output... [ 20%] index
+writing output... [ 40%] modules
+writing output... [ 60%] readme
+writing output... [ 80%] robot_properties_bolt
+writing output... [100%] robot_properties_bolt.resources
+
+generating indices... genindex py-modindex done
+writing additional pages... search done
+copying static files... done
+copying extra files... done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+build succeeded, 5 warnings.
+
+The HTML pages are in html.
+
+sphinx-apidoc error:
+ None
+running build_scripts
+running install
+running install_lib
+creating /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/modules.rst -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/readme.md -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/index.rst -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/conf.py -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc
+creating /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/doctrees
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/doctrees/readme.doctree -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/doctrees
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/doctrees/modules.doctree -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/doctrees
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/doctrees/robot_properties_bolt.resources.doctree -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/doctrees
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/doctrees/index.doctree -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/doctrees
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/doctrees/environment.pickle -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/doctrees
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/doctrees/robot_properties_bolt.doctree -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/doctrees
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/robot_properties_bolt.resources.rst -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc
+creating /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/genindex.html -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/.buildinfo -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/.nojekyll -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/modules.html -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/robot_properties_bolt.resources.html -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/objects.inv -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/readme.html -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/search.html -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html
+creating /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_sources
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_sources/robot_properties_bolt.resources.rst.txt -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_sources
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_sources/robot_properties_bolt.rst.txt -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_sources
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_sources/modules.rst.txt -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_sources
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_sources/index.rst.txt -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_sources
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_sources/readme.md.txt -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_sources
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/py-modindex.html -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/searchindex.js -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/robot_properties_bolt.html -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/index.html -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html
+creating /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/underscore.js -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/language_data.js -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/underscore-1.13.1.js -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static
+creating /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/js
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/js/html5shiv.min.js -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/js
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/js/theme.js -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/js
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/js/badge_only.js -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/js
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/js/html5shiv-printshiv.min.js -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/js
+creating /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/css
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/css/badge_only.css -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/css
+creating /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/css/fonts
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/css/fonts/lato-normal.woff -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/css/fonts
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/css/fonts/fontawesome-webfont.ttf -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/css/fonts
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/css/fonts/Roboto-Slab-Bold.woff2 -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/css/fonts
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/css/fonts/lato-normal.woff2 -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/css/fonts
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/css/fonts/lato-normal-italic.woff -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/css/fonts
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/css/fonts/lato-normal-italic.woff2 -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/css/fonts
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/css/fonts/Roboto-Slab-Regular.woff2 -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/css/fonts
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/css/fonts/fontawesome-webfont.svg -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/css/fonts
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/css/fonts/Roboto-Slab-Bold.woff -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/css/fonts
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/css/fonts/fontawesome-webfont.eot -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/css/fonts
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/css/fonts/Roboto-Slab-Regular.woff -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/css/fonts
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/css/fonts/lato-bold.woff2 -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/css/fonts
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/css/fonts/lato-bold-italic.woff -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/css/fonts
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/css/fonts/lato-bold.woff -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/css/fonts
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/css/fonts/fontawesome-webfont.woff -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/css/fonts
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/css/fonts/fontawesome-webfont.woff2 -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/css/fonts
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/css/fonts/lato-bold-italic.woff2 -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/css/fonts
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/css/theme.css -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static/css
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/file.png -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/pygments.css -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/doctools.js -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/minus.png -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/plus.png -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/documentation_options.js -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/jquery.js -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/basic.css -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/jquery-3.5.1.js -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/html/_static/searchtools.js -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/html/_static
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/robot_properties_bolt.rst -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/doc/license.txt -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/resources/urdf/bolt_passive_ankle.urdf -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/resources/urdf
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/resources/urdf/bolt.urdf -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/resources/urdf
+copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/resources/urdf/plane_with_restitution.urdf -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/resources/urdf
+byte-compiling /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/doc/conf.py to conf.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt-1.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/robot_properties_bolt/robot_properties_bolt.egg-info to /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt-1.0.0-py3.8.egg-info
+running install_scripts
+changing mode of /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/robot_properties_bolt/demo_display_bolt.py to 775
+changing mode of /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/robot_properties_bolt/demo_display_bolt_meshcat.py to 775
+changing mode of /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/robot_properties_bolt/demo_simulate_bolt.py to 775
+writing list of installed files to '/home/roy/odri_dev/workspace/build/robot_properties_bolt/install.log'

@@ -1,0 +1,11 @@
+pybullet build time: Oct 11 2021 20:59:39
+ModuleNotFoundError: No module named 'numpy'
+pybullet build time: Oct 11 2021 20:59:39
+ModuleNotFoundError: No module named 'numpy'
+/home/roy/.local/lib/python3.8/site-packages/recommonmark/parser.py:75: UserWarning: Container node skipped: type=document
+  warn("Container node skipped: type={0}".format(mdnode.t))
+WARNING: autodoc: failed to import module 'env' from module 'bullet_utils'; the following exception was raised:
+numpy.core.multiarray failed to import
+WARNING: autodoc: failed to import module 'wrapper' from module 'bullet_utils'; the following exception was raised:
+numpy.core.multiarray failed to import
+/home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/readme.md: WARNING: document isn't included in any toctree

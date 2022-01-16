@@ -1,0 +1,28 @@
+[0.050s] Invoking command in '/home/roy/odri_dev/workspace/build/googletest-distribution': /usr/bin/cmake /home/roy/odri_dev/workspace/src/googletest -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/roy/odri_dev/workspace/install/googletest-distribution
+[0.121s] -- The C compiler identification is GNU 9.3.0
+[0.191s] -- The CXX compiler identification is GNU 9.3.0
+[0.197s] -- Check for working C compiler: /usr/bin/cc
+[0.296s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.299s] -- Detecting C compiler ABI info
+[0.394s] -- Detecting C compiler ABI info - done
+[0.412s] -- Detecting C compile features
+[0.413s] -- Detecting C compile features - done
+[0.415s] -- Check for working CXX compiler: /usr/bin/c++
+[0.517s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.518s] -- Detecting CXX compiler ABI info
+[0.625s] -- Detecting CXX compiler ABI info - done
+[0.639s] -- Detecting CXX compile features
+[0.639s] -- Detecting CXX compile features - done
+[0.762s] -- Found Python: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[0.764s] -- Looking for pthread.h
+[0.862s] -- Looking for pthread.h - found
+[0.863s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.955s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.955s] -- Looking for pthread_create in pthreads
+[1.051s] -- Looking for pthread_create in pthreads - not found
+[1.051s] -- Looking for pthread_create in pthread
+[1.153s] -- Looking for pthread_create in pthread - found
+[1.155s] -- Found Threads: TRUE  
+[1.168s] -- Configuring done
+[1.177s] -- Generating done
+[1.178s] -- Build files have been written to: /home/roy/odri_dev/workspace/build/googletest-distribution

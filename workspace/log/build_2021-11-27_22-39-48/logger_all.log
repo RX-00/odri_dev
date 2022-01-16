@@ -1,0 +1,419 @@
+[0.445s] DEBUG:colcon:Command line arguments: ['/usr/local/bin/colcon', 'build', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.445s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f970bf040d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f970bf040d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f970bf04610>)
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.461s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/roy/odri_dev/workspace'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/bullet_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/bullet_utils) by extension 'ignore'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/bullet_utils) by extension 'ignore_ament_install'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/bullet_utils) by extensions ['colcon_pkg']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/bullet_utils) by extension 'colcon_pkg'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/bullet_utils) by extensions ['colcon_meta']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/bullet_utils) by extension 'colcon_meta'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/bullet_utils) by extensions ['ros']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/bullet_utils) by extension 'ros'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/bullet_utils) by extensions ['cmake', 'python']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/bullet_utils) by extension 'cmake'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/bullet_utils) by extension 'python'
+[0.536s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/bullet_utils' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/bullet_utils) by extensions ['python_setup_py']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/bullet_utils) by extension 'python_setup_py'
+[0.762s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bullet_utils' with type 'python' and name 'bullet_utils'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/googletest) by extensions ['ignore', 'ignore_ament_install']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/googletest) by extension 'ignore'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/googletest) by extension 'ignore_ament_install'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/googletest) by extensions ['colcon_pkg']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/googletest) by extension 'colcon_pkg'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/googletest) by extensions ['colcon_meta']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/googletest) by extension 'colcon_meta'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/googletest) by extensions ['ros']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/googletest) by extension 'ros'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/googletest) by extensions ['cmake', 'python']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/googletest) by extension 'cmake'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/googletest) by extension 'python'
+[0.776s] DEBUG:colcon.colcon_core.package_identification:Package 'src/googletest' with type 'cmake' and name 'googletest-distribution'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/mim_control) by extensions ['ignore', 'ignore_ament_install']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/mim_control) by extension 'ignore'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/mim_control) by extension 'ignore_ament_install'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/mim_control) by extensions ['colcon_pkg']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/mim_control) by extension 'colcon_pkg'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/mim_control) by extensions ['colcon_meta']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/mim_control) by extension 'colcon_meta'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/mim_control) by extensions ['ros']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/mim_control) by extension 'ros'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/mim_control) by extensions ['cmake', 'python']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/mim_control) by extension 'cmake'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/mim_control) by extension 'python'
+[0.778s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mim_control' with type 'cmake' and name 'mim_control'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpi_cmake_modules) by extensions ['ignore', 'ignore_ament_install']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpi_cmake_modules) by extension 'ignore'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpi_cmake_modules) by extension 'ignore_ament_install'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpi_cmake_modules) by extensions ['colcon_pkg']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpi_cmake_modules) by extension 'colcon_pkg'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpi_cmake_modules) by extensions ['colcon_meta']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpi_cmake_modules) by extension 'colcon_meta'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpi_cmake_modules) by extensions ['ros']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpi_cmake_modules) by extension 'ros'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpi_cmake_modules) by extensions ['cmake', 'python']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpi_cmake_modules) by extension 'cmake'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpi_cmake_modules) by extension 'python'
+[0.786s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mpi_cmake_modules' with type 'cmake' and name 'mpi_cmake_modules'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/pybind11) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/pybind11) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/pybind11) by extension 'ignore_ament_install'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/pybind11) by extensions ['colcon_pkg']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/pybind11) by extension 'colcon_pkg'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/pybind11) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/pybind11) by extension 'colcon_meta'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/pybind11) by extensions ['ros']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/pybind11) by extension 'ros'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/pybind11) by extensions ['cmake', 'python']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/pybind11) by extension 'cmake'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/pybind11) by extension 'python'
+[0.791s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/pybind11' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.791s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pybind11' with type 'cmake' and name 'pybind11'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_planners) by extensions ['ignore', 'ignore_ament_install']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_planners) by extension 'ignore'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_planners) by extension 'ignore_ament_install'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_planners) by extensions ['colcon_pkg']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_planners) by extension 'colcon_pkg'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_planners) by extensions ['colcon_meta']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_planners) by extension 'colcon_meta'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_planners) by extensions ['ros']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_planners) by extension 'ros'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_planners) by extensions ['cmake', 'python']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_planners) by extension 'cmake'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_planners) by extension 'python'
+[0.793s] DEBUG:colcon.colcon_core.package_identification:Package 'src/reactive_planners' with type 'cmake' and name 'reactive_planners'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/real_time_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/real_time_tools) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/real_time_tools) by extension 'ignore_ament_install'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/real_time_tools) by extensions ['colcon_pkg']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/real_time_tools) by extension 'colcon_pkg'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/real_time_tools) by extensions ['colcon_meta']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/real_time_tools) by extension 'colcon_meta'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/real_time_tools) by extensions ['ros']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/real_time_tools) by extension 'ros'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/real_time_tools) by extensions ['cmake', 'python']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/real_time_tools) by extension 'cmake'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/real_time_tools) by extension 'python'
+[0.795s] DEBUG:colcon.colcon_core.package_identification:Package 'src/real_time_tools' with type 'cmake' and name 'real_time_tools'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_properties_bolt) by extensions ['ignore', 'ignore_ament_install']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_properties_bolt) by extension 'ignore'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_properties_bolt) by extension 'ignore_ament_install'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_properties_bolt) by extensions ['colcon_pkg']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_properties_bolt) by extension 'colcon_pkg'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_properties_bolt) by extensions ['colcon_meta']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_properties_bolt) by extension 'colcon_meta'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_properties_bolt) by extensions ['ros']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_properties_bolt) by extension 'ros'
+[0.798s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_properties_bolt' with type 'ros.ament_python' and name 'robot_properties_bolt'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_properties_solo) by extensions ['ignore', 'ignore_ament_install']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_properties_solo) by extension 'ignore'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_properties_solo) by extension 'ignore_ament_install'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_properties_solo) by extensions ['colcon_pkg']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_properties_solo) by extension 'colcon_pkg'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_properties_solo) by extensions ['colcon_meta']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_properties_solo) by extension 'colcon_meta'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_properties_solo) by extensions ['ros']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_properties_solo) by extension 'ros'
+[0.799s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_properties_solo' with type 'ros.ament_python' and name 'robot_properties_solo'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml_utils) by extension 'ignore'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml_utils) by extension 'ignore_ament_install'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml_utils) by extensions ['colcon_pkg']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml_utils) by extension 'colcon_pkg'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml_utils) by extensions ['colcon_meta']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml_utils) by extension 'colcon_meta'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml_utils) by extensions ['ros']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml_utils) by extension 'ros'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml_utils) by extensions ['cmake', 'python']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml_utils) by extension 'cmake'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/yaml_utils) by extension 'python'
+[0.801s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yaml_utils' with type 'cmake' and name 'yaml_utils'
+[0.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.827s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/real_time_tools' from colcon.pkg: {'test-dependencies': ['googletest-distribution']}
+[0.828s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/reactive_planners' from colcon.pkg: {'test-dependencies': ['googletest-distribution']}
+[0.828s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/yaml_utils' from colcon.pkg: {'test-dependencies': ['googletest-distribution']}
+[0.829s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/mim_control' from colcon.pkg: {'test-dependencies': ['googletest-distribution', 'robot_properties_solo', 'robot_properties_bolt', 'robot_properties_teststand']}
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'googletest-distribution' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'googletest-distribution' build argument 'cmake_target' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'googletest-distribution' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'googletest-distribution' build argument 'cmake_clean_cache' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'googletest-distribution' build argument 'cmake_clean_first' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'googletest-distribution' build argument 'cmake_force_configure' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'googletest-distribution' build argument 'ament_cmake_args' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'googletest-distribution' build argument 'catkin_cmake_args' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'googletest-distribution' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.843s] DEBUG:colcon.colcon_core.verb:Building package 'googletest-distribution' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roy/odri_dev/workspace/build/googletest-distribution', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roy/odri_dev/workspace/install/googletest-distribution', 'merge_install': False, 'path': '/home/roy/odri_dev/workspace/src/googletest', 'symlink_install': False, 'test_result_base': None}
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'mpi_cmake_modules' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'mpi_cmake_modules' build argument 'cmake_target' from command line to 'None'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'mpi_cmake_modules' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'mpi_cmake_modules' build argument 'cmake_clean_cache' from command line to 'False'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'mpi_cmake_modules' build argument 'cmake_clean_first' from command line to 'False'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'mpi_cmake_modules' build argument 'cmake_force_configure' from command line to 'False'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'mpi_cmake_modules' build argument 'ament_cmake_args' from command line to 'None'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'mpi_cmake_modules' build argument 'catkin_cmake_args' from command line to 'None'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'mpi_cmake_modules' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.851s] DEBUG:colcon.colcon_core.verb:Building package 'mpi_cmake_modules' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roy/odri_dev/workspace/build/mpi_cmake_modules', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roy/odri_dev/workspace/install/mpi_cmake_modules', 'merge_install': False, 'path': '/home/roy/odri_dev/workspace/src/mpi_cmake_modules', 'symlink_install': False, 'test_result_base': None}
+[0.859s] Level 5:colcon.colcon_core.verb:set package 'pybind11' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.859s] Level 5:colcon.colcon_core.verb:set package 'pybind11' build argument 'cmake_target' from command line to 'None'
+[0.859s] Level 5:colcon.colcon_core.verb:set package 'pybind11' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.859s] Level 5:colcon.colcon_core.verb:set package 'pybind11' build argument 'cmake_clean_cache' from command line to 'False'
+[0.859s] Level 5:colcon.colcon_core.verb:set package 'pybind11' build argument 'cmake_clean_first' from command line to 'False'
+[0.859s] Level 5:colcon.colcon_core.verb:set package 'pybind11' build argument 'cmake_force_configure' from command line to 'False'
+[0.859s] Level 5:colcon.colcon_core.verb:set package 'pybind11' build argument 'ament_cmake_args' from command line to 'None'
+[0.859s] Level 5:colcon.colcon_core.verb:set package 'pybind11' build argument 'catkin_cmake_args' from command line to 'None'
+[0.859s] Level 5:colcon.colcon_core.verb:set package 'pybind11' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.859s] DEBUG:colcon.colcon_core.verb:Building package 'pybind11' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roy/odri_dev/workspace/build/pybind11', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roy/odri_dev/workspace/install/pybind11', 'merge_install': False, 'path': '/home/roy/odri_dev/workspace/src/pybind11', 'symlink_install': False, 'test_result_base': None}
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'bullet_utils' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'bullet_utils' build argument 'cmake_target' from command line to 'None'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'bullet_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'bullet_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'bullet_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'bullet_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'bullet_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'bullet_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'bullet_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.867s] DEBUG:colcon.colcon_core.verb:Building package 'bullet_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roy/odri_dev/workspace/build/bullet_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roy/odri_dev/workspace/install/bullet_utils', 'merge_install': False, 'path': '/home/roy/odri_dev/workspace/src/bullet_utils', 'symlink_install': False, 'test_result_base': None}
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'real_time_tools' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'real_time_tools' build argument 'cmake_target' from command line to 'None'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'real_time_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'real_time_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'real_time_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'real_time_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'real_time_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'real_time_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'real_time_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.876s] DEBUG:colcon.colcon_core.verb:Building package 'real_time_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roy/odri_dev/workspace/build/real_time_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roy/odri_dev/workspace/install/real_time_tools', 'merge_install': False, 'path': '/home/roy/odri_dev/workspace/src/real_time_tools', 'symlink_install': False, 'test_result_base': None}
+[0.883s] Level 5:colcon.colcon_core.verb:set package 'yaml_utils' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.884s] Level 5:colcon.colcon_core.verb:set package 'yaml_utils' build argument 'cmake_target' from command line to 'None'
+[0.884s] Level 5:colcon.colcon_core.verb:set package 'yaml_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.884s] Level 5:colcon.colcon_core.verb:set package 'yaml_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.884s] Level 5:colcon.colcon_core.verb:set package 'yaml_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.884s] Level 5:colcon.colcon_core.verb:set package 'yaml_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.884s] Level 5:colcon.colcon_core.verb:set package 'yaml_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.884s] Level 5:colcon.colcon_core.verb:set package 'yaml_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.884s] Level 5:colcon.colcon_core.verb:set package 'yaml_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.884s] DEBUG:colcon.colcon_core.verb:Building package 'yaml_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roy/odri_dev/workspace/build/yaml_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roy/odri_dev/workspace/install/yaml_utils', 'merge_install': False, 'path': '/home/roy/odri_dev/workspace/src/yaml_utils', 'symlink_install': False, 'test_result_base': None}
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'reactive_planners' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'reactive_planners' build argument 'cmake_target' from command line to 'None'
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'reactive_planners' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'reactive_planners' build argument 'cmake_clean_cache' from command line to 'False'
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'reactive_planners' build argument 'cmake_clean_first' from command line to 'False'
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'reactive_planners' build argument 'cmake_force_configure' from command line to 'False'
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'reactive_planners' build argument 'ament_cmake_args' from command line to 'None'
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'reactive_planners' build argument 'catkin_cmake_args' from command line to 'None'
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'reactive_planners' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.892s] DEBUG:colcon.colcon_core.verb:Building package 'reactive_planners' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roy/odri_dev/workspace/build/reactive_planners', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roy/odri_dev/workspace/install/reactive_planners', 'merge_install': False, 'path': '/home/roy/odri_dev/workspace/src/reactive_planners', 'symlink_install': False, 'test_result_base': None}
+[0.900s] Level 5:colcon.colcon_core.verb:set package 'robot_properties_bolt' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.900s] Level 5:colcon.colcon_core.verb:set package 'robot_properties_bolt' build argument 'cmake_target' from command line to 'None'
+[0.900s] Level 5:colcon.colcon_core.verb:set package 'robot_properties_bolt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.900s] Level 5:colcon.colcon_core.verb:set package 'robot_properties_bolt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.900s] Level 5:colcon.colcon_core.verb:set package 'robot_properties_bolt' build argument 'cmake_clean_first' from command line to 'False'
+[0.900s] Level 5:colcon.colcon_core.verb:set package 'robot_properties_bolt' build argument 'cmake_force_configure' from command line to 'False'
+[0.900s] Level 5:colcon.colcon_core.verb:set package 'robot_properties_bolt' build argument 'ament_cmake_args' from command line to 'None'
+[0.900s] Level 5:colcon.colcon_core.verb:set package 'robot_properties_bolt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.900s] Level 5:colcon.colcon_core.verb:set package 'robot_properties_bolt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.900s] DEBUG:colcon.colcon_core.verb:Building package 'robot_properties_bolt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roy/odri_dev/workspace/build/robot_properties_bolt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roy/odri_dev/workspace/install/robot_properties_bolt', 'merge_install': False, 'path': '/home/roy/odri_dev/workspace/src/robot_properties_bolt', 'symlink_install': False, 'test_result_base': None}
+[0.908s] Level 5:colcon.colcon_core.verb:set package 'robot_properties_solo' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.908s] Level 5:colcon.colcon_core.verb:set package 'robot_properties_solo' build argument 'cmake_target' from command line to 'None'
+[0.908s] Level 5:colcon.colcon_core.verb:set package 'robot_properties_solo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.908s] Level 5:colcon.colcon_core.verb:set package 'robot_properties_solo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.908s] Level 5:colcon.colcon_core.verb:set package 'robot_properties_solo' build argument 'cmake_clean_first' from command line to 'False'
+[0.908s] Level 5:colcon.colcon_core.verb:set package 'robot_properties_solo' build argument 'cmake_force_configure' from command line to 'False'
+[0.908s] Level 5:colcon.colcon_core.verb:set package 'robot_properties_solo' build argument 'ament_cmake_args' from command line to 'None'
+[0.908s] Level 5:colcon.colcon_core.verb:set package 'robot_properties_solo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.908s] Level 5:colcon.colcon_core.verb:set package 'robot_properties_solo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.908s] DEBUG:colcon.colcon_core.verb:Building package 'robot_properties_solo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roy/odri_dev/workspace/build/robot_properties_solo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roy/odri_dev/workspace/install/robot_properties_solo', 'merge_install': False, 'path': '/home/roy/odri_dev/workspace/src/robot_properties_solo', 'symlink_install': False, 'test_result_base': None}
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'mim_control' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'mim_control' build argument 'cmake_target' from command line to 'None'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'mim_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'mim_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'mim_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'mim_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'mim_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'mim_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'mim_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.916s] DEBUG:colcon.colcon_core.verb:Building package 'mim_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roy/odri_dev/workspace/build/mim_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roy/odri_dev/workspace/install/mim_control', 'merge_install': False, 'path': '/home/roy/odri_dev/workspace/src/mim_control', 'symlink_install': False, 'test_result_base': None}
+[0.918s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.931s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.932s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/roy/odri_dev/workspace/src/googletest'
+[0.942s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.942s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.942s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.952s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/roy/odri_dev/workspace/src/mpi_cmake_modules'
+[0.959s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.959s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.968s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/roy/odri_dev/workspace/src/pybind11'
+[0.982s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.982s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roy/odri_dev/workspace/build/googletest-distribution': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/googletest-distribution -- -j8 -l8
+[1.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roy/odri_dev/workspace/build/mpi_cmake_modules': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/mpi_cmake_modules -- -j8 -l8
+[1.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roy/odri_dev/workspace/build/pybind11': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/pybind11 -- -j8 -l8
+[1.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roy/odri_dev/workspace/build/mpi_cmake_modules' returned '0': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/mpi_cmake_modules -- -j8 -l8
+[1.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roy/odri_dev/workspace/build/mpi_cmake_modules': /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/mpi_cmake_modules
+[1.122s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpi_cmake_modules)
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/roy/odri_dev/workspace/install/mpi_cmake_modules' for CMake module files
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/roy/odri_dev/workspace/install/mpi_cmake_modules' for CMake config files
+[1.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpi_cmake_modules', 'cmake_prefix_path')
+[1.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/hook/cmake_prefix_path.ps1'
+[1.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/hook/cmake_prefix_path.dsv'
+[1.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roy/odri_dev/workspace/build/mpi_cmake_modules' returned '0': /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/mpi_cmake_modules
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/hook/cmake_prefix_path.sh'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin'
+[1.161s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpi_cmake_modules', 'path')
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/hook/path.ps1'
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/hook/path.dsv'
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/hook/path.sh'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/pkgconfig/mpi_cmake_modules.pc'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages'
+[1.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpi_cmake_modules', 'pythonpath')
+[1.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/hook/pythonpath.ps1'
+[1.186s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/hook/pythonpath.dsv'
+[1.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/hook/pythonpath.sh'
+[1.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/package.ps1'
+[1.194s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/package.dsv'
+[1.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/package.sh'
+[1.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/package.bash'
+[1.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/package.zsh'
+[1.197s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/colcon-core/packages/mpi_cmake_modules)
+[1.198s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/roy/odri_dev/workspace/src/bullet_utils'
+[1.204s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.204s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roy/odri_dev/workspace/build/pybind11' returned '0': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/pybind11 -- -j8 -l8
+[1.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roy/odri_dev/workspace/build/googletest-distribution' returned '0': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/googletest-distribution -- -j8 -l8
+[1.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roy/odri_dev/workspace/src/bullet_utils': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules:/opt/openrobots:/opt/openrobots:/opt/openrobots:/opt/openrobots:/opt/openrobots PATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin:${PATH} PYTHONPATH=/home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python3.8/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/bullet_utils build --build-base /home/roy/odri_dev/workspace/build/bullet_utils/build install --prefix /home/roy/odri_dev/workspace/install/bullet_utils --record /home/roy/odri_dev/workspace/build/bullet_utils/install.log --single-version-externally-managed
+[1.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roy/odri_dev/workspace/build/pybind11': /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/pybind11
+[1.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roy/odri_dev/workspace/build/googletest-distribution': /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/googletest-distribution
+[1.494s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pybind11)
+[1.502s] Level 1:colcon.colcon_core.environment:checking '/home/roy/odri_dev/workspace/install/pybind11' for CMake module files
+[1.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('pybind11', 'cmake_module_path')
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roy/odri_dev/workspace/install/pybind11/share/pybind11/hook/cmake_module_path.ps1'
+[1.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roy/odri_dev/workspace/install/pybind11/share/pybind11/hook/cmake_module_path.dsv'
+[1.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roy/odri_dev/workspace/install/pybind11/share/pybind11/hook/cmake_module_path.sh'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/roy/odri_dev/workspace/install/pybind11' for CMake config files
+[1.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('pybind11', 'cmake_prefix_path')
+[1.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roy/odri_dev/workspace/install/pybind11/share/pybind11/hook/cmake_prefix_path.ps1'
+[1.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roy/odri_dev/workspace/install/pybind11/share/pybind11/hook/cmake_prefix_path.dsv'
+[1.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roy/odri_dev/workspace/build/pybind11' returned '0': /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/pybind11
+[1.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roy/odri_dev/workspace/install/pybind11/share/pybind11/hook/cmake_prefix_path.sh'
+[1.524s] Level 1:colcon.colcon_core.environment:checking '/home/roy/odri_dev/workspace/install/pybind11/bin'
+[1.524s] Level 1:colcon.colcon_core.environment:checking '/home/roy/odri_dev/workspace/install/pybind11/lib/pkgconfig/pybind11.pc'
+[1.525s] Level 1:colcon.colcon_core.environment:checking '/home/roy/odri_dev/workspace/install/pybind11/lib/python3.8/site-packages'
+[1.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/roy/odri_dev/workspace/install/pybind11/share/pybind11/package.ps1'
+[1.532s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roy/odri_dev/workspace/install/pybind11/share/pybind11/package.dsv'
+[1.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/roy/odri_dev/workspace/install/pybind11/share/pybind11/package.sh'
+[1.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/roy/odri_dev/workspace/install/pybind11/share/pybind11/package.bash'
+[1.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/roy/odri_dev/workspace/install/pybind11/share/pybind11/package.zsh'
+[1.535s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roy/odri_dev/workspace/install/pybind11/share/colcon-core/packages/pybind11)
+[1.537s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(googletest-distribution)
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/roy/odri_dev/workspace/install/googletest-distribution' for CMake module files
+[1.544s] Level 1:colcon.colcon_core.environment:checking '/home/roy/odri_dev/workspace/install/googletest-distribution' for CMake config files
+[1.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('googletest-distribution', 'cmake_prefix_path')
+[1.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roy/odri_dev/workspace/install/googletest-distribution/share/googletest-distribution/hook/cmake_prefix_path.ps1'
+[1.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roy/odri_dev/workspace/install/googletest-distribution/share/googletest-distribution/hook/cmake_prefix_path.dsv'
+[1.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roy/odri_dev/workspace/install/googletest-distribution/share/googletest-distribution/hook/cmake_prefix_path.sh'
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/roy/odri_dev/workspace/install/googletest-distribution/lib'
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/roy/odri_dev/workspace/install/googletest-distribution/bin'
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/roy/odri_dev/workspace/install/googletest-distribution/lib/pkgconfig/googletest-distribution.pc'
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/roy/odri_dev/workspace/install/googletest-distribution/lib/python3.8/site-packages'
+[1.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/roy/odri_dev/workspace/install/googletest-distribution/share/googletest-distribution/package.ps1'
+[1.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roy/odri_dev/workspace/install/googletest-distribution/share/googletest-distribution/package.dsv'
+[1.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/roy/odri_dev/workspace/install/googletest-distribution/share/googletest-distribution/package.sh'
+[1.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/roy/odri_dev/workspace/install/googletest-distribution/share/googletest-distribution/package.bash'
+[1.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/roy/odri_dev/workspace/install/googletest-distribution/share/googletest-distribution/package.zsh'
+[1.565s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roy/odri_dev/workspace/install/googletest-distribution/share/colcon-core/packages/googletest-distribution)
+[1.566s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/roy/odri_dev/workspace/src/yaml_utils'
+[1.572s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.572s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.582s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/roy/odri_dev/workspace/src/real_time_tools'
+[1.598s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.599s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roy/odri_dev/workspace/build/googletest-distribution' returned '0': /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/googletest-distribution
+[1.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roy/odri_dev/workspace/build/yaml_utils': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/googletest-distribution:/opt/openrobots:/opt/openrobots:/opt/openrobots:/opt/openrobots:/opt/openrobots /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/yaml_utils -- -j8 -l8
+[1.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roy/odri_dev/workspace/build/real_time_tools': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/pybind11:/home/roy/odri_dev/workspace/install/mpi_cmake_modules:/home/roy/odri_dev/workspace/install/googletest-distribution:/opt/openrobots:/opt/openrobots:/opt/openrobots:/opt/openrobots:/opt/openrobots PATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin:${PATH} PYTHONPATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python3.8/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/real_time_tools -- -j8 -l8
+[1.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roy/odri_dev/workspace/build/yaml_utils' returned '0': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/googletest-distribution:/opt/openrobots:/opt/openrobots:/opt/openrobots:/opt/openrobots:/opt/openrobots /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/yaml_utils -- -j8 -l8
+[1.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roy/odri_dev/workspace/build/yaml_utils': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/googletest-distribution:/opt/openrobots:/opt/openrobots:/opt/openrobots:/opt/openrobots:/opt/openrobots /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/yaml_utils
+[1.786s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yaml_utils)
+[1.794s] Level 1:colcon.colcon_core.environment:checking '/home/roy/odri_dev/workspace/install/yaml_utils' for CMake module files
+[1.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roy/odri_dev/workspace/build/yaml_utils' returned '0': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/googletest-distribution:/opt/openrobots:/opt/openrobots:/opt/openrobots:/opt/openrobots:/opt/openrobots /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/yaml_utils
+[1.796s] Level 1:colcon.colcon_core.environment:checking '/home/roy/odri_dev/workspace/install/yaml_utils' for CMake config files
+[1.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('yaml_utils', 'cmake_prefix_path')
+[1.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roy/odri_dev/workspace/install/yaml_utils/share/yaml_utils/hook/cmake_prefix_path.ps1'
+[1.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roy/odri_dev/workspace/install/yaml_utils/share/yaml_utils/hook/cmake_prefix_path.dsv'
+[1.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roy/odri_dev/workspace/install/yaml_utils/share/yaml_utils/hook/cmake_prefix_path.sh'
+[1.815s] Level 1:colcon.colcon_core.environment:checking '/home/roy/odri_dev/workspace/install/yaml_utils/bin'
+[1.815s] Level 1:colcon.colcon_core.environment:checking '/home/roy/odri_dev/workspace/install/yaml_utils/lib/pkgconfig/yaml_utils.pc'
+[1.815s] Level 1:colcon.colcon_core.environment:checking '/home/roy/odri_dev/workspace/install/yaml_utils/lib/python3.8/site-packages'
+[1.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/roy/odri_dev/workspace/install/yaml_utils/share/yaml_utils/package.ps1'
+[1.822s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roy/odri_dev/workspace/install/yaml_utils/share/yaml_utils/package.dsv'
+[1.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/roy/odri_dev/workspace/install/yaml_utils/share/yaml_utils/package.sh'
+[1.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/roy/odri_dev/workspace/install/yaml_utils/share/yaml_utils/package.bash'
+[1.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/roy/odri_dev/workspace/install/yaml_utils/share/yaml_utils/package.zsh'
+[1.824s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roy/odri_dev/workspace/install/yaml_utils/share/colcon-core/packages/yaml_utils)
+[1.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roy/odri_dev/workspace/build/real_time_tools' returned '2': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/pybind11:/home/roy/odri_dev/workspace/install/mpi_cmake_modules:/home/roy/odri_dev/workspace/install/googletest-distribution:/opt/openrobots:/opt/openrobots:/opt/openrobots:/opt/openrobots:/opt/openrobots PATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin:${PATH} PYTHONPATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python3.8/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages:/opt/openrobots/lib/python2.7/site-packages /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/real_time_tools -- -j8 -l8
+[3.985s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.985s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.986s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[3.986s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.999s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.999s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.999s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.027s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.042s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/roy/odri_dev/workspace/install/local_setup.ps1'
+[4.044s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/roy/odri_dev/workspace/install/_local_setup_util_ps1.py'
+[4.045s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/roy/odri_dev/workspace/install/setup.ps1'
+[4.052s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/roy/odri_dev/workspace/install/local_setup.sh'
+[4.052s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/roy/odri_dev/workspace/install/_local_setup_util_sh.py'
+[4.053s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/roy/odri_dev/workspace/install/setup.sh'
+[4.059s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/roy/odri_dev/workspace/install/local_setup.bash'
+[4.059s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/roy/odri_dev/workspace/install/setup.bash'
+[4.065s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/roy/odri_dev/workspace/install/local_setup.zsh'
+[4.065s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/roy/odri_dev/workspace/install/setup.zsh'

@@ -1,0 +1,57 @@
+[0.701s] Invoking command in '/home/roy/odri_dev/workspace/src/bullet_utils': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules PATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin:${PATH} PYTHONPATH=/home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/bullet_utils build --build-base /home/roy/odri_dev/workspace/build/bullet_utils/build install --prefix /home/roy/odri_dev/workspace/install/bullet_utils --record /home/roy/odri_dev/workspace/build/bullet_utils/install.log --single-version-externally-managed
+[1.271s] running egg_info
+[1.273s] writing ../../build/bullet_utils/bullet_utils.egg-info/PKG-INFO
+[1.275s] writing dependency_links to ../../build/bullet_utils/bullet_utils.egg-info/dependency_links.txt
+[1.276s] writing entry points to ../../build/bullet_utils/bullet_utils.egg-info/entry_points.txt
+[1.277s] writing requirements to ../../build/bullet_utils/bullet_utils.egg-info/requires.txt
+[1.278s] writing top-level names to ../../build/bullet_utils/bullet_utils.egg-info/top_level.txt
+[1.283s] reading manifest file '../../build/bullet_utils/bullet_utils.egg-info/SOURCES.txt'
+[1.285s] writing manifest file '../../build/bullet_utils/bullet_utils.egg-info/SOURCES.txt'
+[1.286s] running build
+[1.287s] running build_py
+[2.420s] sphinx-apidoc output:
+[2.421s]  Creating file /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/bullet_utils.rst.
+[2.421s] Creating file /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/bullet_utils.resources.rst.
+[2.421s] Creating file /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/pinocchio_bullet.rst.
+[2.421s] Creating file /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/py_pinocchio_bullet.rst.
+[2.421s] Creating file /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/modules.rst.
+[2.421s] 
+[2.422s] sphinx-apidoc error:
+[2.422s]  None
+[2.422s] 
+[3.239s] 
+[3.239s] Configuration error:
+[3.240s] There is a programmable error in your configuration file:
+[3.240s] 
+[3.240s] Traceback (most recent call last):
+[3.240s]   File "/home/roy/.local/lib/python3.8/site-packages/sphinx/config.py", line 329, in eval_config_file
+[3.240s]     exec(code, namespace)
+[3.240s]   File "/home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/conf.py", line 19, in <module>
+[3.240s]     from recommonmark.transform import AutoStructify
+[3.240s] ModuleNotFoundError: No module named 'recommonmark'
+[3.241s] 
+[3.377s] sphinx-apidoc output:
+[3.377s]  Running Sphinx v4.3.1
+[3.378s] 
+[3.378s] sphinx-apidoc error:
+[3.378s]  None
+[3.379s] running build_scripts
+[3.379s] running install
+[3.381s] running install_lib
+[3.384s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/modules.rst -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc
+[3.385s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/readme.md -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc
+[3.386s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/index.rst -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc
+[3.388s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/py_pinocchio_bullet.rst -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc
+[3.389s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/conf.py -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc
+[3.390s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/pinocchio_bullet.rst -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc
+[3.391s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/bullet_utils.resources.rst -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc
+[3.392s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/license.txt -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc
+[3.393s] copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/bullet_utils.rst -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc
+[3.396s] byte-compiling /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/conf.py to conf.cpython-38.pyc
+[3.400s] running install_egg_info
+[3.405s] removing '/home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils-1.0.0-py3.8.egg-info' (and everything under it)
+[3.406s] Copying ../../build/bullet_utils/bullet_utils.egg-info to /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils-1.0.0-py3.8.egg-info
+[3.408s] running install_scripts
+[3.443s] changing mode of /home/roy/odri_dev/workspace/install/bullet_utils/lib/bullet_utils/demo_simulate_a_robot.py to 775
+[3.448s] writing list of installed files to '/home/roy/odri_dev/workspace/build/bullet_utils/install.log'
+[3.525s] Invoked command in '/home/roy/odri_dev/workspace/src/bullet_utils' returned '0': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules PATH=/home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin:${PATH} PYTHONPATH=/home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/bullet_utils build --build-base /home/roy/odri_dev/workspace/build/bullet_utils/build install --prefix /home/roy/odri_dev/workspace/install/bullet_utils --record /home/roy/odri_dev/workspace/build/bullet_utils/install.log --single-version-externally-managed

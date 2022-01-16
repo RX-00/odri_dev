@@ -1,0 +1,14 @@
+[0.180s] Invoking command in '/home/roy/odri_dev/workspace/build/yaml_utils': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/googletest-distribution:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/yaml_utils -- -j8 -l8
+[0.771s] [100%] Built target test_yaml_utils
+[0.851s] Invoked command in '/home/roy/odri_dev/workspace/build/yaml_utils' returned '0': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/googletest-distribution:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/yaml_utils -- -j8 -l8
+[1.738s] Invoking command in '/home/roy/odri_dev/workspace/build/yaml_utils': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/googletest-distribution:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/yaml_utils
+[1.802s] -- Install configuration: "Release"
+[1.803s] -- Up-to-date: /home/roy/odri_dev/workspace/install/yaml_utils/include
+[1.803s] -- Up-to-date: /home/roy/odri_dev/workspace/install/yaml_utils/include/yaml_utils
+[1.804s] -- Up-to-date: /home/roy/odri_dev/workspace/install/yaml_utils/include/yaml_utils/yaml_cpp_fwd.hpp
+[1.804s] -- Up-to-date: /home/roy/odri_dev/workspace/install/yaml_utils/include/yaml_utils/yaml_eigen.hpp
+[1.804s] -- Up-to-date: /home/roy/odri_dev/workspace/install/yaml_utils/include/yaml_utils/yaml_tools.hpp
+[1.805s] -- Up-to-date: /home/roy/odri_dev/workspace/install/yaml_utils/share/yaml_utils/cmake/yaml_utilsConfig.cmake
+[1.805s] -- Up-to-date: /home/roy/odri_dev/workspace/install/yaml_utils/share/yaml_utils/cmake/yaml_utilsConfigVersion.cmake
+[1.807s] -- Up-to-date: /home/roy/odri_dev/workspace/install/yaml_utils/share/yaml_utils/cmake/yaml_utilsTargets.cmake
+[1.824s] Invoked command in '/home/roy/odri_dev/workspace/build/yaml_utils' returned '0': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/googletest-distribution:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/yaml_utils

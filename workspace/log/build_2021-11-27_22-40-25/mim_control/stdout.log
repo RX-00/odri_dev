@@ -1,0 +1,39 @@
+-- The OS type is non-real-time
+-- pinocchio FOUND. pinocchio at /opt/openrobots/lib/libpinocchio.so
+-- boost_filesystem FOUND. boost_filesystem at /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+-- boost_serialization FOUND. boost_serialization at /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+-- boost_system FOUND. boost_system at /usr/lib/x86_64-linux-gnu/libboost_system.so
+-- Found Boost: /usr/include (found version "1.71.0") found components: filesystem serialization system 
+-- hpp-fcl FOUND. hpp-fcl at /opt/openrobots/lib/libhpp-fcl.so
+-- Found Boost: /usr/include (found version "1.71.0") found components: chrono serialization 
+-- Default C++ standard: 201703
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- Found PythonInterp: /usr/bin/python3.8 (found version "3.8.10") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found Python: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.8.10") found components: Interpreter 
+-- Found Boost: /usr/include (found version "1.71.0") found components: python38 
+-- Boost_PYTHON_LIBRARY: /usr/lib/x86_64-linux-gnu/libboost_python38.so
+-- Performing Test HAS_FLTO
+-- Performing Test HAS_FLTO - Success
+-- LTO enabled
+-- Found Python: /usr/bin/python3 (found version "3.8.10") found components: Interpreter 
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.17") found components: doxygen missing components: dot
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/roy/odri_dev/workspace/build/mim_control
+[35m[1mScanning dependencies of target mim_control[0m
+[  9%] [32mBuilding CXX object CMakeFiles/mim_control.dir/src/centroidal_pd_controller.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/mim_control.dir/src/impedance_controller.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/mim_control.dir/src/centroidal_force_qp_controller.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/mim_control.dir/src/centroidal_impedance_controller.cpp.o[0m
+[ 45%] [32m[1mLinking CXX shared library libmim_control.so[0m
+[ 45%] Built target mim_control
+[35m[1mScanning dependencies of target mim_control_cpp[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/mim_control_cpp.dir/srcpy/centroidal_pd_controller.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/mim_control_cpp.dir/srcpy/centroidal_force_qp_controller.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/mim_control_cpp.dir/srcpy/mim_control.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/mim_control_cpp.dir/srcpy/centroidal_impedance_controller.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/mim_control_cpp.dir/srcpy/impedance_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX shared module mim_control_cpp.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target mim_control_cpp

@@ -1,0 +1,87 @@
+[0.027s] Invoking command in '/home/roy/odri_dev/workspace/build/reactive_planners': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/yaml_utils:/home/roy/odri_dev/workspace/install/real_time_tools:/home/roy/odri_dev/workspace/install/pybind11:/home/roy/odri_dev/workspace/install/mpi_cmake_modules:/home/roy/odri_dev/workspace/install/googletest-distribution:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/roy/odri_dev/workspace/install/real_time_tools/lib:${LD_LIBRARY_PATH} PATH=/home/roy/odri_dev/workspace/install/real_time_tools/bin:/home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin:${PATH} PYTHONPATH=/home/roy/odri_dev/workspace/install/real_time_tools/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/reactive_planners -- -j8 -l8
+[0.097s] -- The OS type is non-real-time
+[0.113s] -- pinocchio FOUND. pinocchio at /opt/openrobots/lib/libpinocchio.so
+[0.125s] -- boost_filesystem FOUND. boost_filesystem at /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+[0.126s] -- boost_serialization FOUND. boost_serialization at /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+[0.128s] -- boost_system FOUND. boost_system at /usr/lib/x86_64-linux-gnu/libboost_system.so
+[0.173s] -- Found Boost: /usr/include (found version "1.71.0") found components: filesystem serialization system 
+[0.177s] -- hpp-fcl FOUND. hpp-fcl at /opt/openrobots/lib/libhpp-fcl.so
+[0.199s] -- Found Boost: /usr/include (found version "1.71.0") found components: chrono serialization 
+[1.353s] -- Default C++ standard: 201703
+[1.354s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.358s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[2.024s] -- Found Python: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.8.10") found components: Interpreter 
+[2.158s] -- Found Boost: /usr/include (found version "1.71.0") found components: python38 
+[2.160s] -- Boost_PYTHON_LIBRARY: /usr/lib/x86_64-linux-gnu/libboost_python38.so
+[2.298s] -- eigenpy FOUND. eigenpy at /opt/openrobots/lib/libeigenpy.so
+[2.722s] -- Found Python: /usr/bin/python3 (found version "3.8.10") found components: Interpreter 
+[3.471s] -- Found Doxygen: /usr/bin/doxygen (found version "1.8.17") found components: doxygen dot 
+[3.576s] -- Configuring done
+[3.664s] -- Generating done
+[3.678s] -- Build files have been written to: /home/roy/odri_dev/workspace/build/reactive_planners
+[3.760s] [35m[1mScanning dependencies of target reactive_planners[0m
+[3.863s] [  7%] [32mBuilding CXX object CMakeFiles/reactive_planners.dir/src/stepper_head.cpp.o[0m
+[3.868s] [ 14%] [32mBuilding CXX object CMakeFiles/reactive_planners.dir/src/dynamically_consistent_end_effector_trajectory.cpp.o[0m
+[3.879s] [ 21%] [32mBuilding CXX object CMakeFiles/reactive_planners.dir/src/dcm_reactive_stepper.cpp.o[0m
+[3.888s] [ 28%] [32mBuilding CXX object CMakeFiles/reactive_planners.dir/src/dcm_vrp_planner.cpp.o[0m
+[3.893s] [ 35%] [32mBuilding CXX object CMakeFiles/reactive_planners.dir/src/polynomial_end_effector_trajectory.cpp.o[0m
+[3.900s] [ 42%] [32mBuilding CXX object CMakeFiles/reactive_planners.dir/src/quadruped_dcm_reactive_stepper.cpp.o[0m
+[27.717s] [ 50%] [32m[1mLinking CXX shared library libreactive_planners.so[0m
+[28.066s] [ 50%] Built target reactive_planners
+[28.131s] [35m[1mScanning dependencies of target reactive_planners_python_binding[0m
+[28.240s] [ 57%] [32mBuilding CXX object CMakeFiles/reactive_planners_python_binding.dir/srcpy/reactive_planners.cpp.o[0m
+[28.257s] [ 64%] [32mBuilding CXX object CMakeFiles/reactive_planners_python_binding.dir/srcpy/stepper_head.cpp.o[0m
+[28.258s] [ 71%] [32mBuilding CXX object CMakeFiles/reactive_planners_python_binding.dir/srcpy/polynomial_end_effector_trajectory.cpp.o[0m
+[28.260s] [ 78%] [32mBuilding CXX object CMakeFiles/reactive_planners_python_binding.dir/srcpy/dcm_reactive_stepper.cpp.o[0m
+[28.261s] [ 85%] [32mBuilding CXX object CMakeFiles/reactive_planners_python_binding.dir/srcpy/dcm_vrp_planner.cpp.o[0m
+[28.274s] [ 92%] [32mBuilding CXX object CMakeFiles/reactive_planners_python_binding.dir/srcpy/quadruped_dcm_reactive_stepper.cpp.o[0m
+[36.244s] [01m[K/home/roy/odri_dev/workspace/src/reactive_planners/srcpy/stepper_head.cpp:[m[K In function ‘[01m[Kvoid bind_stepper_head(pybind11::module&)[m[K’:
+[36.245s] [01m[K/home/roy/odri_dev/workspace/src/reactive_planners/srcpy/stepper_head.cpp:27:31:[m[K [01;35m[Kwarning: [m[Kcast between incompatible pointer to member types from ‘[01m[Kvoid (reactive_planners::StepperHead::*)(const double&, const Vector3d&, const double&)[m[K’ {aka ‘[01m[Kvoid (reactive_planners::StepperHead::*)(const double&, const Eigen::Matrix<double, 3, 1>&, const double&)[m[K’} to ‘[01m[Kvoid (reactive_planners::StepperHead::*)(const double&, const Vector3d&, const double&, bool)[m[K’ {aka ‘[01m[Kvoid (reactive_planners::StepperHead::*)(const double&, const Eigen::Matrix<double, 3, 1>&, const double&, bool)[m[K’} [[01;35m[K-Wcast-function-type[m[K]
+[36.246s]    27 |                  StepperHead::[01;35m[Krun[m[K)
+[36.247s]       |                               [01;35m[K^~~[m[K
+[62.569s] [100%] [32m[1mLinking CXX shared module reactive_planners_cpp.cpython-38-x86_64-linux-gnu.so[0m
+[74.769s] [100%] Built target reactive_planners_python_binding
+[74.795s] Invoked command in '/home/roy/odri_dev/workspace/build/reactive_planners' returned '0': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/yaml_utils:/home/roy/odri_dev/workspace/install/real_time_tools:/home/roy/odri_dev/workspace/install/pybind11:/home/roy/odri_dev/workspace/install/mpi_cmake_modules:/home/roy/odri_dev/workspace/install/googletest-distribution:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/roy/odri_dev/workspace/install/real_time_tools/lib:${LD_LIBRARY_PATH} PATH=/home/roy/odri_dev/workspace/install/real_time_tools/bin:/home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin:${PATH} PYTHONPATH=/home/roy/odri_dev/workspace/install/real_time_tools/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/reactive_planners -- -j8 -l8
+[74.940s] Invoking command in '/home/roy/odri_dev/workspace/build/reactive_planners': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/yaml_utils:/home/roy/odri_dev/workspace/install/real_time_tools:/home/roy/odri_dev/workspace/install/pybind11:/home/roy/odri_dev/workspace/install/mpi_cmake_modules:/home/roy/odri_dev/workspace/install/googletest-distribution:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/roy/odri_dev/workspace/install/real_time_tools/lib:${LD_LIBRARY_PATH} PATH=/home/roy/odri_dev/workspace/install/real_time_tools/bin:/home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin:${PATH} PYTHONPATH=/home/roy/odri_dev/workspace/install/real_time_tools/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/reactive_planners
+[74.961s] -- Install configuration: "Release"
+[74.961s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/bin/demo_reactive_planners_bolt_step_adjustment
+[74.962s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/bin/demo_reactive_planners_dcm_reactive_stepper
+[74.962s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/bin/demo_reactive_planners_end_effector_trajectory3d
+[74.962s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/bin/demo_reactive_planners_stepper_head
+[74.962s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/bin/demo_reactive_planners_walking
+[74.963s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/bin/demo_reactive_planners_re_split_dcm
+[74.963s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/bin/demo_reactive_planners_split_dcm_uneven_terrain
+[74.963s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/bin/demo_reactive_planners_step_adaptation_timing_planner
+[74.963s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/bin/demo_reactive_planners_step_adjustment
+[75.010s] -- Installing: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners_cpp.cpython-38-x86_64-linux-gnu.so
+[75.012s] -- Set runtime path of "/home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners_cpp.cpython-38-x86_64-linux-gnu.so" to "/home/roy/odri_dev/workspace/install/reactive_planners/lib:/home/roy/odri_dev/workspace/install/reactive_planners/lib/dynamic_graph_plugins:/opt/openrobots/lib"
+[75.012s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages
+[75.012s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners
+[75.014s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/dynamic_graph
+[75.015s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/dynamic_graph/quadruped_stepper.py
+[75.015s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/lipm_simulator.py
+[75.016s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/demos
+[75.016s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/demos/bolt_step_adjustment.py
+[75.016s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/dcm_vrp_planner
+[75.017s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/dcm_vrp_planner/planner.py
+[75.017s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/dcm_vrp_planner/__init__.py
+[75.017s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/dcm_vrp_planner/re_split_dcm_planner.py
+[75.017s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/dcm_vrp_planner/uneven_terrain_planner.py
+[75.017s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/dcm_vrp_planner/solo_step_planner.py
+[75.018s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/__init__.py
+[75.018s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/dcm_reactive_stepper.py
+[75.018s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/centroidal_controller
+[75.018s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/centroidal_controller/__init__.py
+[75.018s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/centroidal_controller/lipm_centroidal_controller.py
+[75.019s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/utils
+[75.019s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/utils/terrains
+[75.019s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/utils/terrains/stairs.urdf
+[75.019s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/utils/__init__.py
+[75.019s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/utils/qp_solver.py
+[75.020s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/utils/utils.py
+[75.020s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/utils/trajectory_generator.py
+[75.020s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/lib/python3.8/site-packages/reactive_planners/utils/solo_state_estimator.py
+[75.051s] -- Installing: /home/roy/odri_dev/workspace/install/reactive_planners/lib/libreactive_planners.so
+[75.053s] -- Set runtime path of "/home/roy/odri_dev/workspace/install/reactive_planners/lib/libreactive_planners.so" to "/home/roy/odri_dev/workspace/install/reactive_planners/lib:/home/roy/odri_dev/workspace/install/reactive_planners/lib/dynamic_graph_plugins:/opt/openrobots/lib"
+[75.057s] -- Up-to-date: /home/roy/odri_dev/workspace/install/reactive_planners/share/reactive_planners/cmake/reactive_plannersConfig.cmake
+[75.072s] Invoked command in '/home/roy/odri_dev/workspace/build/reactive_planners' returned '0': CMAKE_PREFIX_PATH=/home/roy/odri_dev/workspace/install/yaml_utils:/home/roy/odri_dev/workspace/install/real_time_tools:/home/roy/odri_dev/workspace/install/pybind11:/home/roy/odri_dev/workspace/install/mpi_cmake_modules:/home/roy/odri_dev/workspace/install/googletest-distribution:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/roy/odri_dev/workspace/install/real_time_tools/lib:${LD_LIBRARY_PATH} PATH=/home/roy/odri_dev/workspace/install/real_time_tools/bin:/home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin:${PATH} PYTHONPATH=/home/roy/odri_dev/workspace/install/real_time_tools/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/reactive_planners

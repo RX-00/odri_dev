@@ -1,0 +1,63 @@
+-- The OS type is non-real-time
+-- pinocchio FOUND. pinocchio at /opt/openrobots/lib/libpinocchio.so
+-- boost_filesystem FOUND. boost_filesystem at /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+-- boost_serialization FOUND. boost_serialization at /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+-- boost_system FOUND. boost_system at /usr/lib/x86_64-linux-gnu/libboost_system.so
+-- Found Boost: /usr/include (found version "1.71.0") found components: filesystem serialization system 
+-- hpp-fcl FOUND. hpp-fcl at /opt/openrobots/lib/libhpp-fcl.so
+-- Found Boost: /usr/include (found version "1.71.0") found components: chrono serialization 
+-- Default C++ standard: 201703
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- Found Python: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.8.10") found components: Interpreter 
+-- Found Boost: /usr/include (found version "1.71.0") found components: python38 
+-- Boost_PYTHON_LIBRARY: /usr/lib/x86_64-linux-gnu/libboost_python38.so
+-- Found Python: /usr/bin/python3 (found version "3.8.10") found components: Interpreter 
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.17") found components: doxygen dot 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/roy/odri_dev/workspace/build/mim_control
+[35m[1mScanning dependencies of target mim_control[0m
+[  9%] [32mBuilding CXX object CMakeFiles/mim_control.dir/src/centroidal_pd_controller.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/mim_control.dir/src/centroidal_force_qp_controller.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/mim_control.dir/src/impedance_controller.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/mim_control.dir/src/centroidal_impedance_controller.cpp.o[0m
+[ 45%] [32m[1mLinking CXX shared library libmim_control.so[0m
+[ 45%] Built target mim_control
+[35m[1mScanning dependencies of target mim_control_cpp[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/mim_control_cpp.dir/srcpy/mim_control.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/mim_control_cpp.dir/srcpy/centroidal_pd_controller.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/mim_control_cpp.dir/srcpy/centroidal_force_qp_controller.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/mim_control_cpp.dir/srcpy/impedance_controller.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/mim_control_cpp.dir/srcpy/centroidal_impedance_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX shared module mim_control_cpp.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target mim_control_cpp
+-- Install configuration: "Release"
+-- Installing: /home/roy/odri_dev/workspace/install/mim_control/lib/libmim_control.so
+-- Set runtime path of "/home/roy/odri_dev/workspace/install/mim_control/lib/libmim_control.so" to "/home/roy/odri_dev/workspace/install/mim_control/lib:/home/roy/odri_dev/workspace/install/mim_control/lib/dynamic_graph_plugins:/opt/openrobots/lib"
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/include
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/include/mim_control
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/include/mim_control/dynamic_graph
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/include/mim_control/dynamic_graph/centroidal_force_qp_controller.hpp
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/include/mim_control/dynamic_graph/centroidal_pd_controller.hpp
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/include/mim_control/dynamic_graph/signal_utils.hpp
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/include/mim_control/dynamic_graph/impedance_controller.hpp
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/include/mim_control/centroidal_force_qp_controller.hpp
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/include/mim_control/centroidal_pd_controller.hpp
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/include/mim_control/impedance_controller.hpp
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/include/mim_control/centroidal_impedance_controller.hpp
+-- Installing: /home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control_cpp.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control_cpp.cpython-38-x86_64-linux-gnu.so" to "/home/roy/odri_dev/workspace/install/mim_control/lib:/home/roy/odri_dev/workspace/install/mim_control/lib/dynamic_graph_plugins:/opt/openrobots/lib"
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control/dynamic_graph
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control/dynamic_graph/go_to.py
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control/dynamic_graph/wbc_graph.py
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control/dynamic_graph/__init__.py
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control/robot_centroidal_controller.py
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control/impedance_controller.py
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control/robot_impedance_controller.py
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control/__init__.py
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/lib/python3.8/site-packages/mim_control/qp_solver.py
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/share/mim_control/cmake/mim_controlConfig.cmake
+-- Up-to-date: /home/roy/odri_dev/workspace/install/mim_control/share/mim_control/cmake/mim_controlTargets.cmake
+-- Installing: /home/roy/odri_dev/workspace/install/mim_control/share/mim_control/cmake/mim_controlTargets-release.cmake

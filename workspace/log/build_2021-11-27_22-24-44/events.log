@@ -1,0 +1,417 @@
+[0.000000] (-) TimerEvent: {}
+[0.000500] (googletest-distribution) JobQueued: {'identifier': 'googletest-distribution', 'dependencies': OrderedDict()}
+[0.000660] (mpi_cmake_modules) JobQueued: {'identifier': 'mpi_cmake_modules', 'dependencies': OrderedDict()}
+[0.000980] (pybind11) JobQueued: {'identifier': 'pybind11', 'dependencies': OrderedDict()}
+[0.001324] (bullet_utils) JobQueued: {'identifier': 'bullet_utils', 'dependencies': OrderedDict([('mpi_cmake_modules', '/home/roy/odri_dev/workspace/install/mpi_cmake_modules')])}
+[0.001403] (real_time_tools) JobQueued: {'identifier': 'real_time_tools', 'dependencies': OrderedDict([('googletest-distribution', '/home/roy/odri_dev/workspace/install/googletest-distribution'), ('mpi_cmake_modules', '/home/roy/odri_dev/workspace/install/mpi_cmake_modules'), ('pybind11', '/home/roy/odri_dev/workspace/install/pybind11')])}
+[0.003389] (yaml_utils) JobQueued: {'identifier': 'yaml_utils', 'dependencies': OrderedDict([('googletest-distribution', '/home/roy/odri_dev/workspace/install/googletest-distribution')])}
+[0.003480] (reactive_planners) JobQueued: {'identifier': 'reactive_planners', 'dependencies': OrderedDict([('googletest-distribution', '/home/roy/odri_dev/workspace/install/googletest-distribution'), ('mpi_cmake_modules', '/home/roy/odri_dev/workspace/install/mpi_cmake_modules'), ('pybind11', '/home/roy/odri_dev/workspace/install/pybind11'), ('real_time_tools', '/home/roy/odri_dev/workspace/install/real_time_tools'), ('yaml_utils', '/home/roy/odri_dev/workspace/install/yaml_utils')])}
+[0.003664] (robot_properties_bolt) JobQueued: {'identifier': 'robot_properties_bolt', 'dependencies': OrderedDict([('bullet_utils', '/home/roy/odri_dev/workspace/install/bullet_utils')])}
+[0.003735] (robot_properties_solo) JobQueued: {'identifier': 'robot_properties_solo', 'dependencies': OrderedDict([('bullet_utils', '/home/roy/odri_dev/workspace/install/bullet_utils')])}
+[0.003855] (mim_control) JobQueued: {'identifier': 'mim_control', 'dependencies': OrderedDict([('googletest-distribution', '/home/roy/odri_dev/workspace/install/googletest-distribution'), ('mpi_cmake_modules', '/home/roy/odri_dev/workspace/install/mpi_cmake_modules'), ('pybind11', '/home/roy/odri_dev/workspace/install/pybind11'), ('bullet_utils', '/home/roy/odri_dev/workspace/install/bullet_utils'), ('yaml_utils', '/home/roy/odri_dev/workspace/install/yaml_utils'), ('robot_properties_bolt', '/home/roy/odri_dev/workspace/install/robot_properties_bolt'), ('robot_properties_solo', '/home/roy/odri_dev/workspace/install/robot_properties_solo')])}
+[0.003959] (googletest-distribution) JobStarted: {'identifier': 'googletest-distribution'}
+[0.023382] (mpi_cmake_modules) JobStarted: {'identifier': 'mpi_cmake_modules'}
+[0.040702] (pybind11) JobStarted: {'identifier': 'pybind11'}
+[0.057151] (googletest-distribution) JobProgress: {'identifier': 'googletest-distribution', 'progress': 'cmake'}
+[0.057813] (googletest-distribution) JobProgress: {'identifier': 'googletest-distribution', 'progress': 'build'}
+[0.058716] (googletest-distribution) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/roy/odri_dev/workspace/build/googletest-distribution', '--', '-j8', '-l8'], 'cwd': '/home/roy/odri_dev/workspace/build/googletest-distribution', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'roy'), ('SSH_AGENT_PID', '55796'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/roy'), ('OLDPWD', '/home/roy/odri_dev'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45705'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'roy'), ('JOURNAL_STREAM', '8:47799'), ('_', '/usr/local/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'roy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/r-M142:@/tmp/.ICE-unix/1966,unix/r-M142:/tmp/.ICE-unix/1966'), ('INVOCATION_ID', '6abecb7abf8848678135cd01a092e829'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-4q29NgTeTjdj/agent.55795'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b6fe8d36-4386-4e10-ab8b-09875c517524'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/roy/odri_dev/workspace/build/googletest-distribution'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.064992] (mpi_cmake_modules) JobProgress: {'identifier': 'mpi_cmake_modules', 'progress': 'cmake'}
+[0.065779] (mpi_cmake_modules) JobProgress: {'identifier': 'mpi_cmake_modules', 'progress': 'build'}
+[0.065999] (mpi_cmake_modules) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/roy/odri_dev/workspace/build/mpi_cmake_modules', '--', '-j8', '-l8'], 'cwd': '/home/roy/odri_dev/workspace/build/mpi_cmake_modules', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'roy'), ('SSH_AGENT_PID', '55796'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/roy'), ('OLDPWD', '/home/roy/odri_dev'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45705'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'roy'), ('JOURNAL_STREAM', '8:47799'), ('_', '/usr/local/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'roy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/r-M142:@/tmp/.ICE-unix/1966,unix/r-M142:/tmp/.ICE-unix/1966'), ('INVOCATION_ID', '6abecb7abf8848678135cd01a092e829'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-4q29NgTeTjdj/agent.55795'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b6fe8d36-4386-4e10-ab8b-09875c517524'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/roy/odri_dev/workspace/build/mpi_cmake_modules'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.074267] (pybind11) JobProgress: {'identifier': 'pybind11', 'progress': 'cmake'}
+[0.075496] (pybind11) JobProgress: {'identifier': 'pybind11', 'progress': 'build'}
+[0.075933] (pybind11) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/roy/odri_dev/workspace/build/pybind11', '--', '-j8', '-l8'], 'cwd': '/home/roy/odri_dev/workspace/build/pybind11', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'roy'), ('SSH_AGENT_PID', '55796'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/roy'), ('OLDPWD', '/home/roy/odri_dev'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45705'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'roy'), ('JOURNAL_STREAM', '8:47799'), ('_', '/usr/local/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'roy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/r-M142:@/tmp/.ICE-unix/1966,unix/r-M142:/tmp/.ICE-unix/1966'), ('INVOCATION_ID', '6abecb7abf8848678135cd01a092e829'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-4q29NgTeTjdj/agent.55795'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b6fe8d36-4386-4e10-ab8b-09875c517524'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/roy/odri_dev/workspace/build/pybind11'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.099586] (-) TimerEvent: {}
+[0.110094] (mpi_cmake_modules) CommandEnded: {'returncode': 0}
+[0.136652] (googletest-distribution) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[0.138895] (pybind11) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object tests/CMakeFiles/pybind11_cross_module_tests.dir/pybind11_cross_module_tests.cpp.o\x1b[0m\n'}
+[0.142482] (mpi_cmake_modules) JobProgress: {'identifier': 'mpi_cmake_modules', 'progress': 'install'}
+[0.147013] (pybind11) StdoutLine: {'line': b'[  7%] Built target cross_module_gil_utils\n'}
+[0.158771] (mpi_cmake_modules) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/roy/odri_dev/workspace/build/mpi_cmake_modules'], 'cwd': '/home/roy/odri_dev/workspace/build/mpi_cmake_modules', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'roy'), ('SSH_AGENT_PID', '55796'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/roy'), ('OLDPWD', '/home/roy/odri_dev'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45705'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'roy'), ('JOURNAL_STREAM', '8:47799'), ('_', '/usr/local/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'roy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/r-M142:@/tmp/.ICE-unix/1966,unix/r-M142:/tmp/.ICE-unix/1966'), ('INVOCATION_ID', '6abecb7abf8848678135cd01a092e829'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-4q29NgTeTjdj/agent.55795'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b6fe8d36-4386-4e10-ab8b-09875c517524'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/roy/odri_dev/workspace/build/mpi_cmake_modules'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.173761] (pybind11) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_factory_constructors.cpp.o\x1b[0m\n'}
+[0.174408] (pybind11) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_class.cpp.o\x1b[0m\n'}
+[0.174698] (pybind11) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_multiple_inheritance.cpp.o\x1b[0m\n'}
+[0.176910] (pybind11) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_local_bindings.cpp.o\x1b[0m\n'}
+[0.177260] (pybind11) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_methods_and_attributes.cpp.o\x1b[0m\n'}
+[0.178002] (mpi_cmake_modules) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.178348] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources\n'}
+[0.178520] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/Doxyfile.in\n'}
+[0.178869] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/py_filter\n'}
+[0.179155] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/_clang-format\n'}
+[0.179508] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx\n'}
+[0.179675] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx\n'}
+[0.179825] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx/doxygen_index.rst.in\n'}
+[0.179965] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx/conf.py.in\n'}
+[0.180117] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx/conf.py\n'}
+[0.180264] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx/cmake_doc.rst.in\n'}
+[0.180429] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx/general_documentation.rst.in\n'}
+[0.180587] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx/doxygen_index_one_page.rst.in\n'}
+[0.180739] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/sphinx/index.rst.in\n'}
+[0.180898] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/doxygen\n'}
+[0.181036] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/sphinx/doxygen/Doxyfile.in\n'}
+[0.181164] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/dg_python_module.cc.in\n'}
+[0.181290] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/resources/__init__.py.empty.in\n'}
+[0.181533] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules\n'}
+[0.181743] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/documentation_builder.py\n'}
+[0.181874] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/cmake_format.py\n'}
+[0.181990] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/cpp_format.py\n'}
+[0.182097] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/__init__.py\n'}
+[0.182214] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/python_format.py\n'}
+[0.182325] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/utils.py\n'}
+[0.182433] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/yaml2oneline.py\n'}
+[0.182538] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake\n'}
+[0.182632] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/dynamic_graph.cmake\n'}
+[0.182751] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/xacro.cmake\n'}
+[0.182849] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/xenomai.cmake\n'}
+[0.183274] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/get_python_install_dir.cmake\n'}
+[0.183696] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/install_scripts.cmake\n'}
+[0.183796] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/generate_cmake_package.cmake\n'}
+[0.183897] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/sphinx.cmake\n'}
+[0.184027] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/global_calls.cmake\n'}
+[0.184129] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules\n'}
+[0.184231] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/python\n'}
+[0.184334] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/python/FindPython.cmake.backup\n'}
+[0.184518] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/python/Support.cmake.backup\n'}
+[0.184645] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/python/FindPython.cmake\n'}
+[0.184744] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/Findrt.cmake\n'}
+[0.184839] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/FindZeroMQ.cmake\n'}
+[0.184929] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/XenomaiConfig.cmake\n'}
+[0.185017] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/Findcereal.cmake\n'}
+[0.185109] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/FindZeroMQPP.cmake\n'}
+[0.185200] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules/FindPythonModules.cmake\n'}
+[0.185294] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/get_python_interpreter.cmake\n'}
+[0.185387] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/doxygen.cmake\n'}
+[0.185568] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/print_target_properties.cmake\n'}
+[0.185716] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/pybind11.cmake\n'}
+[0.185828] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/boost_python.cmake\n'}
+[0.185919] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/os_detection.cmake\n'}
+[0.186010] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/find_modules.cmake\n'}
+[0.186099] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/documentation.cmake\n'}
+[0.186186] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin/mpi_cpp_format\n'}
+[0.186276] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin/mpi_python_format\n'}
+[0.186366] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin/mpi_cmake_format\n'}
+[0.186457] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin/mpi_code_format\n'}
+[0.186548] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin/mpi_doc_build\n'}
+[0.186646] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources\n'}
+[0.186756] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/Doxyfile.in\n'}
+[0.186859] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/py_filter\n'}
+[0.186999] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/_clang-format\n'}
+[0.187100] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx\n'}
+[0.187198] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx\n'}
+[0.187298] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx/doxygen_index.rst.in\n'}
+[0.187398] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx/conf.py.in\n'}
+[0.187521] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx/conf.py\n'}
+[0.213740] (-) TimerEvent: {}
+[0.214229] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx/cmake_doc.rst.in\n'}
+[0.214463] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx/general_documentation.rst.in\n'}
+[0.214582] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx/doxygen_index_one_page.rst.in\n'}
+[0.214695] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/sphinx/index.rst.in\n'}
+[0.214822] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/doxygen\n'}
+[0.214935] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/sphinx/doxygen/Doxyfile.in\n'}
+[0.215049] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/dg_python_module.cc.in\n'}
+[0.215158] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages/mpi_cmake_modules/resources/__init__.py.empty.in\n'}
+[0.215277] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/mpi_cmake_modulesConfig.cmake\n'}
+[0.215386] (mpi_cmake_modules) StdoutLine: {'line': b'-- Up-to-date: /home/roy/odri_dev/workspace/install/mpi_cmake_modules/share/mpi_cmake_modules/cmake/mpi_cmake_modulesConfigVersion.cmake\n'}
+[0.215490] (mpi_cmake_modules) CommandEnded: {'returncode': 0}
+[0.215920] (pybind11) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_numpy_array.cpp.o\x1b[0m\n'}
+[0.216050] (pybind11) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_numpy_dtypes.cpp.o\x1b[0m\n'}
+[0.268300] (mpi_cmake_modules) JobEnded: {'identifier': 'mpi_cmake_modules', 'rc': 0}
+[0.269404] (bullet_utils) JobStarted: {'identifier': 'bullet_utils'}
+[0.313932] (-) TimerEvent: {}
+[0.414583] (-) TimerEvent: {}
+[0.515121] (-) TimerEvent: {}
+[0.615655] (-) TimerEvent: {}
+[0.716113] (-) TimerEvent: {}
+[0.816621] (-) TimerEvent: {}
+[0.917125] (-) TimerEvent: {}
+[1.017647] (-) TimerEvent: {}
+[1.042902] (bullet_utils) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/bullet_utils', 'build', '--build-base', '/home/roy/odri_dev/workspace/build/bullet_utils/build', 'install', '--prefix', '/home/roy/odri_dev/workspace/install/bullet_utils', '--record', '/home/roy/odri_dev/workspace/build/bullet_utils/install.log', '--single-version-externally-managed'], 'cwd': '/home/roy/odri_dev/workspace/src/bullet_utils', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'roy', 'SSH_AGENT_PID': '55796', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'HOME': '/home/roy', 'OLDPWD': '/home/roy/odri_dev', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1670', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '45705', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'roy', 'JOURNAL_STREAM': '8:47799', '_': '/usr/local/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'roy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/roy/odri_dev/workspace/install/mpi_cmake_modules/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/r-M142:@/tmp/.ICE-unix/1966,unix/r-M142:/tmp/.ICE-unix/1966', 'INVOCATION_ID': '6abecb7abf8848678135cd01a092e829', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-4q29NgTeTjdj/agent.55795', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:b6fe8d36-4386-4e10-ab8b-09875c517524', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/roy/odri_dev/workspace/build/bullet_utils', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/mpi_cmake_modules/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/roy/odri_dev/workspace/install/mpi_cmake_modules'}, 'shell': False}
+[1.117819] (-) TimerEvent: {}
+[1.218320] (-) TimerEvent: {}
+[1.318814] (-) TimerEvent: {}
+[1.419280] (-) TimerEvent: {}
+[1.520104] (-) TimerEvent: {}
+[1.620705] (-) TimerEvent: {}
+[1.691920] (bullet_utils) StdoutLine: {'line': b'running egg_info\n'}
+[1.693581] (bullet_utils) StdoutLine: {'line': b'writing ../../build/bullet_utils/bullet_utils.egg-info/PKG-INFO\n'}
+[1.694409] (bullet_utils) StdoutLine: {'line': b'writing dependency_links to ../../build/bullet_utils/bullet_utils.egg-info/dependency_links.txt\n'}
+[1.695106] (bullet_utils) StdoutLine: {'line': b'writing entry points to ../../build/bullet_utils/bullet_utils.egg-info/entry_points.txt\n'}
+[1.695462] (bullet_utils) StdoutLine: {'line': b'writing requirements to ../../build/bullet_utils/bullet_utils.egg-info/requires.txt\n'}
+[1.695818] (bullet_utils) StdoutLine: {'line': b'writing top-level names to ../../build/bullet_utils/bullet_utils.egg-info/top_level.txt\n'}
+[1.700632] (bullet_utils) StdoutLine: {'line': b"reading manifest file '../../build/bullet_utils/bullet_utils.egg-info/SOURCES.txt'\n"}
+[1.702707] (bullet_utils) StdoutLine: {'line': b"writing manifest file '../../build/bullet_utils/bullet_utils.egg-info/SOURCES.txt'\n"}
+[1.703122] (bullet_utils) StdoutLine: {'line': b'running build\n'}
+[1.703425] (bullet_utils) StdoutLine: {'line': b'running build_py\n'}
+[1.720825] (-) TimerEvent: {}
+[1.821291] (-) TimerEvent: {}
+[1.921781] (-) TimerEvent: {}
+[2.022213] (-) TimerEvent: {}
+[2.122702] (-) TimerEvent: {}
+[2.223229] (-) TimerEvent: {}
+[2.323676] (-) TimerEvent: {}
+[2.424178] (-) TimerEvent: {}
+[2.524752] (-) TimerEvent: {}
+[2.625205] (-) TimerEvent: {}
+[2.725703] (-) TimerEvent: {}
+[2.792094] (bullet_utils) StdoutLine: {'line': b'sphinx-apidoc output:\n'}
+[2.797070] (bullet_utils) StdoutLine: {'line': b' Creating file /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/bullet_utils.rst.\n'}
+[2.797437] (bullet_utils) StdoutLine: {'line': b'Creating file /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/bullet_utils.resources.rst.\n'}
+[2.797722] (bullet_utils) StdoutLine: {'line': b'Creating file /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/pinocchio_bullet.rst.\n'}
+[2.797890] (bullet_utils) StdoutLine: {'line': b'Creating file /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/py_pinocchio_bullet.rst.\n'}
+[2.798011] (bullet_utils) StdoutLine: {'line': b'Creating file /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/modules.rst.\n'}
+[2.798142] (bullet_utils) StdoutLine: {'line': b'\n'}
+[2.798322] (bullet_utils) StdoutLine: {'line': b'sphinx-apidoc error:\n'}
+[2.798675] (bullet_utils) StdoutLine: {'line': b' None\n'}
+[2.798888] (bullet_utils) StdoutLine: {'line': b'\n'}
+[2.825845] (-) TimerEvent: {}
+[2.926520] (-) TimerEvent: {}
+[3.027207] (-) TimerEvent: {}
+[3.127855] (-) TimerEvent: {}
+[3.228537] (-) TimerEvent: {}
+[3.328984] (-) TimerEvent: {}
+[3.429463] (-) TimerEvent: {}
+[3.529927] (-) TimerEvent: {}
+[3.630385] (-) TimerEvent: {}
+[3.730869] (-) TimerEvent: {}
+[3.831339] (-) TimerEvent: {}
+[3.931985] (-) TimerEvent: {}
+[4.032623] (-) TimerEvent: {}
+[4.133103] (-) TimerEvent: {}
+[4.135197] (bullet_utils) StderrLine: {'line': b'\n'}
+[4.135784] (bullet_utils) StderrLine: {'line': b'Extension error:\n'}
+[4.136184] (bullet_utils) StderrLine: {'line': b"Could not import extension sphinxcontrib.moderncmakedomain (exception: No module named 'sphinxcontrib.moderncmakedomain')\n"}
+[4.233785] (-) TimerEvent: {}
+[4.340532] (-) TimerEvent: {}
+[4.404138] (bullet_utils) StdoutLine: {'line': b'sphinx-apidoc output:\n'}
+[4.404506] (bullet_utils) StdoutLine: {'line': b' Running Sphinx v4.3.1\n'}
+[4.404804] (bullet_utils) StdoutLine: {'line': b'\n'}
+[4.405019] (bullet_utils) StdoutLine: {'line': b'sphinx-apidoc error:\n'}
+[4.405196] (bullet_utils) StdoutLine: {'line': b' None\n'}
+[4.406913] (bullet_utils) StdoutLine: {'line': b'running build_scripts\n'}
+[4.407337] (bullet_utils) StdoutLine: {'line': b'running install\n'}
+[4.409135] (bullet_utils) StdoutLine: {'line': b'running install_lib\n'}
+[4.411595] (bullet_utils) StdoutLine: {'line': b'copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/modules.rst -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc\n'}
+[4.412093] (bullet_utils) StdoutLine: {'line': b'copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/readme.md -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc\n'}
+[4.412475] (bullet_utils) StdoutLine: {'line': b'copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/index.rst -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc\n'}
+[4.412811] (bullet_utils) StdoutLine: {'line': b'copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/py_pinocchio_bullet.rst -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc\n'}
+[4.413119] (bullet_utils) StdoutLine: {'line': b'copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/conf.py -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc\n'}
+[4.413395] (bullet_utils) StdoutLine: {'line': b'copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/pinocchio_bullet.rst -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc\n'}
+[4.413667] (bullet_utils) StdoutLine: {'line': b'copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/bullet_utils.resources.rst -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc\n'}
+[4.413972] (bullet_utils) StdoutLine: {'line': b'copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/license.txt -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc\n'}
+[4.414193] (bullet_utils) StdoutLine: {'line': b'copying /home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/bullet_utils.rst -> /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc\n'}
+[4.415832] (bullet_utils) StdoutLine: {'line': b'byte-compiling /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils/doc/conf.py to conf.cpython-38.pyc\n'}
+[4.428637] (bullet_utils) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.432420] (bullet_utils) StdoutLine: {'line': b"removing '/home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils-1.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.432984] (bullet_utils) StdoutLine: {'line': b'Copying ../../build/bullet_utils/bullet_utils.egg-info to /home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages/bullet_utils-1.0.0-py3.8.egg-info\n'}
+[4.434750] (bullet_utils) StdoutLine: {'line': b'running install_scripts\n'}
+[4.440657] (-) TimerEvent: {}
+[4.506947] (bullet_utils) StdoutLine: {'line': b'changing mode of /home/roy/odri_dev/workspace/install/bullet_utils/lib/bullet_utils/demo_simulate_a_robot.py to 775\n'}
+[4.510736] (bullet_utils) StdoutLine: {'line': b"writing list of installed files to '/home/roy/odri_dev/workspace/build/bullet_utils/install.log'\n"}
+[4.540786] (-) TimerEvent: {}
+[4.639203] (bullet_utils) CommandEnded: {'returncode': 0}
+[4.645177] (-) TimerEvent: {}
+[4.719170] (bullet_utils) JobEnded: {'identifier': 'bullet_utils', 'rc': 0}
+[4.720117] (robot_properties_bolt) JobStarted: {'identifier': 'robot_properties_bolt'}
+[4.752564] (-) TimerEvent: {}
+[4.853164] (-) TimerEvent: {}
+[4.869665] (robot_properties_solo) JobStarted: {'identifier': 'robot_properties_solo'}
+[4.953336] (-) TimerEvent: {}
+[5.053993] (-) TimerEvent: {}
+[5.154668] (-) TimerEvent: {}
+[5.255137] (-) TimerEvent: {}
+[5.355644] (-) TimerEvent: {}
+[5.456132] (-) TimerEvent: {}
+[5.556748] (-) TimerEvent: {}
+[5.657314] (-) TimerEvent: {}
+[5.764660] (-) TimerEvent: {}
+[5.865552] (-) TimerEvent: {}
+[5.966662] (-) TimerEvent: {}
+[6.067161] (-) TimerEvent: {}
+[6.167656] (-) TimerEvent: {}
+[6.268212] (-) TimerEvent: {}
+[6.368689] (-) TimerEvent: {}
+[6.469169] (-) TimerEvent: {}
+[6.569664] (-) TimerEvent: {}
+[6.670198] (-) TimerEvent: {}
+[6.742065] (robot_properties_bolt) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_properties_bolt', 'build', '--build-base', '/home/roy/odri_dev/workspace/build/robot_properties_bolt/build', 'install', '--prefix', '/home/roy/odri_dev/workspace/install/robot_properties_bolt', '--record', '/home/roy/odri_dev/workspace/build/robot_properties_bolt/install.log', '--single-version-externally-managed'], 'cwd': '/home/roy/odri_dev/workspace/src/robot_properties_bolt', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'roy', 'SSH_AGENT_PID': '55796', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'HOME': '/home/roy', 'OLDPWD': '/home/roy/odri_dev', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1670', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '45705', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'roy', 'JOURNAL_STREAM': '8:47799', '_': '/usr/local/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'roy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/r-M142:@/tmp/.ICE-unix/1966,unix/r-M142:/tmp/.ICE-unix/1966', 'INVOCATION_ID': '6abecb7abf8848678135cd01a092e829', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-4q29NgTeTjdj/agent.55795', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:b6fe8d36-4386-4e10-ab8b-09875c517524', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/roy/odri_dev/workspace/build/robot_properties_bolt', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[6.769724] (robot_properties_solo) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_properties_solo', 'build', '--build-base', '/home/roy/odri_dev/workspace/build/robot_properties_solo/build', 'install', '--prefix', '/home/roy/odri_dev/workspace/install/robot_properties_solo', '--record', '/home/roy/odri_dev/workspace/build/robot_properties_solo/install.log', '--single-version-externally-managed'], 'cwd': '/home/roy/odri_dev/workspace/src/robot_properties_solo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'roy', 'SSH_AGENT_PID': '55796', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'HOME': '/home/roy', 'OLDPWD': '/home/roy/odri_dev', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1670', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '45705', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'roy', 'JOURNAL_STREAM': '8:47799', '_': '/usr/local/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'roy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/r-M142:@/tmp/.ICE-unix/1966,unix/r-M142:/tmp/.ICE-unix/1966', 'INVOCATION_ID': '6abecb7abf8848678135cd01a092e829', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-4q29NgTeTjdj/agent.55795', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:b6fe8d36-4386-4e10-ab8b-09875c517524', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/roy/odri_dev/workspace/build/robot_properties_solo', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages:/home/roy/odri_dev/workspace/install/bullet_utils/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[6.776647] (-) TimerEvent: {}
+[6.877450] (-) TimerEvent: {}
+[6.977954] (-) TimerEvent: {}
+[7.078522] (-) TimerEvent: {}
+[7.179099] (-) TimerEvent: {}
+[7.279611] (-) TimerEvent: {}
+[7.380085] (-) TimerEvent: {}
+[7.434358] (robot_properties_bolt) StderrLine: {'line': b"resources =  ['resources/impedance_ctrl.yaml', 'resources/dynamic_graph_manager/dgm_parameters_bolt.yaml', 'resources/odri_control_interface/bolt_driver.yaml', 'resources/xacro/bolt_passive_ankle.urdf.xacro', 'resources/xacro/bolt.urdf.xacro', 'resources/xacro/plane_with_restitution.urdf.xacro', 'resources/xacro/bolt.xacro', 'resources/xacro/leg.xacro', 'resources/meshes/checker_blue.png', 'resources/meshes/plane.obj', 'resources/meshes/plane.mtl', 'resources/meshes/obj/bolt_upper_leg_right_side.obj', 'resources/meshes/obj/bolt_hip_fe_left_side.obj', 'resources/meshes/obj/bolt_upper_leg_left_side.obj', 'resources/meshes/obj/bolt_lower_leg_right_side.obj', 'resources/meshes/obj/bolt_hip_fe_right_side.obj', 'resources/meshes/obj/bolt_body.obj', 'resources/meshes/obj/bolt_foot.obj', 'resources/meshes/obj/bolt_lower_leg_left_side.obj', 'resources/meshes/stl/lower_leg_200mm_right_side.stl', 'resources/meshes/stl/bolt_upper_leg_left_side.stl', 'resources/meshes/stl/upper_leg_200mm_right_side.stl', 'resources/meshes/stl/upper_leg_200mm_left_side.stl', 'resources/meshes/stl/bolt_hip_fe_right_side.stl', 'resources/meshes/stl/bolt_lower_leg_left_side.stl', 'resources/meshes/stl/bolt_foot.stl', 'resources/meshes/stl/lower_leg_200mm_left_side.stl', 'resources/meshes/stl/bolt_hip_fe_left_side.stl', 'resources/meshes/stl/bolt_lower_leg_right_side.stl', 'resources/meshes/stl/bolt_upper_leg_right_side.stl', 'resources/meshes/stl/bolt_body.stl']\n"}
+[7.473301] (robot_properties_bolt) StdoutLine: {'line': b'running egg_info\n'}
+[7.476942] (robot_properties_bolt) StdoutLine: {'line': b'writing ../../build/robot_properties_bolt/robot_properties_bolt.egg-info/PKG-INFO\n'}
+[7.479037] (robot_properties_bolt) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_properties_bolt/robot_properties_bolt.egg-info/dependency_links.txt\n'}
+[7.480265] (-) TimerEvent: {}
+[7.481789] (robot_properties_bolt) StdoutLine: {'line': b'writing entry points to ../../build/robot_properties_bolt/robot_properties_bolt.egg-info/entry_points.txt\n'}
+[7.483390] (robot_properties_bolt) StdoutLine: {'line': b'writing requirements to ../../build/robot_properties_bolt/robot_properties_bolt.egg-info/requires.txt\n'}
+[7.484786] (robot_properties_bolt) StdoutLine: {'line': b'writing top-level names to ../../build/robot_properties_bolt/robot_properties_bolt.egg-info/top_level.txt\n'}
+[7.502127] (robot_properties_bolt) StdoutLine: {'line': b"reading manifest file '../../build/robot_properties_bolt/robot_properties_bolt.egg-info/SOURCES.txt'\n"}
+[7.510912] (robot_properties_bolt) StdoutLine: {'line': b"writing manifest file '../../build/robot_properties_bolt/robot_properties_bolt.egg-info/SOURCES.txt'\n"}
+[7.512125] (robot_properties_bolt) StdoutLine: {'line': b'running build\n'}
+[7.512804] (robot_properties_bolt) StdoutLine: {'line': b'running build_py\n'}
+[7.513995] (robot_properties_bolt) StderrLine: {'line': b'\n'}
+[7.538558] (robot_properties_bolt) StderrLine: {'line': b'building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_bolt/src/robot_properties_bolt/resources/xacro/bolt_passive_ankle.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/resources/urdf/bolt_passive_ankle.urdf )\n'}
+[7.580420] (-) TimerEvent: {}
+[7.603942] (robot_properties_bolt) StderrLine: {'line': b'building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_bolt/src/robot_properties_bolt/resources/xacro/bolt.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/resources/urdf/bolt.urdf )\n'}
+[7.664050] (robot_properties_solo) StderrLine: {'line': b"resources =  ['resources/impedance_ctrl.yaml', 'resources/dynamic_graph_manager/dgm_parameters_solo12_wireless_mpi_is.yaml', 'resources/dynamic_graph_manager/dgm_parameters_solo12_mpi_is.yaml', 'resources/dynamic_graph_manager/dgm_parameters_solo8.yaml', 'resources/dynamic_graph_manager/dgm_parameters_solo12_nyu.yaml', 'resources/dynamic_graph_manager/dgm_parameters_solo12.yaml', 'resources/dynamic_graph_manager/dgm_parameters_solo8ti.yaml', 'resources/odri_control_interface/solo12_driver.yaml', 'resources/launch/visual_rviz.launch', 'resources/launch/dashboard.launch', 'resources/launch/bringup.launch', 'resources/launch/rviz.launch', 'resources/rviz/display.rviz', 'resources/rviz/solo.rviz', 'resources/rviz/dgbullet_vs_pybullet.rviz', 'resources/srdf/solo.srdf', 'resources/pre_generated_urdf/readme.md', 'resources/xacro/solo8.urdf.xacro', 'resources/xacro/solo12.urdf.xacro', 'resources/xacro/plane_with_restitution.urdf.xacro', 'resources/xacro/leg.xacro', 'resources/rqt/solo.perspective.in', 'resources/meshes/cylinder.obj', 'resources/meshes/checker_blue.png', 'resources/meshes/cube.obj', 'resources/meshes/plane.obj', 'resources/meshes/sphere.obj', 'resources/meshes/plane.mtl', 'resources/meshes/obj/without_foot/solo_body.obj', 'resources/meshes/obj/without_foot/solo_lower_leg_left_side.mtl', 'resources/meshes/obj/without_foot/solo_upper_leg_right_side.obj', 'resources/meshes/obj/without_foot/solo_upper_leg_right_side.mtl', 'resources/meshes/obj/without_foot/solo_lower_leg_right_side.obj', 'resources/meshes/obj/without_foot/solo_lower_leg_right_side.mtl', 'resources/meshes/obj/without_foot/solo_upper_leg_left_side.mtl', 'resources/meshes/obj/without_foot/solo_body.mtl', 'resources/meshes/obj/without_foot/solo_lower_leg_left_side.obj', 'resources/meshes/obj/without_foot/solo_upper_leg_left_side.obj', 'resources/meshes/obj/with_foot/solo_body.obj', 'resources/meshes/obj/with_foot/solo_lower_leg_left_side.mtl', 'resources/meshes/obj/with_foot/solo_upper_leg_right_side.obj', 'resources/meshes/obj/with_foot/solo_foot.obj', 'resources/meshes/obj/with_foot/solo_upper_leg_right_side.mtl', 'resources/meshes/obj/with_foot/solo_lower_leg_right_side.obj', 'resources/meshes/obj/with_foot/solo_lower_leg_right_side.mtl', 'resources/meshes/obj/with_foot/solo_upper_leg_left_side.mtl', 'resources/meshes/obj/with_foot/solo_foot.mtl', 'resources/meshes/obj/with_foot/solo_body.mtl', 'resources/meshes/obj/with_foot/solo_lower_leg_left_side.obj', 'resources/meshes/obj/with_foot/solo_upper_leg_left_side.obj', 'resources/meshes/stl/without_foot/solo_body.stl', 'resources/meshes/stl/without_foot/solo_lower_leg_left_side.stl', 'resources/meshes/stl/without_foot/solo_upper_leg_left_side.stl', 'resources/meshes/stl/without_foot/solo_lower_leg_right_side.stl', 'resources/meshes/stl/without_foot/solo_upper_leg_right_side.stl', 'resources/meshes/stl/solo12/solo12_lower_leg_left_side.stl', 'resources/meshes/stl/solo12/_solo12_visualisation_model.PDF', 'resources/meshes/stl/solo12/solo_12_base.stl', 'resources/meshes/stl/solo12/solo12_hip_fe_hl.stl', 'resources/meshes/stl/solo12/solo12_hip_fe_fr.stl', 'resources/meshes/stl/solo12/solo12_upper_leg_left_side.stl', 'resources/meshes/stl/solo12/solo12_upper_leg_right_side.stl', 'resources/meshes/stl/solo12/solo12_hip_fe_fl.stl', 'resources/meshes/stl/solo12/solo12_hip_fe_hr.stl', 'resources/meshes/stl/solo12/solo12_coordinate_systems_4.png', 'resources/meshes/stl/solo12/solo12_lower_leg_right_side.stl', 'resources/meshes/stl/solo12/solo12_coordinate_systems_2.png', 'resources/meshes/stl/solo12/solo12_coordinate_systems.png', 'resources/meshes/stl/solo12/solo12_coordinate_systems_3.png', 'resources/meshes/stl/with_foot/solo_body.stl', 'resources/meshes/stl/with_foot/solo_lower_leg_left_side.stl', 'resources/meshes/stl/with_foot/solo_upper_leg_left_side.stl', 'resources/meshes/stl/with_foot/solo_lower_leg_right_side.stl', 'resources/meshes/stl/with_foot/solo_foot.stl', 'resources/meshes/stl/with_foot/solo_upper_leg_right_side.stl']\n"}
+[7.675872] (robot_properties_bolt) StderrLine: {'line': b'building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_bolt/src/robot_properties_bolt/resources/xacro/plane_with_restitution.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/resources/urdf/plane_with_restitution.urdf )\n'}
+[7.679243] (robot_properties_bolt) StderrLine: {'line': b'building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_bolt/src/robot_properties_bolt/resources/xacro/bolt_passive_ankle.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/resources/urdf/bolt_passive_ankle.urdf )\n'}
+[7.680494] (-) TimerEvent: {}
+[7.738714] (robot_properties_solo) StdoutLine: {'line': b'running egg_info\n'}
+[7.740181] (robot_properties_solo) StdoutLine: {'line': b'writing ../../build/robot_properties_solo/robot_properties_solo.egg-info/PKG-INFO\n'}
+[7.752506] (robot_properties_bolt) StderrLine: {'line': b'building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_bolt/src/robot_properties_bolt/resources/xacro/bolt.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/resources/urdf/bolt.urdf )\n'}
+[7.752895] (robot_properties_solo) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_properties_solo/robot_properties_solo.egg-info/dependency_links.txt\n'}
+[7.753305] (robot_properties_solo) StdoutLine: {'line': b'writing entry points to ../../build/robot_properties_solo/robot_properties_solo.egg-info/entry_points.txt\n'}
+[7.753775] (robot_properties_solo) StdoutLine: {'line': b'writing requirements to ../../build/robot_properties_solo/robot_properties_solo.egg-info/requires.txt\n'}
+[7.754204] (robot_properties_solo) StdoutLine: {'line': b'writing top-level names to ../../build/robot_properties_solo/robot_properties_solo.egg-info/top_level.txt\n'}
+[7.772612] (robot_properties_solo) StdoutLine: {'line': b"reading manifest file '../../build/robot_properties_solo/robot_properties_solo.egg-info/SOURCES.txt'\n"}
+[7.779843] (robot_properties_solo) StdoutLine: {'line': b"writing manifest file '../../build/robot_properties_solo/robot_properties_solo.egg-info/SOURCES.txt'\n"}
+[7.780285] (robot_properties_solo) StdoutLine: {'line': b'running build\n'}
+[7.780622] (-) TimerEvent: {}
+[7.780877] (robot_properties_solo) StdoutLine: {'line': b'running build_py\n'}
+[7.781173] (robot_properties_solo) StderrLine: {'line': b'\n'}
+[7.810554] (robot_properties_solo) StderrLine: {'line': b'building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/xacro/solo8.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/solo8.urdf )\n'}
+[7.826751] (robot_properties_bolt) StderrLine: {'line': b'building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_bolt/src/robot_properties_bolt/resources/xacro/plane_with_restitution.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/resources/urdf/plane_with_restitution.urdf )\n'}
+[7.829602] (robot_properties_bolt) StderrLine: {'line': b'building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_bolt/src/robot_properties_bolt/resources/xacro/bolt_passive_ankle.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/resources/urdf/bolt_passive_ankle.urdf )\n'}
+[7.880777] (-) TimerEvent: {}
+[7.925201] (robot_properties_bolt) StderrLine: {'line': b'building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_bolt/src/robot_properties_bolt/resources/xacro/bolt.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/resources/urdf/bolt.urdf )\n'}
+[7.981005] (-) TimerEvent: {}
+[7.991573] (robot_properties_bolt) StderrLine: {'line': b'building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_bolt/src/robot_properties_bolt/resources/xacro/plane_with_restitution.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/resources/urdf/plane_with_restitution.urdf )\n'}
+[7.997169] (robot_properties_bolt) StdoutLine: {'line': b'running build_scripts\n'}
+[7.997571] (robot_properties_bolt) StdoutLine: {'line': b'running install\n'}
+[7.999384] (robot_properties_bolt) StdoutLine: {'line': b'running install_lib\n'}
+[8.002279] (robot_properties_bolt) StdoutLine: {'line': b'copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/resources/urdf/bolt_passive_ankle.urdf -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/resources/urdf\n'}
+[8.002724] (robot_properties_bolt) StdoutLine: {'line': b'copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/resources/urdf/bolt.urdf -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/resources/urdf\n'}
+[8.003051] (robot_properties_bolt) StdoutLine: {'line': b'copying /home/roy/odri_dev/workspace/build/robot_properties_bolt/build/lib/robot_properties_bolt/resources/urdf/plane_with_restitution.urdf -> /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt/resources/urdf\n'}
+[8.005953] (robot_properties_bolt) StdoutLine: {'line': b'running install_data\n'}
+[8.007182] (robot_properties_bolt) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.010457] (robot_properties_bolt) StdoutLine: {'line': b"removing '/home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt-1.0.0-py3.8.egg-info' (and everything under it)\n"}
+[8.010907] (robot_properties_solo) StderrLine: {'line': b'building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/xacro/solo12.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/solo12.urdf )\n'}
+[8.011303] (robot_properties_bolt) StdoutLine: {'line': b'Copying ../../build/robot_properties_bolt/robot_properties_bolt.egg-info to /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/python3.8/site-packages/robot_properties_bolt-1.0.0-py3.8.egg-info\n'}
+[8.015518] (robot_properties_bolt) StdoutLine: {'line': b'running install_scripts\n'}
+[8.048078] (robot_properties_bolt) StdoutLine: {'line': b'changing mode of /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/robot_properties_bolt/demo_display_bolt.py to 775\n'}
+[8.048609] (robot_properties_bolt) StdoutLine: {'line': b'changing mode of /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/robot_properties_bolt/demo_display_bolt_meshcat.py to 775\n'}
+[8.049121] (robot_properties_bolt) StdoutLine: {'line': b'changing mode of /home/roy/odri_dev/workspace/install/robot_properties_bolt/lib/robot_properties_bolt/demo_simulate_bolt.py to 775\n'}
+[8.053328] (robot_properties_bolt) StdoutLine: {'line': b"writing list of installed files to '/home/roy/odri_dev/workspace/build/robot_properties_bolt/install.log'\n"}
+[8.081134] (-) TimerEvent: {}
+[8.149194] (robot_properties_bolt) CommandEnded: {'returncode': 0}
+[8.181534] (-) TimerEvent: {}
+[8.236233] (robot_properties_solo) StderrLine: {'line': b'building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/xacro/plane_with_restitution.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/plane_with_restitution.urdf )\n'}
+[8.244545] (robot_properties_solo) StderrLine: {'line': b'building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/xacro/solo8.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/solo8.urdf )\n'}
+[8.251880] (robot_properties_bolt) JobEnded: {'identifier': 'robot_properties_bolt', 'rc': 0}
+[8.281645] (-) TimerEvent: {}
+[8.382252] (-) TimerEvent: {}
+[8.482867] (-) TimerEvent: {}
+[8.514998] (robot_properties_solo) StderrLine: {'line': b'building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/xacro/solo12.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/solo12.urdf )\n'}
+[8.583011] (-) TimerEvent: {}
+[8.683494] (-) TimerEvent: {}
+[8.738938] (robot_properties_solo) StderrLine: {'line': b'building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/xacro/plane_with_restitution.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/plane_with_restitution.urdf )\n'}
+[8.741281] (robot_properties_solo) StderrLine: {'line': b'building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/xacro/solo8.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/solo8.urdf )\n'}
+[8.783682] (-) TimerEvent: {}
+[8.884546] (-) TimerEvent: {}
+[8.933699] (robot_properties_solo) StderrLine: {'line': b'building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/xacro/solo12.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/solo12.urdf )\n'}
+[8.984719] (-) TimerEvent: {}
+[9.085593] (-) TimerEvent: {}
+[9.173008] (robot_properties_solo) StderrLine: {'line': b'building xacro file ( /home/roy/odri_dev/workspace/src/robot_properties_solo/src/robot_properties_solo/resources/xacro/plane_with_restitution.urdf.xacro ) into ( /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/plane_with_restitution.urdf )\n'}
+[9.181856] (robot_properties_solo) StdoutLine: {'line': b'running build_scripts\n'}
+[9.182282] (robot_properties_solo) StdoutLine: {'line': b'running install\n'}
+[9.184158] (robot_properties_solo) StdoutLine: {'line': b'running install_lib\n'}
+[9.185712] (-) TimerEvent: {}
+[9.189501] (robot_properties_solo) StdoutLine: {'line': b'copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/solo8.urdf -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/urdf\n'}
+[9.190419] (robot_properties_solo) StdoutLine: {'line': b'copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/solo12.urdf -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/urdf\n'}
+[9.191233] (robot_properties_solo) StdoutLine: {'line': b'copying /home/roy/odri_dev/workspace/build/robot_properties_solo/build/lib/robot_properties_solo/resources/urdf/plane_with_restitution.urdf -> /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo/resources/urdf\n'}
+[9.198643] (robot_properties_solo) StdoutLine: {'line': b'running install_data\n'}
+[9.199647] (robot_properties_solo) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.223712] (robot_properties_solo) StdoutLine: {'line': b"removing '/home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo-1.0.0-py3.8.egg-info' (and everything under it)\n"}
+[9.224316] (robot_properties_solo) StdoutLine: {'line': b'Copying ../../build/robot_properties_solo/robot_properties_solo.egg-info to /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/python3.8/site-packages/robot_properties_solo-1.0.0-py3.8.egg-info\n'}
+[9.225958] (robot_properties_solo) StdoutLine: {'line': b'running install_scripts\n'}
+[9.284743] (robot_properties_solo) StdoutLine: {'line': b'changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_display_solo12.py to 775\n'}
+[9.285083] (robot_properties_solo) StdoutLine: {'line': b'changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_simulate_solo8_fixed_base.py to 775\n'}
+[9.285241] (robot_properties_solo) StdoutLine: {'line': b'changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_solo12_collision_detection.py to 775\n'}
+[9.285395] (robot_properties_solo) StdoutLine: {'line': b'changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_display_solo8_meshcat.py to 775\n'}
+[9.285535] (robot_properties_solo) StdoutLine: {'line': b'changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_simulate_solo12.py to 775\n'}
+[9.285769] (robot_properties_solo) StdoutLine: {'line': b'changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_display_solo12_meshcat.py to 775\n'}
+[9.286780] (-) TimerEvent: {}
+[9.287313] (robot_properties_solo) StdoutLine: {'line': b'changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_simulate_solo8.py to 775\n'}
+[9.287778] (robot_properties_solo) StdoutLine: {'line': b'changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_display_solo8.py to 775\n'}
+[9.288143] (robot_properties_solo) StdoutLine: {'line': b'changing mode of /home/roy/odri_dev/workspace/install/robot_properties_solo/lib/robot_properties_solo/demo_simulate_solo12_fixed_base.py to 775\n'}
+[9.288508] (robot_properties_solo) StdoutLine: {'line': b"writing list of installed files to '/home/roy/odri_dev/workspace/build/robot_properties_solo/install.log'\n"}
+[9.386940] (-) TimerEvent: {}
+[9.461605] (robot_properties_solo) CommandEnded: {'returncode': 0}
+[9.496533] (-) TimerEvent: {}
+[9.546649] (robot_properties_solo) JobEnded: {'identifier': 'robot_properties_solo', 'rc': 0}
+[9.596673] (-) TimerEvent: {}
+[9.697151] (-) TimerEvent: {}
+[9.797638] (-) TimerEvent: {}
+[9.898172] (-) TimerEvent: {}
+[9.998633] (-) TimerEvent: {}
+[10.099084] (-) TimerEvent: {}
+[10.199592] (-) TimerEvent: {}
+[10.300102] (-) TimerEvent: {}
+[10.400624] (-) TimerEvent: {}
+[10.501112] (-) TimerEvent: {}
+[10.601840] (-) TimerEvent: {}
+[10.702532] (-) TimerEvent: {}
+[10.803178] (-) TimerEvent: {}
+[10.903656] (-) TimerEvent: {}
+[11.001898] (pybind11) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object tests/CMakeFiles/pybind11_tests.dir/test_numpy_vectorize.cpp.o\x1b[0m\n'}
+[11.003798] (-) TimerEvent: {}
+[11.104318] (-) TimerEvent: {}
+[11.204893] (-) TimerEvent: {}
+[11.305421] (-) TimerEvent: {}
+[11.405994] (-) TimerEvent: {}
+[11.506557] (-) TimerEvent: {}
+[11.607078] (-) TimerEvent: {}
+[11.707594] (-) TimerEvent: {}
+[11.808075] (-) TimerEvent: {}
+[11.908624] (-) TimerEvent: {}
+[12.009128] (-) TimerEvent: {}
+[12.109699] (-) TimerEvent: {}
+[12.210202] (-) TimerEvent: {}
+[12.310715] (-) TimerEvent: {}
+[12.411257] (-) TimerEvent: {}
+[12.511815] (-) TimerEvent: {}
+[12.612373] (-) TimerEvent: {}
+[12.713109] (-) TimerEvent: {}
+[12.813855] (-) TimerEvent: {}
+[12.914578] (-) TimerEvent: {}
+[13.015313] (-) TimerEvent: {}
+[13.116091] (-) TimerEvent: {}
+[13.216698] (-) TimerEvent: {}
+[13.317399] (-) TimerEvent: {}
+[13.417975] (-) TimerEvent: {}
+[13.518445] (-) TimerEvent: {}
+[13.618948] (-) TimerEvent: {}
+[13.719676] (-) TimerEvent: {}
+[13.820360] (-) TimerEvent: {}
+[13.921047] (-) TimerEvent: {}
+[14.021734] (-) TimerEvent: {}
+[14.122357] (-) TimerEvent: {}
+[14.200819] (pybind11) StderrLine: {'line': b'make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:375: tests/CMakeFiles/pybind11_tests.dir/test_numpy_vectorize.cpp.o] Interrupt\n'}
+[14.201300] (pybind11) StderrLine: {'line': b'make[2]: *** [tests/CMakeFiles/pybind11_cross_module_tests.dir/build.make:63: tests/CMakeFiles/pybind11_cross_module_tests.dir/pybind11_cross_module_tests.cpp.o] Interrupt\n'}
+[14.201464] (pybind11) StderrLine: {'line': b'make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:310: tests/CMakeFiles/pybind11_tests.dir/test_methods_and_attributes.cpp.o] Interrupt\n'}
+[14.201596] (pybind11) StderrLine: {'line': b'make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:349: tests/CMakeFiles/pybind11_tests.dir/test_numpy_array.cpp.o] Interrupt\n'}
+[14.201941] (pybind11) StderrLine: {'line': b'make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:336: tests/CMakeFiles/pybind11_tests.dir/test_multiple_inheritance.cpp.o] Interrupt\n'}
+[14.202087] (pybind11) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:232: tests/CMakeFiles/pybind11_cross_module_tests.dir/all] Interrupt\n'}
+[14.202177] (pybind11) StderrLine: {'line': b'make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:245: tests/CMakeFiles/pybind11_tests.dir/test_factory_constructors.cpp.o] Interrupt\n'}
+[14.202261] (pybind11) StderrLine: {'line': b'make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:297: tests/CMakeFiles/pybind11_tests.dir/test_local_bindings.cpp.o] Interrupt\n'}
+[14.202358] (pybind11) StderrLine: {'line': b'make[2]: *** [tests/CMakeFiles/pybind11_tests.dir/build.make:154: tests/CMakeFiles/pybind11_tests.dir/test_class.cpp.o] Interrupt\n'}
+[14.202445] (pybind11) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:259: tests/CMakeFiles/pybind11_tests.dir/all] Interrupt\n'}
+[14.202531] (pybind11) StderrLine: {'line': b'make: *** [Makefile:130: all] Interrupt\n'}
+[14.205707] (googletest-distribution) StderrLine: {'line': b'make[2]: *** [googletest/CMakeFiles/gtest.dir/build.make:63: googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt\n'}
+[14.206307] (googletest-distribution) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:200: googletest/CMakeFiles/gtest.dir/all] Interrupt\n'}
+[14.206657] (googletest-distribution) StderrLine: {'line': b'make: *** [Makefile:141: all] Interrupt\n'}
+[14.225852] (-) TimerEvent: {}
+[14.258808] (googletest-distribution) CommandEnded: {'returncode': -2}
+[14.259950] (googletest-distribution) JobEnded: {'identifier': 'googletest-distribution', 'rc': 'SIGINT'}
+[14.272776] (pybind11) JobEnded: {'identifier': 'pybind11', 'rc': 'SIGINT'}
+[14.287153] (real_time_tools) JobSkipped: {'identifier': 'real_time_tools'}
+[14.287256] (yaml_utils) JobSkipped: {'identifier': 'yaml_utils'}
+[14.287303] (reactive_planners) JobSkipped: {'identifier': 'reactive_planners'}
+[14.287349] (mim_control) JobSkipped: {'identifier': 'mim_control'}
+[14.287393] (-) EventReactorShutdown: {}

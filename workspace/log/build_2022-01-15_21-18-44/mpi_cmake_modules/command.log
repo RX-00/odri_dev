@@ -1,0 +1,6 @@
+Invoking command in '/home/roy/odri_dev/workspace/build/mpi_cmake_modules': /usr/bin/cmake /home/roy/odri_dev/workspace/src/mpi_cmake_modules -DCMAKE_INSTALL_PREFIX=/home/roy/odri_dev/workspace/install/mpi_cmake_modules
+Invoked command in '/home/roy/odri_dev/workspace/build/mpi_cmake_modules' returned '0': /usr/bin/cmake /home/roy/odri_dev/workspace/src/mpi_cmake_modules -DCMAKE_INSTALL_PREFIX=/home/roy/odri_dev/workspace/install/mpi_cmake_modules
+Invoking command in '/home/roy/odri_dev/workspace/build/mpi_cmake_modules': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/mpi_cmake_modules -- -j8 -l8
+Invoked command in '/home/roy/odri_dev/workspace/build/mpi_cmake_modules' returned '0': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/mpi_cmake_modules -- -j8 -l8
+Invoking command in '/home/roy/odri_dev/workspace/build/mpi_cmake_modules': /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/mpi_cmake_modules
+Invoked command in '/home/roy/odri_dev/workspace/build/mpi_cmake_modules' returned '0': /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/mpi_cmake_modules

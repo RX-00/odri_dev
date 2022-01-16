@@ -1,0 +1,7 @@
+/home/roy/.local/lib/python3.8/site-packages/recommonmark/parser.py:75: UserWarning: Container node skipped: type=document
+  warn("Container node skipped: type={0}".format(mdnode.t))
+WARNING: autodoc: failed to import module 'env' from module 'bullet_utils'; the following exception was raised:
+No module named 'pybullet'
+WARNING: autodoc: failed to import module 'wrapper' from module 'bullet_utils'; the following exception was raised:
+No module named 'pybullet'
+/home/roy/odri_dev/workspace/build/bullet_utils/build/lib/bullet_utils/doc/readme.md: WARNING: document isn't included in any toctree

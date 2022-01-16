@@ -1,0 +1,68 @@
+[0.053s] Invoking command in '/home/roy/odri_dev/workspace/build/googletest-distribution': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/googletest-distribution -- -j8 -l8
+[0.133s] [ 25%] Built target gtest
+[0.160s] [ 75%] Built target gmock
+[0.161s] [ 75%] Built target gtest_main
+[0.229s] [100%] Built target gmock_main
+[0.269s] Invoked command in '/home/roy/odri_dev/workspace/build/googletest-distribution' returned '0': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/googletest-distribution -- -j8 -l8
+[0.581s] Invoking command in '/home/roy/odri_dev/workspace/build/googletest-distribution': /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/googletest-distribution
+[0.593s] -- Install configuration: "Release"
+[0.594s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include
+[0.594s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock
+[0.595s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/gmock-function-mocker.h
+[0.595s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/gmock-nice-strict.h
+[0.595s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/gmock-actions.h
+[0.595s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/gmock-more-matchers.h
+[0.595s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/gmock.h
+[0.595s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/gmock-more-actions.h
+[0.596s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/internal
+[0.596s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/internal/custom
+[0.597s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/internal/custom/README.md
+[0.605s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/internal/custom/gmock-port.h
+[0.606s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/internal/custom/gmock-matchers.h
+[0.606s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/internal/custom/gmock-generated-actions.h
+[0.606s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/internal/gmock-port.h
+[0.607s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/internal/gmock-internal-utils.h
+[0.607s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/internal/gmock-pp.h
+[0.607s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/gmock-cardinalities.h
+[0.607s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/gmock-matchers.h
+[0.614s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gmock/gmock-spec-builders.h
+[0.614s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/libgmock.a
+[0.615s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/libgmock_main.a
+[0.615s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/pkgconfig/gmock.pc
+[0.616s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/pkgconfig/gmock_main.pc
+[0.616s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/cmake/GTest/GTestTargets.cmake
+[0.617s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/cmake/GTest/GTestTargets-release.cmake
+[0.617s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/cmake/GTest/GTestConfigVersion.cmake
+[0.618s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/cmake/GTest/GTestConfig.cmake
+[0.619s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include
+[0.619s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest
+[0.630s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/gtest-test-part.h
+[0.631s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/gtest_prod.h
+[0.631s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/gtest.h
+[0.632s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/gtest-param-test.h
+[0.632s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/gtest-death-test.h
+[0.632s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/gtest-typed-test.h
+[0.633s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/gtest-matchers.h
+[0.633s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal
+[0.634s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/gtest-type-util.h
+[0.634s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/gtest-param-util.h
+[0.634s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/gtest-string.h
+[0.635s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/gtest-port.h
+[0.635s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/custom
+[0.635s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/custom/gtest.h
+[0.636s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/custom/README.md
+[0.647s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/custom/gtest-port.h
+[0.648s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/custom/gtest-printers.h
+[0.648s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/gtest-death-test-internal.h
+[0.648s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/gtest-port-arch.h
+[0.651s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/gtest-internal.h
+[0.651s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/internal/gtest-filepath.h
+[0.651s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/gtest-message.h
+[0.652s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/gtest-printers.h
+[0.663s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/gtest_pred_impl.h
+[0.665s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/include/gtest/gtest-spi.h
+[0.670s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/libgtest.a
+[0.670s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/libgtest_main.a
+[0.670s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/pkgconfig/gtest.pc
+[0.671s] -- Up-to-date: /home/roy/odri_dev/workspace/install/googletest-distribution/lib/pkgconfig/gtest_main.pc
+[0.671s] Invoked command in '/home/roy/odri_dev/workspace/build/googletest-distribution' returned '0': /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/googletest-distribution
