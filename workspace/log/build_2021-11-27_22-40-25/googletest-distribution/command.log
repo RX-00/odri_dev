@@ -1,4 +1,0 @@
-Invoking command in '/home/roy/odri_dev/workspace/build/googletest-distribution': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/googletest-distribution -- -j8 -l8
-Invoked command in '/home/roy/odri_dev/workspace/build/googletest-distribution' returned '0': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/googletest-distribution -- -j8 -l8
-Invoking command in '/home/roy/odri_dev/workspace/build/googletest-distribution': /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/googletest-distribution
-Invoked command in '/home/roy/odri_dev/workspace/build/googletest-distribution' returned '0': /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/googletest-distribution

@@ -1,2 +1,0 @@
-Invoking command in '/home/roy/odri_dev/workspace/build/googletest-distribution': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/googletest-distribution -- -j8 -l8
-Invoked command in '/home/roy/odri_dev/workspace/build/googletest-distribution' returned '-2': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/googletest-distribution -- -j8 -l8

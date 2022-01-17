@@ -1,6 +1,6 @@
 # Things to do when running the reactive_planners demos (in this workspace directory)
 
-## To build
+## To build, use source /opt/openrobots/setup.bash instead of pinocchio_bashrc on other comp
 source ~/.pinocchio_bashrc
 colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
 

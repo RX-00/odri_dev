@@ -1,6 +1,0 @@
-Invoking command in '/home/roy/odri_dev/workspace/build/googletest-distribution': /usr/bin/cmake /home/roy/odri_dev/workspace/src/googletest -DCMAKE_INSTALL_PREFIX=/home/roy/odri_dev/workspace/install/googletest-distribution
-Invoked command in '/home/roy/odri_dev/workspace/build/googletest-distribution' returned '0': /usr/bin/cmake /home/roy/odri_dev/workspace/src/googletest -DCMAKE_INSTALL_PREFIX=/home/roy/odri_dev/workspace/install/googletest-distribution
-Invoking command in '/home/roy/odri_dev/workspace/build/googletest-distribution': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/googletest-distribution -- -j8 -l8
-Invoked command in '/home/roy/odri_dev/workspace/build/googletest-distribution' returned '0': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/googletest-distribution -- -j8 -l8
-Invoking command in '/home/roy/odri_dev/workspace/build/googletest-distribution': /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/googletest-distribution
-Invoked command in '/home/roy/odri_dev/workspace/build/googletest-distribution' returned '0': /usr/bin/cmake --install /home/roy/odri_dev/workspace/build/googletest-distribution

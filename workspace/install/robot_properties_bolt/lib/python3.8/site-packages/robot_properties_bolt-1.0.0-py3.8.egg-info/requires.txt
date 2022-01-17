@@ -1,5 +1,0 @@
-importlib_resources
-meshcat
-pybullet
-setuptools
-xacro

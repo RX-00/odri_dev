@@ -1,6 +1,0 @@
-/home/roy/odri_dev/workspace/install/yaml_utils/include/yaml_utils/yaml_cpp_fwd.hpp
-/home/roy/odri_dev/workspace/install/yaml_utils/include/yaml_utils/yaml_eigen.hpp
-/home/roy/odri_dev/workspace/install/yaml_utils/include/yaml_utils/yaml_tools.hpp
-/home/roy/odri_dev/workspace/install/yaml_utils/share/yaml_utils/cmake/yaml_utilsConfig.cmake
-/home/roy/odri_dev/workspace/install/yaml_utils/share/yaml_utils/cmake/yaml_utilsConfigVersion.cmake
-/home/roy/odri_dev/workspace/install/yaml_utils/share/yaml_utils/cmake/yaml_utilsTargets.cmake

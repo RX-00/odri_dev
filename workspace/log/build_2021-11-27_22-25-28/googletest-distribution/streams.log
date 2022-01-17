@@ -1,6 +1,0 @@
-[0.054s] Invoking command in '/home/roy/odri_dev/workspace/build/googletest-distribution': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/googletest-distribution -- -j8 -l8
-[0.137s] [ 12%] [32mBuilding CXX object googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
-[9.087s] make[2]: *** [googletest/CMakeFiles/gtest.dir/build.make:63: googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
-[9.087s] make[1]: *** [CMakeFiles/Makefile2:200: googletest/CMakeFiles/gtest.dir/all] Interrupt
-[9.087s] make: *** [Makefile:141: all] Interrupt
-[9.125s] Invoked command in '/home/roy/odri_dev/workspace/build/googletest-distribution' returned '-2': /usr/bin/cmake --build /home/roy/odri_dev/workspace/build/googletest-distribution -- -j8 -l8
