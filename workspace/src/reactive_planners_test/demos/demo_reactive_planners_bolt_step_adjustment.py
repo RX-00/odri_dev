@@ -5,6 +5,7 @@
            License BSD-3-Clause
 @example
 """
+
 import numpy as np
 import pybullet as p
 from robot_properties_bolt.config import BoltConfig
@@ -131,7 +132,7 @@ if __name__ == "__main__":
     offset = 0.0171  # foot radius
     dcm_reactive_stepper.start()
 
-    for i in range(5005):
+    for i in range(50050):  # og: 5005
         last_qdot = qdot
         q, qdot = robot.get_state()
         robot.pin_robot.com(q, qdot)
