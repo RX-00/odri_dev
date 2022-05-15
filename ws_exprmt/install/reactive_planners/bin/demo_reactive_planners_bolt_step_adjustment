@@ -131,7 +131,7 @@ if __name__ == "__main__":
     offset = 0.0171  # foot radius
     dcm_reactive_stepper.start()
 
-    for i in range(5005):
+    for i in range(5005 * 2): # originally set to range(5005)
         last_qdot = qdot
         q, qdot = robot.get_state()
         robot.pin_robot.com(q, qdot)

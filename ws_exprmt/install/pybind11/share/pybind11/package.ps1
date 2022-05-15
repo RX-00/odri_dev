@@ -110,7 +110,7 @@ function colcon_package_source_powershell_script {
 # the prefix is two levels up from the package specific share directory
 $env:COLCON_CURRENT_PREFIX=(Get-Item $PSCommandPath).Directory.Parent.Parent.FullName
 
-colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/pybind11/hook/cmake_module_path.ps1" /home/roy/odri_dev/workspace/install/pybind11/share/pybind11/hook/cmake_module_path.dsv /home/roy/odri_dev/workspace/install/pybind11/share/pybind11/hook/cmake_module_path.sh
+colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/pybind11/hook/cmake_module_path.ps1" /home/roy/odri_dev/ws_exprmt/install/pybind11/share/pybind11/hook/cmake_module_path.dsv /home/roy/odri_dev/ws_exprmt/install/pybind11/share/pybind11/hook/cmake_module_path.sh
 colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/pybind11/hook/cmake_prefix_path.ps1"
 
 Remove-Item Env:\COLCON_CURRENT_PREFIX
