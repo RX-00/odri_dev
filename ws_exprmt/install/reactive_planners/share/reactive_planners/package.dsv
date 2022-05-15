@@ -1,0 +1,12 @@
+source;share/reactive_planners/hook/cmake_prefix_path.ps1
+source;share/reactive_planners/hook/cmake_prefix_path.dsv
+source;share/reactive_planners/hook/cmake_prefix_path.sh
+source;share/reactive_planners/hook/ld_library_path_lib.ps1
+source;share/reactive_planners/hook/ld_library_path_lib.dsv
+source;share/reactive_planners/hook/ld_library_path_lib.sh
+source;share/reactive_planners/hook/path.ps1
+source;share/reactive_planners/hook/path.dsv
+source;share/reactive_planners/hook/path.sh
+source;share/reactive_planners/hook/pythonpath.ps1
+source;share/reactive_planners/hook/pythonpath.dsv
+source;share/reactive_planners/hook/pythonpath.sh
