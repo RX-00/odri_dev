@@ -9,7 +9,7 @@ ref: https://github.com/machines-in-motion/machines-in-motion.github.io/wiki/laa
 Install the ppa as shown above, but the actual packages should be done like below (for Ubuntu 20.04 LTS and Python 3.8) \
 
 Aw shit, actually try:
-'''
+```
 sudo apt install -y robotpkg-py38-qt5-gepetto-viewer-corba robotpkg-hpp-fcl robotpkg-libccd robotpkg-octomap robotpkg-pinocchio robotpkg-tsid robotpkg-eigen-quadprog robotpkg-simple-humanoid-description robotpkg-parametric-curves robotpkg-example-robot-data
 sudo apt install -y robotpkg-sot-dynamic-pinocchio-v3 robotpkg-dynamic-graph-v3
 # seems we can skip the sot-core-v3 and sot-tools-v3
@@ -27,11 +27,11 @@ echo "export PYTHONPATH=\"/opt/openrobots/lib/python3.8/site-packages:\$PYTHONPA
 echo "export ROS_PACKAGE_PATH=\"/opt/openrobots/share:\$ROS_PACKAGE_PATH\"" >> $setup_bash_file
 
 sudo cp -f $setup_bash_file /opt/openrobots/setup.bash
-'''
+```
 
 Now to install and build the simulation for bolt the biped: https://github.com/open-dynamic-robot-initiative/robot_properties_bolt \
 which we first have to install https://github.com/machines-in-motion/treep_machines_in_motion \
-'''
+```
 python -m pip install -U treep
 mkdir ~/devel
 cd ~/devel
@@ -42,10 +42,10 @@ pip install .
 cd ~/devel/workspace/src/robot_properties_bolt
 pip install .
 source /opt/openrobots/setup.bash
-'''
+```
 
 Now to install the reactive planners (MPC and stuff): https://github.com/machines-in-motion/reactive_planners
-'''
+```
 cd ~/devel
 treep --clone REACTIVE_PLANNERS
 
@@ -60,11 +60,11 @@ colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
 source install/setup.bash
 # NOTE: upgrade pip setuptools
 # NOTE: make sure to source install/setup.bash after every compile
-'''
+```
 
 How to run 
-'''
+```
 source /opt/openrobotics/setup.bash
 source install/setup.bash
 python3 src/reactive_planners/demos/demo_reactive_planners_bolt_step_adjustment.py
-'''
+```
