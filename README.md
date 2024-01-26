@@ -6,12 +6,14 @@ Don't remember to refer to the [wiki](https://github.com/machines-in-motion/mach
 [ ] Mujoco
 # Installing software stack
 ref: https://github.com/machines-in-motion/machines-in-motion.github.io/wiki/laas_package_from_binaries \
-Install the ppa as shown above, but the actual packages should be done like below (for Ubuntu 20.04 LTS and Python 3.8) \
+Install the ppa as shown above, but the actual packages should be done like below (for Ubuntu 20.04/22.04 LTS and Python 3.8/3.10)
+
+Don't forget to install [ros2](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html#install-ros-2-packages)
 
 Aw shit, actually try:
 ```
 sudo apt install -y robotpkg-py38-qt5-gepetto-viewer-corba robotpkg-hpp-fcl robotpkg-libccd robotpkg-octomap robotpkg-pinocchio robotpkg-tsid robotpkg-eigen-quadprog robotpkg-simple-humanoid-description robotpkg-parametric-curves robotpkg-example-robot-data
-sudo apt install -y robotpkg-sot-dynamic-pinocchio-v3 robotpkg-dynamic-graph-v3
+sudo apt install -y robotpkg-sot-dynamic-pinocchio-v3 robotpkg-dynamic-graph-v3 robotpkg-eigen-quadprog
 # seems we can skip the sot-core-v3 and sot-tools-v3
 sudo apt install -y robotpkg-example-robot-data
 sudo apt -y install robotpkg-py38-tsid robotpkg-py38-dynamic-graph-v3 robotpkg-py38-eigenpy robotpkg-py38-pinocchio robotpkg-py38-parametric-curves robotpkg-py38-sot-core-v3 robotpkg-py38-quadprog robotpkg-py38-sot-dynamic-pinocchio-v3
@@ -51,7 +53,7 @@ treep --clone REACTIVE_PLANNERS
 
 # install some stuff needed
 sudo apt install libedit-devel
-sudo apt install libxmu-dev libxmu-headers
+sudo apt install libxmu-dev libxmu-headers freeglut3*
 
 # go and build the code
 cd workspace
